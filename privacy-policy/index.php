@@ -13,7 +13,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/config.php';
 
 $currentPage = 'legal';  // Not in main nav; linked from footer legal row
 $pageTitle = 'Privacy Policy | ' . $siteName;
-$metaDescription = 'Privacy Policy for ' . $siteName . ' — how we collect, use, and protect your personal information.';
+$pageDescription = 'Privacy Policy for ' . $siteName . ' — how we collect, use, and protect your personal information.';
 $canonicalUrl = $siteUrl . '/privacy-policy/';
 $ogImage = $siteUrl . '/assets/images/logo.png';
 $noindex = false;  // Legal pages MUST be indexable
@@ -226,88 +226,231 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
     <article class="legal-prose">
 
-    <h2>1. Introduction</h2>
-    <p>This Privacy Policy explains how <?php echo htmlspecialchars($siteName); ?> ("we", "us", "our") collects, uses, and protects your personal information when you visit <?php echo htmlspecialchars($domain); ?> or interact with our services.</p>
+        <h2>1. Introduction</h2>
+        <p>
+            <?php echo $siteName; ?> ("we," "us," "our") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <a href="<?php echo $siteUrl; ?>"><?php echo $domain; ?></a>, submit a contact form, or interact with our services.
+        </p>
+        <p>
+            By using our website or submitting your information through our contact forms, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with our policies and practices, please do not use our website.
+        </p>
 
-    <h2>2. Information We Collect</h2>
-    <ul>
-      <li><strong>Information you provide:</strong> name, email, phone, service details (via contact forms, phone, or in-person consultations)</li>
-      <li><strong>Automatically collected:</strong> IP address, browser type, device info, pages visited, referring URL, timestamps (via Google Analytics 4)</li>
-      <li><strong>Cookies and similar technologies:</strong> we use cookies to improve your experience and analyze site usage</li>
-    </ul>
+        <h2>2. Information We Collect</h2>
+        <p>We collect several types of information from and about users of our website, including:</p>
 
-    <h2>3. How We Use Your Information</h2>
-    <ul>
-      <li>Respond to inquiries and provide requested services</li>
-      <li>Schedule appointments and consultations</li>
-      <li>Communicate about active services</li>
-      <li>Send service-related communications (including phone calls and SMS messages where you have consented)</li>
-      <li>Improve our website and services</li>
-      <li>Comply with legal obligations (licensing, insurance, tax)</li>
-    </ul>
+        <h3>2.1 Information You Provide Directly</h3>
+        <p>When you submit a contact form, appointment request, or inquiry through our website, we collect:</p>
+        <ul>
+            <li><strong>Contact Information:</strong> Your name, email address, phone number, and any other information you choose to provide in the message field.</li>
+            <li><strong>Service Preferences:</strong> Information about the services you are interested in.</li>
+            <li><strong>Consent Records:</strong> Your opt-in choices for email communications, SMS/text messages, and acceptance of our Privacy Policy and Terms of Service, along with the page URL and timestamp of consent.</li>
+        </ul>
 
-    <h2>4. How We Share Your Information</h2>
-    <ul>
-      <li>We do <strong>NOT</strong> sell personal information.</li>
-      <li><strong>Service providers:</strong> Google Analytics (analytics), Formsubmit.co (contact form processor), our hosting provider, and Page One Insights, LLC (our web design partner — receives copies of contact form submissions via _cc field for lead-tracking purposes).</li>
-      <li><strong>Service providers and product suppliers:</strong> as necessary to provide your requested services.</li>
-      <li><strong>Legal compliance:</strong> if required by <?php echo htmlspecialchars($address['state']); ?> or federal law.</li>
-      <li><strong>Business transfers:</strong> in the event of a merger, acquisition, or sale of business assets.</li>
-    </ul>
+        <h3>2.2 Information Collected Automatically</h3>
+        <p>When you visit our website, we may automatically collect certain information about your device and browsing activity, including:</p>
+        <ul>
+            <li><strong>Usage Data:</strong> IP address, browser type, operating system, pages visited, time and date of visit, time spent on pages, and referring website.</li>
+            <li><strong>Cookies and Tracking Technologies:</strong> We use cookies, web beacons, and similar technologies to collect information about your browsing behavior. See Section 8 (Cookies and Tracking Technologies) for details.</li>
+        </ul>
 
-    <h2>5. Your Privacy Rights</h2>
+        <h2>3. How We Use Your Information</h2>
+        <p>We use the information we collect for the following purposes:</p>
+        <ul>
+            <li><strong>Service Delivery:</strong> To respond to your inquiries, schedule appointments, provide quotes, and deliver the hair care and grooming services you request.</li>
+            <li><strong>Communication:</strong> To contact you via email or phone regarding your service request, appointment confirmations, or follow-up communications. If you opt in, we may also send promotional emails or text messages about our services, specials, and updates.</li>
+            <li><strong>Marketing (With Consent):</strong> If you opt in to receive marketing communications, we may send you information about new services, promotions, and events via email or SMS.</li>
+            <li><strong>Website Improvement:</strong> To analyze website usage, monitor performance, and improve our website's functionality and user experience.</li>
+            <li><strong>Legal Compliance:</strong> To comply with applicable laws, regulations, and legal processes, and to protect our rights and the rights of our users.</li>
+        </ul>
 
-    <h3 id="state-rights"><?php echo htmlspecialchars($address['state']); ?> Residents</h3>
-    <p>You may request access to or deletion of personal information we hold about you. Contact us using the methods below.</p>
+        <h2>4. TCPA Consent — Phone Calls and SMS Text Messages</h2>
+        <p>
+            The <strong>Telephone Consumer Protection Act (TCPA)</strong> regulates how businesses may contact you by phone or text message. By submitting a contact form on our website, you understand and agree to the following:
+        </p>
 
-    <h3 id="ccpa-rights">California Residents (CCPA / CPRA)</h3>
-    <p>If you are a California resident, you have the following rights under the California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA):</p>
-    <ul>
-      <li><strong>Right to know</strong> what personal information we collect, use, disclose, and sell.</li>
-      <li><strong>Right to delete</strong> personal information we have collected from you, subject to certain exceptions.</li>
-      <li><strong>Right to correct</strong> inaccurate personal information.</li>
-      <li><strong>Right to opt-out of sale or sharing</strong> of personal information. (We do not sell personal information, but you may still submit an opt-out request for our records.)</li>
-      <li><strong>Right to limit use</strong> of sensitive personal information.</li>
-      <li><strong>Right to non-discrimination</strong> — we will not deny you services or charge different prices based on exercising your rights.</li>
-    </ul>
-    <p><strong>How to exercise your rights:</strong> Email <a href="mailto:<?php echo htmlspecialchars($email); ?>"><?php echo htmlspecialchars($email); ?></a> or call <a href="tel:<?php echo htmlspecialchars($phoneRaw); ?>"><?php echo htmlspecialchars($phone); ?></a>. We will respond within 45 days of receipt.</p>
+        <h3>4.1 Optional Consent — Not a Condition of Purchase</h3>
+        <p>
+            When you submit a contact form, you will see <strong>separate, unbundled checkboxes</strong> for:
+        </p>
+        <ul>
+            <li><strong>Email opt-in (optional):</strong> Consent to receive marketing emails from <?php echo $siteName; ?>.</li>
+            <li><strong>SMS opt-in (optional):</strong> Consent to receive text messages from <?php echo $siteName; ?> about appointments, promotions, and service updates.</li>
+            <li><strong>Terms acceptance (required):</strong> Agreement to our Privacy Policy and Terms of Service in order to submit the form.</li>
+        </ul>
+        <p>
+            <strong>Consent is not a condition of purchase.</strong> You may decline to receive marketing emails or text messages and still receive service from us by contacting us directly at <a href="tel:<?php echo $phoneRaw; ?>"><?php echo $phone; ?></a>.
+        </p>
 
-    <h3>Other State Residents</h3>
-    <p>Residents of Colorado, Virginia, Connecticut, Utah, and Texas have similar rights under their respective state privacy laws. Contact us using the same methods above to exercise your rights.</p>
+        <h3>4.2 SMS/Text Message Terms</h3>
+        <p>If you opt in to receive text messages:</p>
+        <ul>
+            <li>Message frequency may vary depending on your service requests and promotional campaigns.</li>
+            <li>Message and data rates may apply based on your mobile carrier's plan.</li>
+            <li>We may use an automated dialing system to send text messages.</li>
+            <li>You may opt out at any time by replying <strong>STOP</strong> to any text message. You will receive a confirmation message when you opt out.</li>
+            <li>For help, reply <strong>HELP</strong> or contact us at <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>.</li>
+        </ul>
 
-    <h2>6. SMS and Phone Communications (TCPA)</h2>
-    <p>When you submit our contact form and check the consent box, you agree to receive phone calls and SMS text messages from us about your service request. Standard message and data rates may apply. Consent is not a condition of purchase. You can opt out of SMS communications at any time by replying STOP to any text message. You can opt out of phone communications at any time by telling our representative or emailing us at <a href="mailto:<?php echo htmlspecialchars($email); ?>"><?php echo htmlspecialchars($email); ?></a>.</p>
+        <h3>4.3 Opting Out</h3>
+        <p>You may withdraw your consent for email or SMS communications at any time:</p>
+        <ul>
+            <li><strong>Email:</strong> Click the "unsubscribe" link in any marketing email we send.</li>
+            <li><strong>SMS:</strong> Reply <strong>STOP</strong> to any text message.</li>
+            <li><strong>Phone:</strong> Call us at <a href="tel:<?php echo $phoneRaw; ?>"><?php echo $phone; ?></a> and request removal from our contact list.</li>
+        </ul>
 
-    <h2>7. Data Retention</h2>
-    <p>We retain contact form submissions and service records for as long as necessary to provide services and comply with legal obligations, typically 5-7 years for business records.</p>
+        <h2>5. CCPA/CPRA — California Privacy Rights</h2>
+        <p>
+            If you are a California resident, the <strong>California Consumer Privacy Act (CCPA)</strong> and the <strong>California Privacy Rights Act (CPRA)</strong> grant you specific rights regarding your personal information.
+        </p>
 
-    <h2>8. Data Security</h2>
-    <p>We use reasonable administrative, technical, and physical safeguards including SSL encryption on all form submissions and secure hosting infrastructure. No system is 100% secure. We cannot guarantee absolute security, but we work to minimize risks.</p>
+        <h3>5.1 Your California Rights</h3>
+        <p>You have the right to:</p>
+        <ul>
+            <li><strong>Know:</strong> Request disclosure of the categories and specific pieces of personal information we have collected about you in the past 12 months, the sources of that information, the purposes for collection, and the categories of third parties with whom we share your information.</li>
+            <li><strong>Delete:</strong> Request deletion of your personal information, subject to certain exceptions (e.g., legal obligations, fraud prevention).</li>
+            <li><strong>Opt Out of Sale or Sharing:</strong> Request that we do not sell or share your personal information for cross-context behavioral advertising. (Note: <?php echo $siteName; ?> does not sell personal information.)</li>
+            <li><strong>Correct:</strong> Request correction of inaccurate personal information.</li>
+            <li><strong>Limit Use of Sensitive Personal Information:</strong> Request limits on the use and disclosure of sensitive personal information (e.g., precise geolocation, health data). We do not collect sensitive personal information beyond what is necessary for service delivery.</li>
+            <li><strong>Non-Discrimination:</strong> Exercise your privacy rights without receiving discriminatory treatment (e.g., denial of service, different pricing).</li>
+        </ul>
 
-    <h2>9. Children's Privacy</h2>
-    <p>This site is not directed to children under 13. We do not knowingly collect information from children. If you believe a child has provided us information, contact us and we will delete it.</p>
+        <h3>5.2 How to Exercise Your Rights</h3>
+        <p>To exercise any of the above rights, contact us at:</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></li>
+            <li><strong>Phone:</strong> <a href="tel:<?php echo $phoneRaw; ?>"><?php echo $phone; ?></a></li>
+            <li><strong>Mail:</strong> <?php echo $address['street']; ?>, <?php echo $address['city']; ?>, <?php echo $address['state']; ?> <?php echo $address['zip']; ?></li>
+        </ul>
+        <p>
+            We will verify your identity before processing your request. You may designate an authorized agent to make a request on your behalf by providing written authorization.
+        </p>
 
-    <h2>10. Third-Party Links</h2>
-    <p>Our website may link to third-party sites (Facebook, Google Business Profile, etc.). We are not responsible for the privacy practices of these sites. Review their privacy policies separately.</p>
+        <h3 id="ccpa-rights">5.3 Do Not Sell or Share My Personal Information</h3>
+        <p>
+            <?php echo $siteName; ?> does not sell personal information to third parties. We do not share personal information for cross-context behavioral advertising. If our practices change, we will update this Privacy Policy and provide you with an opt-out mechanism.
+        </p>
 
-    <h2>11. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. The "Last Updated" date at the top will reflect the most recent change. Material changes will be prominently posted on the site.</p>
+        <h2>6. Multi-State Privacy Rights</h2>
+        <p>
+            If you reside in <strong>Colorado, Connecticut, Utah, Virginia,</strong> or other states with comprehensive privacy laws, you have rights similar to those described under CCPA/CPRA, including:
+        </p>
+        <ul>
+            <li>The right to confirm whether we process your personal data and access that data.</li>
+            <li>The right to correct inaccuracies in your personal data.</li>
+            <li>The right to delete your personal data.</li>
+            <li>The right to opt out of the sale of personal data, targeted advertising, or profiling.</li>
+            <li>The right to non-discrimination for exercising your privacy rights.</li>
+        </ul>
+        <p>
+            To exercise these rights, contact us using the information in Section 5.2 above. We will respond to your request within the timeframe required by applicable state law.
+        </p>
 
-    <h2>12. Contact Us</h2>
-    <p>For privacy questions or to exercise your rights:</p>
-    <p>
-      <strong><?php echo htmlspecialchars($siteName); ?></strong><br>
-      Email: <a href="mailto:<?php echo htmlspecialchars($email); ?>"><?php echo htmlspecialchars($email); ?></a><br>
-      Phone: <a href="tel:<?php echo htmlspecialchars($phoneRaw); ?>"><?php echo htmlspecialchars($phone); ?></a><br>
-      Address: <?php echo htmlspecialchars($address['street']); ?>, <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?> <?php echo htmlspecialchars($address['zip']); ?>
-    </p>
+        <h2>7. How We Share Your Information</h2>
+        <p>We do not sell, trade, or rent your personal information to third parties. We may share your information with:</p>
 
-    <div class="legal-disclaimer">
-      This Privacy Policy is provided as a general template. We recommend reviewing this document with a licensed <?php echo htmlspecialchars($address['state']); ?> attorney before publication to ensure compliance with current state and federal privacy laws.
-    </div>
+        <h3>7.1 Service Providers</h3>
+        <p>We use trusted third-party service providers to operate our website and deliver our services, including:</p>
+        <ul>
+            <li><strong>Formsubmit.co:</strong> Our contact form submissions are processed and forwarded to our business email via Formsubmit.co. Formsubmit.co does not store your information beyond delivery.</li>
+            <li><strong>Google Analytics:</strong> We use Google Analytics to analyze website traffic and user behavior. Google Analytics uses cookies to collect anonymized data. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+            <li><strong>Google Maps:</strong> Our contact page includes an embedded Google Map showing our location. Google may collect data when you interact with the map. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+        </ul>
 
-  </article>
+        <h3>7.2 Legal Requirements</h3>
+        <p>We may disclose your information if required to do so by law or in response to valid requests by public authorities (e.g., court orders, subpoenas).</p>
 
+        <h3>7.3 Business Transfers</h3>
+        <p>If <?php echo $siteName; ?> is involved in a merger, acquisition, or asset sale, your personal information may be transferred. We will provide notice before your information is transferred and becomes subject to a different privacy policy.</p>
+
+        <h2>8. Cookies and Tracking Technologies</h2>
+        <p>
+            We use cookies and similar tracking technologies to enhance your experience on our website, analyze usage, and deliver personalized content.
+        </p>
+
+        <h3>8.1 What Are Cookies?</h3>
+        <p>
+            Cookies are small text files stored on your device by your web browser. They allow websites to remember your preferences and recognize you on subsequent visits.
+        </p>
+
+        <h3>8.2 Types of Cookies We Use</h3>
+        <ul>
+            <li><strong>Necessary Cookies:</strong> Essential for the website to function (e.g., security, session management).</li>
+            <li><strong>Analytics Cookies:</strong> Used by Google Analytics to collect anonymized data about how visitors use our site.</li>
+            <li><strong>Performance Cookies:</strong> Help us understand which pages are most popular and improve website performance.</li>
+        </ul>
+
+        <h3>8.3 Managing Cookies</h3>
+        <p>
+            You can control and manage cookies through your browser settings. Most browsers allow you to refuse cookies or delete existing cookies. Please note that disabling cookies may affect your ability to use certain features of our website.
+        </p>
+        <p>
+            For more information about cookies and how to manage them, visit <a href="https://www.allaboutcookies.org" target="_blank" rel="noopener">www.allaboutcookies.org</a>.
+        </p>
+
+        <h2>9. Data Retention</h2>
+        <p>
+            We retain your personal information only as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
+        </p>
+        <ul>
+            <li><strong>Contact Form Submissions:</strong> Retained for up to 3 years to respond to inquiries, maintain service records, and comply with legal obligations.</li>
+            <li><strong>Consent Records:</strong> Retained for at least 4 years to comply with TCPA record-keeping requirements and defend against potential claims.</li>
+            <li><strong>Analytics Data:</strong> Anonymized usage data is retained by Google Analytics for up to 26 months.</li>
+        </ul>
+        <p>
+            When we no longer need your personal information, we will securely delete or anonymize it.
+        </p>
+
+        <h2>10. Data Security</h2>
+        <p>
+            We implement reasonable administrative, technical, and physical security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction.
+        </p>
+        <p>
+            However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to protect your personal information, we cannot guarantee its absolute security. You are responsible for maintaining the confidentiality of any login credentials or sensitive information you provide.
+        </p>
+
+        <h2>11. Children's Privacy</h2>
+        <p>
+            Our website is not intended for children under the age of 13, and we do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us at <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>, and we will delete that information from our records.
+        </p>
+
+        <h2>12. Third-Party Links</h2>
+        <p>
+            Our website may contain links to third-party websites, services, or social media platforms (e.g., Google Maps, Facebook, Instagram). We are not responsible for the privacy practices or content of these third-party sites. We encourage you to review the privacy policies of any third-party sites you visit.
+        </p>
+
+        <h2>13. International Data Transfers</h2>
+        <p>
+            Your information may be transferred to and maintained on servers located outside your state, province, country, or other governmental jurisdiction where data protection laws may differ. By using our website, you consent to the transfer of your information to the United States and its processing in accordance with this Privacy Policy.
+        </p>
+
+        <h2>14. Changes to This Privacy Policy</h2>
+        <p>
+            We may update this Privacy Policy from time to time to reflect changes in our practices, legal requirements, or business operations. We will post the updated Privacy Policy on this page with a revised "Effective Date" at the top.
+        </p>
+        <p>
+            We encourage you to review this Privacy Policy periodically. Your continued use of our website after changes are posted constitutes your acceptance of the updated Privacy Policy.
+        </p>
+
+        <h2>15. Contact Us</h2>
+        <p>
+            If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
+        </p>
+        <p>
+            <strong><?php echo $siteName; ?></strong><br>
+            <?php echo $address['street']; ?><br>
+            <?php echo $address['city']; ?>, <?php echo $address['state']; ?> <?php echo $address['zip']; ?><br>
+            <strong>Phone:</strong> <a href="tel:<?php echo $phoneRaw; ?>"><?php echo $phone; ?></a><br>
+            <strong>Email:</strong> <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>
+        </p>
+
+        <p class="last-updated">
+            Last Updated: <?php echo date('F j, Y'); ?>
+        </p>
+
+        <div class="disclaimer-footer">
+            <strong>Legal Disclaimer:</strong> This Privacy Policy is provided as a general template. We recommend reviewing this document with a licensed Kentucky attorney before publication to ensure compliance with all applicable state and federal laws.
+        </div>
+    </article>
 </main>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

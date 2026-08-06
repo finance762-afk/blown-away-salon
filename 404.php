@@ -13,6 +13,9 @@
 // Load config
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/config.php';
 
+// Set 404 response code
+http_response_code(404);
+
 // Page variables for head.php
 $pageTitle       = 'Page Not Found | ' . $siteName;
 $pageDescription = "The page you\'re looking for doesn\'t exist. Browse our Louisville salon and barbershop services or contact us for help.";
