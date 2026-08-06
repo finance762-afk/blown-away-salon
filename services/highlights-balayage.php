@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 $currentPage = 'services';
 $pageTitle       = 'Highlights & Balayage in Louisville, KY | ' . $siteName;
-$metaDescription = 'Hand-painted balayage, ombré, highlights, and lowlights at Blown Away Salon in Louisville. Natural dimensional color by expert stylists. Call ' . $phone . '.';
+$pageDescription = 'Hand-painted balayage, ombré, highlights, and lowlights at Blown Away Salon in Louisville. Natural dimensional color by expert stylists. Call ' . $phone . '.';
 $canonicalUrl    = $siteUrl . '/services/highlights-balayage/';
 $ogImage         = $siteUrl . '/assets/images/dimensional-color-bob.jpg';
 $heroPreloadImage = '/assets/images/dimensional-color-bob.jpg';
@@ -20,9 +20,9 @@ $service = [
 
 $faqs = [
     ['q' => 'What is the difference between highlights and balayage?', 'a' => 'Highlights use foils to saturate specific strands from root to tip for uniform lightness. Balayage is hand-painted color swept onto the surface of the hair for a softer, more natural gradient — thicker at the ends, lighter at the roots. Balayage grows out more gracefully and requires less frequent touch-ups.'],
-    ['q' => 'How much do highlights or balayage cost in Louisville?', 'a' => 'Partial highlights (around the face and crown) start around $95–$130. Full balayage ranges from $150–$250+ depending on your hair length, density, and whether we need a root shadow or toner. We give you a price quote after your consultation.'],
-    ['q' => 'How long does a balayage appointment take?', 'a' => 'Plan 2–3 hours for a full balayage. We paint the color, let it process (30–45 minutes), rinse, apply toner, let that process (10–20 minutes), then style. Shorter hair or a partial application can take 90 minutes.'],
-    ['q' => 'How often should I refresh my highlights or balayage?', 'a' => 'Balayage typically needs a refresh every 3–4 months because the grow-out is gradual. Traditional highlights grow out with a harder line, so most clients return every 6–8 weeks for a root touch-up or toner to keep the color fresh.'],
+    ['q' => 'How much do highlights or balayage cost in Louisville?', 'a' => 'Partial highlights (around the face and crown) start around $95-$130. Full balayage ranges from $150-$250+ depending on your hair length, density, and whether we need a root shadow or toner. We give you a price quote after your consultation.'],
+    ['q' => 'How long does a balayage appointment take?', 'a' => 'Plan 2-3 hours for a full balayage. We paint the color, let it process (30-45 minutes), rinse, apply toner, let that process (10-20 minutes), then style. Shorter hair or a partial application can take 90 minutes.'],
+    ['q' => 'How often should I refresh my highlights or balayage?', 'a' => 'Balayage typically needs a refresh every 3-4 months because the grow-out is gradual. Traditional highlights grow out with a harder line, so most clients return every 6-8 weeks for a root touch-up or toner to keep the color fresh.'],
 ];
 
 $faqSchema = generateFAQSchema($faqs);
@@ -101,13 +101,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <h2>How long does balayage or highlights take, and how often do I need a touch-up?</h2>
       <p class="answer-block">
-        Full balayage takes 2–3 hours from consultation to finish. Partial highlights run 90 minutes to 2 hours. Balayage grows out gracefully, so you can wait 3–4 months between appointments. Traditional highlights show a root line faster, so most clients return every 6–8 weeks for a root touch-up or toner refresh.
+        Full balayage takes 2-3 hours from consultation to finish. Partial highlights run 90 minutes to 2 hours. Balayage grows out gracefully, so you can wait 3-4 months between appointments. Traditional highlights show a root line faster, so most clients return every 6-8 weeks for a root touch-up or toner refresh.
       </p>
       <p>
-        The timeline depends on how fast your hair grows and how much contrast you want to maintain. A soft, natural balayage can go 4–5 months before it needs refreshing, especially if we do a shadow root. High-contrast platinum highlights on dark hair will show regrowth sooner — plan for 6 weeks between visits if you want a crisp, clean line.
+        The timeline depends on how fast your hair grows and how much contrast you want to maintain. A soft, natural balayage can go 4-5 months before it needs refreshing, especially if we do a shadow root. High-contrast platinum highlights on dark hair will show regrowth sooner — plan for 6 weeks between visits if you want a crisp, clean line.
       </p>
       <p>
-        Toner fades over time, especially if you wash your hair frequently or use hot tools. We recommend a gloss or toner refresh every 4–6 weeks to keep blonde tones from turning brassy. That service takes 30–45 minutes and costs less than a full highlight or balayage session.
+        Toner fades over time, especially if you wash your hair frequently or use hot tools. We recommend a gloss or toner refresh every 4-6 weeks to keep blonde tones from turning brassy. That service takes 30-45 minutes and costs less than a full highlight or balayage session.
       </p>
     </div>
   </div>

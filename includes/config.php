@@ -78,7 +78,7 @@ $secondaryKeywords = [
     'Styling & Blowouts',
     'Waxing',
     "Men's haircut Louisville",
-    "Women's haircut Louisville",
+    "Women\'s haircut Louisville",
     'Color correction',
     'Balayage Louisville',
 ];
@@ -105,7 +105,7 @@ $services = [
     [
         'name'        => 'Haircuts & Styling',
         'slug'        => 'haircuts-styling',
-        'description' => "Women's, men's, and kids' cuts plus blowouts and event styling tailored to your hair and face.",
+        'description' => "Women\'s, men\'s, and kids\' cuts plus blowouts and event styling tailored to your hair and face.",
         'keywords'    => ['layered haircut', 'bob haircut', 'pixie cut', 'blowout', 'styling'],
     ],
     [

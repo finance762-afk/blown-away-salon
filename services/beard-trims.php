@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 $currentPage = 'services';
 $pageTitle       = 'Beard Trims & Grooming in Louisville, KY | ' . $siteName;
-$metaDescription = 'Precision beard shaping, line-ups, and hot-towel grooming at Bon Air Barbershop in Louisville. Keep your beard sharp and clean. Call ' . $phone . '.';
+$pageDescription = 'Precision beard shaping, line-ups, and hot-towel grooming at Bon Air Barbershop in Louisville. Keep your beard sharp and clean. Call ' . $phone . '.';
 $canonicalUrl    = $siteUrl . '/services/beard-trims/';
 $ogImage         = $siteUrl . '/assets/images/mens-cut-highlights.jpg';
 $heroPreloadImage = '/assets/images/mens-cut-highlights.jpg';
@@ -19,9 +19,9 @@ $service = [
 ];
 
 $faqs = [
-    ['q' => 'How much does a beard trim cost in Louisville?', 'a' => 'A beard trim at Bon Air Barbershop runs $15–$25 as a standalone service, or $10–$15 when added to a haircut. Full beard shaping with a hot-towel finish is $25–$35.'],
+    ['q' => 'How much does a beard trim cost in Louisville?', 'a' => 'A beard trim at Bon Air Barbershop runs $15-$25 as a standalone service, or $10-$15 when added to a haircut. Full beard shaping with a hot-towel finish is $25-$35.'],
     ['q' => 'What is included in a beard trim?', 'a' => 'We trim your beard to your desired length, shape the cheek and neck lines, clean up stray hairs, and finish with a hot towel and beard oil or balm. You walk out with a groomed, defined beard that looks intentional, not scraggly.'],
-    ['q' => 'How often should I get my beard trimmed?', 'a' => 'Most beards need shaping every 2–4 weeks to stay clean and defined. If you wear a short beard or goatee, you can stretch that to 4–6 weeks. Longer beards benefit from a trim every 3–4 weeks to remove split ends and maintain shape.'],
+    ['q' => 'How often should I get my beard trimmed?', 'a' => 'Most beards need shaping every 2-4 weeks to stay clean and defined. If you wear a short beard or goatee, you can stretch that to 4-6 weeks. Longer beards benefit from a trim every 3-4 weeks to remove split ends and maintain shape.'],
     ['q' => 'Do you do straight-razor shaves?', 'a' => 'We offer hot-towel neck shaves and cheek line clean-ups with a straight razor to finish a haircut or beard trim. Full straight-razor face shaves are available by request — call ahead to confirm availability.'],
 ];
 
@@ -101,7 +101,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <h2>How often should I get my beard trimmed in Louisville?</h2>
       <p class="answer-block">
-        Most beards need professional shaping every 2–4 weeks to stay clean and defined. Short beards and goatees can stretch to 4–6 weeks. Longer beards benefit from a trim every 3–4 weeks to remove split ends, maintain shape, and prevent the beard from looking wild or unintentional.
+        Most beards need professional shaping every 2-4 weeks to stay clean and defined. Short beards and goatees can stretch to 4-6 weeks. Longer beards benefit from a trim every 3-4 weeks to remove split ends, maintain shape, and prevent the beard from looking wild or unintentional.
       </p>
       <p>
         The frequency depends on how fast your beard grows and how precise you want the lines. If you keep a tight, structured beard for a professional setting, every two weeks keeps the cheek and neck lines crisp. If you wear a longer, more relaxed beard, you can go three to four weeks before it needs a refresh.

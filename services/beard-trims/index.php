@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'services';
 
 $pageTitle = 'Beard Trims & Grooming in Louisville, KY | Hot Towel Service | ' . $siteName;
-$metaDescription = 'Expert beard trimming, shaping, and hot-towel grooming at Bon Air Barbershop in Louisville — precision line-ups and beard maintenance. Book at ' . $phone . '.';
+$pageDescription = 'Expert beard trimming, shaping, and hot-towel grooming at Bon Air Barbershop in Louisville — precision line-ups and beard maintenance. Book at ' . $phone . '.';
 $canonicalUrl = $siteUrl . '/services/beard-trims/';
 $ogImage = $siteUrl . '/assets/images/service-beard.jpg';
 $cssVersion = '2';
@@ -19,19 +19,19 @@ $cssVersion = '2';
 $faqs = [
     [
         'q' => 'How much does a beard trim cost in Louisville?',
-        'a' => 'Beard trims at Bon Air Barbershop run $10–$20 as a standalone service, or $10–$15 when added to a haircut. A detailed beard shaping with hot-towel treatment and line-up is $15–$20. Quick edge clean-ups are $10. We quote your exact price when you check in based on beard length and complexity.',
+        'a' => 'Beard trims at Bon Air Barbershop run $10-$20 as a standalone service, or $10-$15 when added to a haircut. A detailed beard shaping with hot-towel treatment and line-up is $15-$20. Quick edge clean-ups are $10. We quote your exact price when you check in based on beard length and complexity.',
     ],
     [
         'q' => 'How long does a beard trim take?',
-        'a' => 'A standalone beard trim at Bon Air Barbershop takes 15–25 minutes. If you're adding it to a haircut, plan for an extra 10–15 minutes. A full beard shaping with hot-towel prep, trim, line-up, and finishing balm runs 20–30 minutes. We block enough time so your grooming is never rushed.',
+        'a' => 'A standalone beard trim at Bon Air Barbershop takes 15-25 minutes. If you\'re adding it to a haircut, plan for an extra 10-15 minutes. A full beard shaping with hot-towel prep, trim, line-up, and finishing balm runs 20-30 minutes. We block enough time so your grooming is never rushed.',
     ],
     [
-        'q' => 'What's included in a beard trim service?',
-        'a' => 'A beard trim at Bon Air Barbershop includes a consultation on your desired length and shape, hot-towel prep to soften the beard, scissor and trimmer work to even length and create clean lines, cheek and neck line-ups, and finishing oil or balm to condition and style. If you're growing your beard or unsure about shape, we walk through options and recommend a starting point.',
+        'q' => 'What\'s included in a beard trim service?',
+        'a' => 'A beard trim at Bon Air Barbershop includes a consultation on your desired length and shape, hot-towel prep to soften the beard, scissor and trimmer work to even length and create clean lines, cheek and neck line-ups, and finishing oil or balm to condition and style. If you\'re growing your beard or unsure about shape, we walk through options and recommend a starting point.',
     ],
     [
         'q' => 'How often should I get my beard trimmed?',
-        'a' => 'Most Louisville clients get a beard trim every 2–4 weeks to maintain shape and prevent scraggly growth. Short, close-cropped beards need trimming every 1–2 weeks. Medium-length beards can go 2–3 weeks. Long beards benefit from monthly shaping to remove split ends and keep lines clean. Your barber at Bon Air Barbershop will build a schedule based on your growth rate and desired look.',
+        'a' => 'Most Louisville clients get a beard trim every 2-4 weeks to maintain shape and prevent scraggly growth. Short, close-cropped beards need trimming every 1-2 weeks. Medium-length beards can go 2-3 weeks. Long beards benefit from monthly shaping to remove split ends and keep lines clean. Your barber at Bon Air Barbershop will build a schedule based on your growth rate and desired look.',
     ],
 ];
 
@@ -284,7 +284,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Beard Trims & Grooming in Louisville, KY</h1>
     <p class="hero-answer">
-      Bon Air Barbershop delivers precision beard trimming and hot-towel grooming for Louisville clients — clean lines, even length, and conditioning treatments that keep your beard looking intentional, not scraggly. Our barbers assess your face shape, growth pattern, and desired style, then trim, shape, and line up your beard with clippers, scissors, and straight-edge work. Whether you're maintaining a corporate look or dialing in a full beard, we deliver results that last 2–4 weeks between visits.
+      Bon Air Barbershop delivers precision beard trimming and hot-towel grooming for Louisville clients — clean lines, even length, and conditioning treatments that keep your beard looking intentional, not scraggly. Our barbers assess your face shape, growth pattern, and desired style, then trim, shape, and line up your beard with clippers, scissors, and straight-edge work. Whether you\'re maintaining a corporate look or dialing in a full beard, we deliver results that last 2-4 weeks between visits.
     </p>
     <div class="hero-actions">
       <a href="/contact/" class="btn btn-accent btn-lg">Book Your Trim</a>
@@ -307,23 +307,23 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           A beard trim at Bon Air Barbershop includes a consultation on your desired length and shape, hot-towel prep to soften hair and open pores, trimmer and scissor work to even length and remove bulk, cheek and neck line detailing for clean edges, and finishing oil or balm to condition and style. We assess your beard's density, growth direction, and face shape to create a look that enhances your features instead of hiding them.
         </p>
         <p>
-          Our Louisville barbers use Andis trimmers with adjustable guards for precise length control, plus scissors for detail work on mustaches and sideburn transitions. A hot towel softens coarse beard hair, making trimming smoother and reducing irritation. If you're growing your beard or unsure about shape, we start conservative and adjust from there — it's easier to take more off than to grow it back.
+          Our Louisville barbers use Andis trimmers with adjustable guards for precise length control, plus scissors for detail work on mustaches and sideburn transitions. A hot towel softens coarse beard hair, making trimming smoother and reducing irritation. If you\'re growing your beard or unsure about shape, we start conservative and adjust from there — it\'s easier to take more off than to grow it back.
         </p>
         <p>
-          Beard trims are standalone services or add-ons to a haircut. Most clients book a trim every 2–4 weeks to maintain clean lines. If your beard is patchy or uneven, we can help you grow it to full coverage before committing to a final shape.
+          Beard trims are standalone services or add-ons to a haircut. Most clients book a trim every 2-4 weeks to maintain clean lines. If your beard is patchy or uneven, we can help you grow it to full coverage before committing to a final shape.
         </p>
 
         <h2>How often should I get my <span class="text-accent">beard trimmed</span> to keep it looking sharp?</h2>
         <p class="answer-block">
-          Short, close-cropped beards need trimming every 1–2 weeks to stay sharp. Medium-length beards can go 2–3 weeks before looking shaggy. Long beards benefit from monthly trims to remove split ends and keep neck and cheek lines clean. Your beard's growth rate, coarseness, and the style you're maintaining determine your schedule. Most Louisville clients at Bon Air Barbershop come in every 2–3 weeks for a trim and line-up.
+          Short, close-cropped beards need trimming every 1-2 weeks to stay sharp. Medium-length beards can go 2-3 weeks before looking shaggy. Long beards benefit from monthly trims to remove split ends and keep neck and cheek lines clean. Your beard's growth rate, coarseness, and the style you\'re maintaining determine your schedule. Most Louisville clients at Bon Air Barbershop come in every 2-3 weeks for a trim and line-up.
         </p>
         <p>
-          To extend the life of your trim between visits, wash your beard 2–3 times a week with a dedicated beard shampoo, condition daily, and apply beard oil or balm to soften coarse hair. Louisville's humidity can make beards frizz — a light oil keeps it smooth and shaped. Avoid over-trimming at home; cheek and neck lines are easy to mess up without a mirror and experience.
+          To extend the life of your trim between visits, wash your beard 2-3 times a week with a dedicated beard shampoo, condition daily, and apply beard oil or balm to soften coarse hair. Louisville's humidity can make beards frizz — a light oil keeps it smooth and shaped. Avoid over-trimming at home; cheek and neck lines are easy to mess up without a mirror and experience.
         </p>
 
         <h2>What is the difference between a <span class="text-accent">beard trim and a beard shaping</span>?</h2>
         <p class="answer-block">
-          A beard trim evens the length and cleans up edges — maintenance work to keep your existing style looking neat. A beard shaping is a more involved service that defines a new shape, adjusts cheek and neck lines, sculpts the jawline, and balances proportions to match your face. At Bon Air Barbershop, beard shaping takes 20–30 minutes and is recommended when you're changing your beard style or growing it out for the first time. Once shaped, you maintain it with regular trims every 2–4 weeks.
+          A beard trim evens the length and cleans up edges — maintenance work to keep your existing style looking neat. A beard shaping is a more involved service that defines a new shape, adjusts cheek and neck lines, sculpts the jawline, and balances proportions to match your face. At Bon Air Barbershop, beard shaping takes 20-30 minutes and is recommended when you\'re changing your beard style or growing it out for the first time. Once shaped, you maintain it with regular trims every 2-4 weeks.
         </p>
 
         <div class="process-steps">
@@ -364,7 +364,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <aside class="service-sidebar">
         <div class="sidebar-card">
-          <h3>What's Included</h3>
+          <h3>What\'s Included</h3>
           <ul>
             <li><?php echo icon('check-circle', 18); ?> <span>Beard shape consultation</span></li>
             <li><?php echo icon('check-circle', 18); ?> <span>Hot-towel softening treatment</span></li>

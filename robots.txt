@@ -1,0 +1,37 @@
+# robots.txt — Blown Away Salon/Bon Air Barbershop
+# Generated: August 2026
+
+User-agent: *
+Allow: /
+
+# Disallow backend directories and system files
+Disallow: /includes/
+Disallow: /assets/js/
+
+# Sitemaps
+Sitemap: https://blown-away-salon.pageone.cloud/sitemap.xml
+
+# AI Crawlers (explicitly allowed)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /

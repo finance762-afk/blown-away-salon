@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'services';
 
 $pageTitle = "Men's Cuts & Fades in Louisville, KY | Bon Air Barbershop | " . $siteName;
-$metaDescription = "Expert men's haircuts, fades, tapers, and classic cuts at Bon Air Barbershop in Louisville — precision barbering from experienced barbers. Book your cut at " . $phone . ".";
+$pageDescription = "Expert men\'s haircuts, fades, tapers, and classic cuts at Bon Air Barbershop in Louisville — precision barbering from experienced barbers. Book your cut at " . $phone . ".";
 $canonicalUrl = $siteUrl . '/services/mens-cuts-fades/';
 $ogImage = $siteUrl . '/assets/images/service-mens-cut.jpg';
 $cssVersion = '2';
@@ -18,20 +18,20 @@ $cssVersion = '2';
 /* Service FAQs (AEO — FAQPage schema is AI comprehension aid; never describe as rich-result feature) */
 $faqs = [
     [
-        'q' => "How much does a men's haircut cost in Louisville?",
-        'a' => "Men's haircuts at Bon Air Barbershop start at $25–$40, depending on the complexity of the cut. A basic clipper cut or buzz runs $25–$30. Fades, tapers, and scissor cuts with blending are $30–$40. If you're adding a beard trim or line-up, add $10–$15. We quote your exact price when you check in.",
+        'q' => "How much does a men\'s haircut cost in Louisville?",
+        'a' => "Men's haircuts at Bon Air Barbershop start at $25-$40, depending on the complexity of the cut. A basic clipper cut or buzz runs $25-$30. Fades, tapers, and scissor cuts with blending are $30-$40. If you\'re adding a beard trim or line-up, add $10-$15. We quote your exact price when you check in.",
     ],
     [
-        'q' => "How long does a men's haircut and fade take?",
-        'a' => "Most men's cuts at Bon Air Barbershop take 30–45 minutes. A simple buzz or trim runs 20–30 minutes. A detailed skin fade with a scissor-cut top can take 40–50 minutes. If you're adding a beard trim and hot-towel finish, plan for 45–60 minutes total. We block enough time so your cut is never rushed.",
+        'q' => "How long does a men\'s haircut and fade take?",
+        'a' => "Most men\'s cuts at Bon Air Barbershop take 30-45 minutes. A simple buzz or trim runs 20-30 minutes. A detailed skin fade with a scissor-cut top can take 40-50 minutes. If you\'re adding a beard trim and hot-towel finish, plan for 45-60 minutes total. We block enough time so your cut is never rushed.",
     ],
     [
-        'q' => 'What's the difference between a taper fade and a skin fade?',
-        'a' => 'A taper fade gradually shortens from longer on top to very short at the neckline and ears, but it never goes down to bare skin. A skin fade (also called a bald fade) uses a razor or zero-guard clipper to blend down to smooth skin at the edges. Skin fades are sharper and higher-contrast but require more frequent touch-ups — every 1–2 weeks vs. 2–3 weeks for a taper fade.',
+        'q' => 'What\'s the difference between a taper fade and a skin fade?',
+        'a' => 'A taper fade gradually shortens from longer on top to very short at the neckline and ears, but it never goes down to bare skin. A skin fade (also called a bald fade) uses a razor or zero-guard clipper to blend down to smooth skin at the edges. Skin fades are sharper and higher-contrast but require more frequent touch-ups — every 1-2 weeks vs. 2-3 weeks for a taper fade.',
     ],
     [
-        'q' => "How often should I get a men's haircut to keep it looking sharp?",
-        'a' => "Skin fades and tapers need a trim every 1–3 weeks to stay crisp. Scissor cuts and classic styles can go 3–5 weeks. If you're growing your hair out or maintaining a longer style, 4–6 weeks is typical. Your barber at Bon Air Barbershop will recommend a schedule based on your cut and how fast your hair grows.",
+        'q' => "How often should I get a men\'s haircut to keep it looking sharp?",
+        'a' => "Skin fades and tapers need a trim every 1-3 weeks to stay crisp. Scissor cuts and classic styles can go 3-5 weeks. If you\'re growing your hair out or maintaining a longer style, 4-6 weeks is typical. Your barber at Bon Air Barbershop will recommend a schedule based on your cut and how fast your hair grows.",
     ],
 ];
 
@@ -41,7 +41,7 @@ $faqSchema = generateFAQSchema($faqs);
 $serviceData = [
     'name' => "Men's Cuts & Fades",
     'slug' => 'mens-cuts-fades',
-    'description' => "Precision men's haircuts, fades, tapers, scissor cuts, and classic barbering from experienced barbers at Bon Air Barbershop in Louisville, Kentucky.",
+    'description' => "Precision men\'s haircuts, fades, tapers, scissor cuts, and classic barbering from experienced barbers at Bon Air Barbershop in Louisville, Kentucky.",
 ];
 $serviceSchema = generateServiceSchema($serviceData);
 
@@ -284,7 +284,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Men's Cuts & Fades in Louisville, KY</h1>
     <p class="hero-answer">
-      Bon Air Barbershop delivers precision men's haircuts and fades for Louisville clients — skin fades, taper fades, buzz cuts, undercuts, scissor cuts, and classic barbering from experienced barbers who understand proportion, blend technique, and what actually looks sharp in real life. Whether you're maintaining a corporate cut or dialing in a fresh fade, we consult on style, clipper guards, and maintenance schedules that fit your routine.
+      Bon Air Barbershop delivers precision men\'s haircuts and fades for Louisville clients — skin fades, taper fades, buzz cuts, undercuts, scissor cuts, and classic barbering from experienced barbers who understand proportion, blend technique, and what actually looks sharp in real life. Whether you\'re maintaining a corporate cut or dialing in a fresh fade, we consult on style, clipper guards, and maintenance schedules that fit your routine.
     </p>
     <div class="hero-actions">
       <a href="/contact/" class="btn btn-accent btn-lg">Book Your Cut</a>
@@ -302,28 +302,28 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="service-content">
 
       <div class="service-detail">
-        <h2>What does a <span class="text-accent">men's fade haircut</span> include at Bon Air Barbershop?</h2>
+        <h2>What does a <span class="text-accent">men\'s fade haircut</span> include at Bon Air Barbershop?</h2>
         <p class="answer-block">
-          A men's fade at Bon Air Barbershop includes a consultation to discuss your desired fade height and top length, clipper work with multiple guard sizes to create a smooth gradient from longer on top to very short or skin-bare at the sides and back, scissor work or clipper-over-comb blending at the top, line-up and edge detailing, and a finishing style with pomade, clay, or cream. Skin fades, taper fades, high fades, mid fades, and low fades are all available.
+          A men\'s fade at Bon Air Barbershop includes a consultation to discuss your desired fade height and top length, clipper work with multiple guard sizes to create a smooth gradient from longer on top to very short or skin-bare at the sides and back, scissor work or clipper-over-comb blending at the top, line-up and edge detailing, and a finishing style with pomade, clay, or cream. Skin fades, taper fades, high fades, mid fades, and low fades are all available.
         </p>
         <p>
           Our Louisville barbers use Andis and Wahl clippers with sharp blades, working in half-guard increments to blend seamlessly. A skin fade goes down to bare scalp using a zero guard or straight razor. A taper fade stops short of the skin, leaving a very close buzz. High fades start the blend above the temple; mid fades around the temple; low fades just above the ear.
         </p>
         <p>
-          If you're new to fades or unsure which height suits your face shape, we walk through reference photos and recommend a starting point. Fades grow out fast — expect to return every 1–3 weeks to keep the blend crisp. Classic cuts and scissor cuts without fades can stretch to 3–5 weeks.
+          If you\'re new to fades or unsure which height suits your face shape, we walk through reference photos and recommend a starting point. Fades grow out fast — expect to return every 1-3 weeks to keep the blend crisp. Classic cuts and scissor cuts without fades can stretch to 3-5 weeks.
         </p>
 
         <h2>How long does a <span class="text-accent">fade haircut</span> stay sharp before it needs a touch-up?</h2>
         <p class="answer-block">
-          A skin fade at Bon Air Barbershop stays sharp for 1–2 weeks before the blend starts to blur. A taper fade lasts 2–3 weeks. Classic cuts and scissor cuts without tight fades can go 3–5 weeks. Your hair's growth rate, the fade height, and how crisp you want the edges determine your retouch schedule. Most Louisville clients on a fade maintenance plan come in every 2 weeks.
+          A skin fade at Bon Air Barbershop stays sharp for 1-2 weeks before the blend starts to blur. A taper fade lasts 2-3 weeks. Classic cuts and scissor cuts without tight fades can go 3-5 weeks. Your hair\'s growth rate, the fade height, and how crisp you want the edges determine your retouch schedule. Most Louisville clients on a fade maintenance plan come in every 2 weeks.
         </p>
         <p>
-          To extend the life of your fade between cuts, keep your neckline clean with clippers at home or stop by for a line-up ($5–$10, 10 minutes). Fades in Louisville's humidity can look fuzzy faster due to expanded cuticles — a weekly wash with a men's shampoo and a light pomade or cream keeps edges defined.
+          To extend the life of your fade between cuts, keep your neckline clean with clippers at home or stop by for a line-up ($5-$10, 10 minutes). Fades in Louisville's humidity can look fuzzy faster due to expanded cuticles — a weekly wash with a men\'s shampoo and a light pomade or cream keeps edges defined.
         </p>
 
         <h2>What is the difference between a <span class="text-accent">taper and a fade</span>?</h2>
         <p class="answer-block">
-          A taper is a gradual shortening of hair length from longer on top to shorter at the neckline and ears, but it doesn't blend down to skin — it stops at a short buzz. A fade uses multiple clipper guards and blending techniques to create a seamless gradient from longer hair to very short or bare skin. Tapers are lower-maintenance and look more conservative; fades are sharper, higher-contrast, and require more frequent touch-ups. Both are available at Bon Air Barbershop in Louisville.
+          A taper is a gradual shortening of hair length from longer on top to shorter at the neckline and ears, but it doesn\'t blend down to skin — it stops at a short buzz. A fade uses multiple clipper guards and blending techniques to create a seamless gradient from longer hair to very short or bare skin. Tapers are lower-maintenance and look more conservative; fades are sharper, higher-contrast, and require more frequent touch-ups. Both are available at Bon Air Barbershop in Louisville.
         </p>
 
         <div class="process-steps">
@@ -364,7 +364,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <aside class="service-sidebar">
         <div class="sidebar-card">
-          <h3>What's Included</h3>
+          <h3>What\'s Included</h3>
           <ul>
             <li><?php echo icon('check-circle', 18); ?> <span>Personalized fade consultation</span></li>
             <li><?php echo icon('check-circle', 18); ?> <span>Precision clipper fade work</span></li>
@@ -391,7 +391,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <div class="section-title" style="text-align: center; max-width: 48rem; margin: 0 auto var(--space-12);">
       <span class="eyebrow-label">Good to Know</span>
-      <h2>Common questions about men's cuts in Louisville</h2>
+      <h2>Common questions about men\'s cuts in Louisville</h2>
     </div>
 
     <div class="faq-grid">
@@ -409,7 +409,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 </section>
 
 <!-- ============================ CTA ============================ -->
-<section class="cta-banner" aria-label="Book your men's cut">
+<section class="cta-banner" aria-label="Book your men\'s cut">
   <div class="container" style="text-align: center;">
     <h2 style="color: var(--color-white); font-size: var(--fs-h2); margin-bottom: var(--space-4);">
       Ready for a clean fade or classic cut?

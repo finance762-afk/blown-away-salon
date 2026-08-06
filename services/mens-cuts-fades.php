@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 $currentPage = 'services';
 $pageTitle       = "Men's Cuts & Fades in Louisville, KY | " . $siteName;
-$metaDescription = "Precision fades, tapers, scissor cuts, and classic men's styles at Bon Air Barbershop in Louisville. Expert barbers, sharp results. Call " . $phone . ".";
+$pageDescription = "Precision fades, tapers, scissor cuts, and classic men\'s styles at Bon Air Barbershop in Louisville. Expert barbers, sharp results. Call " . $phone . ".";
 $canonicalUrl    = $siteUrl . '/services/mens-cuts-fades/';
 $ogImage         = $siteUrl . '/assets/images/mens-cut-highlights.jpg';
 $heroPreloadImage = '/assets/images/mens-cut-highlights.jpg';
@@ -19,9 +19,9 @@ $service = [
 ];
 
 $faqs = [
-    ['q' => "How much does a men's haircut cost at Bon Air Barbershop?", 'a' => "Men's cuts at our Louisville barbershop start at $30–$35 for a basic cut and go up to $45–$55 for a precision fade or detailed scissor work. Every cut includes a consultation, wash, cut, and style."],
+    ['q' => "How much does a men\'s haircut cost at Bon Air Barbershop?", 'a' => "Men's cuts at our Louisville barbershop start at $30-$35 for a basic cut and go up to $45-$55 for a precision fade or detailed scissor work. Every cut includes a consultation, wash, cut, and style."],
     ['q' => 'What is the difference between a skin fade and a taper fade?', 'a' => 'A skin fade takes the hair down to bare skin at the bottom, creating a sharp line where the fade starts. A taper fade gradually shortens the hair but leaves a shadow of stubble instead of going all the way to skin. Skin fades are bolder; tapers are more conservative and professional.'],
-    ['q' => 'How often should I get a fade?', 'a' => 'Fades grow out noticeably within 2–3 weeks. Most Louisville clients who wear a fade return every 2–4 weeks to keep it looking crisp. If you let it go longer, the fade line blurs and you lose that sharp gradient.'],
+    ['q' => 'How often should I get a fade?', 'a' => 'Fades grow out noticeably within 2-3 weeks. Most Louisville clients who wear a fade return every 2-4 weeks to keep it looking crisp. If you let it go longer, the fade line blurs and you lose that sharp gradient.'],
     ['q' => 'Do you do scissor cuts, or just clippers?', 'a' => 'We do both. Fades and buzz cuts rely on clippers and guards. Classic scissor cuts, textured crops, and longer styles use shears for precision and blending. Many cuts combine both — clippers for the sides, scissors on top.'],
 ];
 
@@ -80,7 +80,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Men's Cuts & Fades in Louisville, KY</h1>
     <p class="hero-answer">
-      Bon Air Barbershop delivers sharp, consistent men's haircuts across Louisville — skin fades, taper fades, drop fades, scissor cuts, undercuts, and classic barbershop styles. Every cut is tailored to your hair type, head shape, and the look you want, whether that is a clean professional cut or a bold, modern fade.
+      Bon Air Barbershop delivers sharp, consistent men\'s haircuts across Louisville — skin fades, taper fades, drop fades, scissor cuts, undercuts, and classic barbershop styles. Every cut is tailored to your hair type, head shape, and the look you want, whether that is a clean professional cut or a bold, modern fade.
     </p>
   </div>
 </section>
@@ -88,9 +88,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 <section class="section-service-intro">
   <div class="container">
     <div class="prose-service">
-      <h2>What types of men's haircuts do you offer at Bon Air Barbershop?</h2>
+      <h2>What types of men\'s haircuts do you offer at Bon Air Barbershop?</h2>
       <p class="answer-block">
-        We specialize in fades (skin, taper, drop, burst), buzz cuts, crew cuts, scissor cuts, undercuts, and classic side-part styles. Every men's cut includes a consultation, wash, precision cutting with clippers or shears, and a styled finish. We also do line-ups, edge work, and neck shaves to complete the look.
+        We specialize in fades (skin, taper, drop, burst), buzz cuts, crew cuts, scissor cuts, undercuts, and classic side-part styles. Every men\'s cut includes a consultation, wash, precision cutting with clippers or shears, and a styled finish. We also do line-ups, edge work, and neck shaves to complete the look.
       </p>
       <p>
         A fade is a gradual transition from longer hair on top to short or bare skin on the sides and back. The type of fade you choose depends on how dramatic you want the contrast. A skin fade goes all the way down to scalp, creating a sharp line. A taper fade leaves a shadow of stubble instead of bare skin — more conservative and easier to maintain. A drop fade curves down behind the ear for a modern, stylized look.
@@ -101,13 +101,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <h2>How often should I get a haircut to keep my fade sharp?</h2>
       <p class="answer-block">
-        Fades grow out visibly within 2–3 weeks. Most men who wear a fade in Louisville return every 2–4 weeks to keep the gradient crisp and the line clean. Scissor cuts and longer styles can go 4–6 weeks between appointments depending on how fast your hair grows and how polished you want to look.
+        Fades grow out visibly within 2-3 weeks. Most men who wear a fade in Louisville return every 2-4 weeks to keep the gradient crisp and the line clean. Scissor cuts and longer styles can go 4-6 weeks between appointments depending on how fast your hair grows and how polished you want to look.
       </p>
       <p>
         The tighter the fade, the faster it grows out. A skin fade starts to blur after two weeks. A high taper or textured scissor cut on top can stretch to a month before it looks shaggy. If you have a professional job or just like a tight, clean look, plan for every two weeks. If you are more relaxed about it, every three to four weeks keeps you presentable.
       </p>
       <p>
-        We also do line-ups and edge-ups between full cuts — a quick service that cleans up your hairline, sideburns, and neck so you look fresh without redoing the entire cut. That takes 10–15 minutes and costs less than a full haircut.
+        We also do line-ups and edge-ups between full cuts — a quick service that cleans up your hairline, sideburns, and neck so you look fresh without redoing the entire cut. That takes 10-15 minutes and costs less than a full haircut.
       </p>
     </div>
   </div>
@@ -132,7 +132,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   <div class="container">
     <h2>Get a sharp fade or classic cut</h2>
     <p>
-      Book your men's haircut at Bon Air Barbershop in Louisville. Call <?php echo htmlspecialchars($phone); ?> or walk in today.
+      Book your men\'s haircut at Bon Air Barbershop in Louisville. Call <?php echo htmlspecialchars($phone); ?> or walk in today.
     </p>
     <div class="cta-actions">
       <a href="/contact/" class="btn-primary">Book Your Appointment</a>

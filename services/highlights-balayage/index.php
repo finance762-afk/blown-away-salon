@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'services';
 
 $pageTitle = 'Balayage & Highlights in Louisville, KY | Hand-Painted Color | ' . $siteName;
-$metaDescription = 'Expert balayage, ombré, highlights, and lowlights at Blown Away Salon in Louisville — hand-painted dimension for natural, sun-kissed color. Book your free consultation at ' . $phone . '.';
+$pageDescription = 'Expert balayage, ombré, highlights, and lowlights at Blown Away Salon in Louisville — hand-painted dimension for natural, sun-kissed color. Book your free consultation at ' . $phone . '.';
 $canonicalUrl = $siteUrl . '/services/highlights-balayage/';
 $ogImage = $siteUrl . '/assets/images/service-balayage.jpg';
 $cssVersion = '2';
@@ -19,19 +19,19 @@ $cssVersion = '2';
 $faqs = [
     [
         'q' => 'How much do balayage highlights cost in Louisville?',
-        'a' => 'Balayage at Blown Away Salon typically runs $140–$220, depending on your hair length, density, and how many sections we're hand-painting. Partial balayage (face-framing and top layers) starts around $140. Full balayage covering all layers and back runs $180–$220. We quote your exact price during the free consultation.',
+        'a' => 'Balayage at Blown Away Salon typically runs $140-$220, depending on your hair length, density, and how many sections we\'re hand-painting. Partial balayage (face-framing and top layers) starts around $140. Full balayage covering all layers and back runs $180-$220. We quote your exact price during the free consultation.',
     ],
     [
         'q' => 'How long does a balayage appointment take?',
-        'a' => 'Most balayage appointments take 2.5–3.5 hours at our Louisville salon. Partial balayage is usually 2–2.5 hours. Full balayage with toning runs 3–3.5 hours. If we're also cutting and styling, add another 30–45 minutes. We block the full time when you book so you're never rushed.',
+        'a' => 'Most balayage appointments take 2.5-3.5 hours at our Louisville salon. Partial balayage is usually 2-2.5 hours. Full balayage with toning runs 3-3.5 hours. If we\'re also cutting and styling, add another 30-45 minutes. We block the full time when you book so you\'re never rushed.',
     ],
     [
-        'q' => 'What's the difference between balayage and traditional foil highlights?',
-        'a' => 'Balayage is hand-painted freehand onto the surface of your hair, creating soft, graduated color that grows out naturally with no harsh lines. Traditional foil highlights are sectioned and saturated root to tip, giving more contrast and brightness but a harder grow-out line. Balayage looks more lived-in and requires fewer touch-ups — most Louisville clients go 10–16 weeks between sessions.',
+        'q' => 'What\'s the difference between balayage and traditional foil highlights?',
+        'a' => 'Balayage is hand-painted freehand onto the surface of your hair, creating soft, graduated color that grows out naturally with no harsh lines. Traditional foil highlights are sectioned and saturated root to tip, giving more contrast and brightness but a harder grow-out line. Balayage looks more lived-in and requires fewer touch-ups — most Louisville clients go 10-16 weeks between sessions.',
     ],
     [
         'q' => 'How often should I get balayage touched up?',
-        'a' => 'Balayage grows out gracefully, so most clients return every 10–16 weeks. If you're a natural blonde or going very light, you might want a gloss or root shadow around week 8 to refresh tone. Brunettes with subtle balayage can often stretch to 12–16 weeks. We'll build a retouch schedule based on your hair's growth rate and how much maintenance you want.',
+        'a' => 'Balayage grows out gracefully, so most clients return every 10-16 weeks. If you\'re a natural blonde or going very light, you might want a gloss or root shadow around week 8 to refresh tone. Brunettes with subtle balayage can often stretch to 12-16 weeks. We\'ll build a retouch schedule based on your hair\'s growth rate and how much maintenance you want.',
     ],
 ];
 
@@ -284,7 +284,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Balayage & Highlights in Louisville, KY</h1>
     <p class="hero-answer">
-      Blown Away Salon delivers hand-painted balayage, ombré, highlights, and lowlights for Louisville clients seeking natural, sun-kissed dimension without harsh grow-out lines. Our colorists paint freehand to match your hair's natural movement, creating blended, lived-in color that lasts 10–16 weeks between touch-ups. Whether you want subtle face-framing brightness or full-head lightening, we consult, customize, and execute a look built for your lifestyle.
+      Blown Away Salon delivers hand-painted balayage, ombré, highlights, and lowlights for Louisville clients seeking natural, sun-kissed dimension without harsh grow-out lines. Our colorists paint freehand to match your hair\'s natural movement, creating blended, lived-in color that lasts 10-16 weeks between touch-ups. Whether you want subtle face-framing brightness or full-head lightening, we consult, customize, and execute a look built for your lifestyle.
     </p>
     <div class="hero-actions">
       <a href="/contact/" class="btn btn-accent btn-lg">Book a Free Consultation</a>
@@ -304,10 +304,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="service-detail">
         <h2>What does <span class="text-accent">balayage</span> include at Blown Away Salon in Louisville?</h2>
         <p class="answer-block">
-          Balayage at Blown Away Salon includes a color consultation to assess your natural base and desired brightness level, custom lightener mixed to your hair's porosity, hand-painted application focused on the mid-lengths and ends with soft root transitions, processing time monitored section by section, toning to neutralize brass and lock in your target shade, and a finishing style with take-home care recommendations. Partial or full balayage options are available.
+          Balayage at Blown Away Salon includes a color consultation to assess your natural base and desired brightness level, custom lightener mixed to your hair\'s porosity, hand-painted application focused on the mid-lengths and ends with soft root transitions, processing time monitored section by section, toning to neutralize brass and lock in your target shade, and a finishing style with take-home care recommendations. Partial or full balayage options are available.
         </p>
         <p>
-          Our Louisville colorists use professional-grade lighteners from Redken and Wella — formulas that lift predictably without over-processing. We paint each stroke to follow your hair's natural fall, placing lighter pieces where the sun would naturally hit. The result is multidimensional color that grows out gracefully instead of creating a harsh line.
+          Our Louisville colorists use professional-grade lighteners from Redken and Wella — formulas that lift predictably without over-processing. We paint each stroke to follow your hair\'s natural fall, placing lighter pieces where the sun would naturally hit. The result is multidimensional color that grows out gracefully instead of creating a harsh line.
         </p>
         <p>
           If your hair is virgin (never colored), balayage is usually a single-session service. Previously colored or very dark hair may require a pre-lightening session or staged approach to avoid damage. We assess your starting point during the consultation and give you a realistic timeline and price upfront.
@@ -315,15 +315,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <h2>How long does <span class="text-accent">balayage color</span> last before needing a touch-up?</h2>
         <p class="answer-block">
-          Balayage from Blown Away Salon typically lasts 10–16 weeks before most Louisville clients feel ready for a refresh. Because the color is hand-painted with soft roots, grow-out blends naturally — there's no visible demarcation line. Blondes may want a toner or gloss around week 8 to combat brassiness, while brunettes with subtle balayage can often stretch to 12–16 weeks. Your colorist will build a maintenance plan based on your hair's growth rate and how much upkeep you prefer.
+          Balayage from Blown Away Salon typically lasts 10-16 weeks before most Louisville clients feel ready for a refresh. Because the color is hand-painted with soft roots, grow-out blends naturally — there\'s no visible demarcation line. Blondes may want a toner or gloss around week 8 to combat brassiness, while brunettes with subtle balayage can often stretch to 12-16 weeks. Your colorist will build a maintenance plan based on your hair\'s growth rate and how much upkeep you prefer.
         </p>
         <p>
-          To maximize longevity in Louisville's climate, we recommend purple or blue shampoo once a week (purple for warm tones, blue for ashy), sulfate-free cleansers, and a deep conditioner every 7–10 days. Avoid chlorine and salt water in the first two weeks post-service — both can strip toner. We send you home with a custom product list so your color stays vibrant between visits.
+          To maximize longevity in Louisville's climate, we recommend purple or blue shampoo once a week (purple for warm tones, blue for ashy), sulfate-free cleansers, and a deep conditioner every 7-10 days. Avoid chlorine and salt water in the first two weeks post-service — both can strip toner. We send you home with a custom product list so your color stays vibrant between visits.
         </p>
 
         <h2>What is the difference between <span class="text-accent">balayage and foil highlights</span>?</h2>
         <p class="answer-block">
-          Balayage is freehand-painted lightener applied to the surface of your hair, creating soft, graduated dimension that mimics natural sun lightening. Foil highlights are sectioned, saturated root to tip, and enclosed in foil for maximum lift and contrast. Balayage grows out seamlessly with no hard line; foil highlights create more brightness but require touch-ups every 6–8 weeks as roots grow. Louisville clients who want low-maintenance color typically prefer balayage, while those seeking all-over brightness choose foil highlights.
+          Balayage is freehand-painted lightener applied to the surface of your hair, creating soft, graduated dimension that mimics natural sun lightening. Foil highlights are sectioned, saturated root to tip, and enclosed in foil for maximum lift and contrast. Balayage grows out seamlessly with no hard line; foil highlights create more brightness but require touch-ups every 6-8 weeks as roots grow. Louisville clients who want low-maintenance color typically prefer balayage, while those seeking all-over brightness choose foil highlights.
         </p>
 
         <div class="process-steps">
@@ -364,7 +364,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <aside class="service-sidebar">
         <div class="sidebar-card">
-          <h3>What's Included</h3>
+          <h3>What\'s Included</h3>
           <ul>
             <li><?php echo icon('check-circle', 18); ?> <span>Free balayage consultation</span></li>
             <li><?php echo icon('check-circle', 18); ?> <span>Custom lightener formula</span></li>

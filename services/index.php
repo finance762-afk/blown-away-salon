@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'services';
 
 $pageTitle = 'Hair Salon & Barbershop Services in Louisville, KY | ' . $siteName;
-$metaDescription = 'Expert hair coloring, balayage, men's cuts, fades, beard grooming, and waxing at Blown Away Salon and Bon Air Barbershop in Louisville. Book your appointment today.';
+$pageDescription = 'Expert hair coloring, balayage, men\'s cuts, fades, beard grooming, and waxing at Blown Away Salon and Bon Air Barbershop in Louisville. Book your appointment today.';
 $canonicalUrl = $siteUrl . '/services/';
 $ogImage = $siteUrl . '/assets/images/logo.png';
 $cssVersion = '2';

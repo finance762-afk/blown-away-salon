@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 $currentPage = 'services';
 $pageTitle       = 'Waxing Services in Louisville, KY | ' . $siteName;
-$metaDescription = 'Facial and brow waxing at Blown Away Salon in Louisville. Clean, defined brows and smooth skin. Call ' . $phone . ' to book your appointment.';
+$pageDescription = 'Facial and brow waxing at Blown Away Salon in Louisville. Clean, defined brows and smooth skin. Call ' . $phone . ' to book your appointment.';
 $canonicalUrl    = $siteUrl . '/services/waxing/';
 $ogImage         = $siteUrl . '/assets/images/bold-color-client.jpg';
 $heroPreloadImage = '/assets/images/bold-color-client.jpg';
@@ -20,9 +20,9 @@ $service = [
 
 $faqs = [
     ['q' => 'What waxing services do you offer at Blown Away Salon?', 'a' => 'We offer eyebrow waxing, upper lip waxing, chin waxing, and full-face waxing. Each service includes pre-wax cleansing, precise wax application, hair removal, and a soothing post-wax treatment to calm the skin.'],
-    ['q' => 'How much does eyebrow waxing cost in Louisville?', 'a' => 'Eyebrow waxing at our Louisville salon starts around $12–$18 as a standalone service, or $10–$15 when added to a haircut or color appointment. Upper lip and chin waxing run $8–$12 each.'],
-    ['q' => 'Is waxing better than threading or tweezing?', 'a' => 'Waxing removes hair from the root and lasts 3–6 weeks, longer than shaving or trimming. Threading is more precise for intricate brow shapes but takes longer. Tweezing works for a few stray hairs but is impractical for larger areas. Waxing is fast, effective, and gives clean results for most clients.'],
-    ['q' => 'How often should I get my eyebrows waxed?', 'a' => 'Most Louisville clients return every 3–5 weeks to keep their brows shaped and defined. If your hair grows quickly or you prefer a very clean look, you may want to come in every 3 weeks. Slower growth can stretch that to 5–6 weeks.'],
+    ['q' => 'How much does eyebrow waxing cost in Louisville?', 'a' => 'Eyebrow waxing at our Louisville salon starts around $12-$18 as a standalone service, or $10-$15 when added to a haircut or color appointment. Upper lip and chin waxing run $8-$12 each.'],
+    ['q' => 'Is waxing better than threading or tweezing?', 'a' => 'Waxing removes hair from the root and lasts 3-6 weeks, longer than shaving or trimming. Threading is more precise for intricate brow shapes but takes longer. Tweezing works for a few stray hairs but is impractical for larger areas. Waxing is fast, effective, and gives clean results for most clients.'],
+    ['q' => 'How often should I get my eyebrows waxed?', 'a' => 'Most Louisville clients return every 3-5 weeks to keep their brows shaped and defined. If your hair grows quickly or you prefer a very clean look, you may want to come in every 3 weeks. Slower growth can stretch that to 5-6 weeks.'],
 ];
 
 $faqSchema = generateFAQSchema($faqs);
@@ -80,7 +80,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Waxing Services in Louisville, KY</h1>
     <p class="hero-answer">
-      Blown Away Salon offers eyebrow, upper lip, chin, and facial waxing for Louisville clients who want clean, defined features. Waxing removes hair from the root for smooth skin that lasts 3–6 weeks — longer than shaving or trimming — and keeps your brows shaped and your face polished.
+      Blown Away Salon offers eyebrow, upper lip, chin, and facial waxing for Louisville clients who want clean, defined features. Waxing removes hair from the root for smooth skin that lasts 3-6 weeks — longer than shaving or trimming — and keeps your brows shaped and your face polished.
     </p>
   </div>
 </section>
@@ -101,7 +101,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <h2>How long does waxing last, and how often should I come back?</h2>
       <p class="answer-block">
-        Waxing removes hair from the root, so results last 3–6 weeks depending on how fast your hair grows. Most Louisville clients return every 3–5 weeks to keep their brows shaped and their skin smooth. Regular waxing trains the hair to grow back finer and sparser over time.
+        Waxing removes hair from the root, so results last 3-6 weeks depending on how fast your hair grows. Most Louisville clients return every 3-5 weeks to keep their brows shaped and their skin smooth. Regular waxing trains the hair to grow back finer and sparser over time.
       </p>
       <p>
         After your first wax, you may notice some regrowth within two weeks. That is normal — hair grows in cycles, and waxing catches the hair that is actively growing. After a few sessions on a regular schedule, the growth becomes more synchronized and the results last longer.

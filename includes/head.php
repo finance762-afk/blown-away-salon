@@ -7,12 +7,13 @@
  */
 
 // Default meta values (override via page-specific variables before including head.php)
-$pageTitle       = $pageTitle       ?? $siteName . ' | ' . $primaryKeyword . ' in ' . $address['city'] . ', ' . $address['state'];
-$metaDescription = $metaDescription ?? 'Expert hair coloring, balayage, men\'s cuts, and styling at Blown Away Salon and Bon Air Barbershop in Louisville, KY. Book your appointment today at ' . $phone . '.';
-$canonicalUrl    = $canonicalUrl    ?? $siteUrl . '/';
-$ogImage         = $ogImage         ?? $siteUrl . '/assets/images/logo.png';
-$noindex         = $noindex         ?? false;
-$cssVersion      = $cssVersion      ?? '1';
+$pageTitle        = $pageTitle        ?? $siteName . ' | ' . $primaryKeyword . ' in ' . $address['city'] . ', ' . $address['state'];
+$pageDescription  = $pageDescription  ?? $metaDescription ?? 'Expert hair coloring, balayage, men\'s cuts, and styling at Blown Away Salon and Bon Air Barbershop in Louisville, KY. Book your appointment today at ' . $phone . '.';
+$metaDescription  = $pageDescription; // Backward compatibility
+$canonicalUrl     = $canonicalUrl     ?? $siteUrl . '/';
+$ogImage          = $ogImage          ?? $siteUrl . '/assets/images/logo.png';
+$noindex          = $noindex          ?? false;
+$cssVersion       = $cssVersion       ?? '1';
 ?>
 <!DOCTYPE html>
 <html lang="en">

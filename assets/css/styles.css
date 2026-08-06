@@ -1058,3 +1058,110 @@ a:focus-visible {
 }
 .service-card__cta:hover { color: var(--color-primary); }
 .service-card__cta:hover::after { transform: translateX(3px); }
+
+/* --------------------------------------------------------------------------
+   LEGAL PAGE STYLES (v6.1 — Phase 5)
+   -------------------------------------------------------------------------- */
+
+.hero--legal {
+  background: var(--color-bg-alt);
+  min-height: 40vh;
+  padding-top: calc(var(--nav-height) + var(--space-2xl));
+  padding-bottom: var(--space-2xl);
+  display: flex;
+  align-items: center;
+}
+.hero--legal .hero__copy {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-xl);
+  width: 100%;
+}
+.hero--legal h1 { color: var(--color-primary); }
+.hero--legal .eyebrow-label { color: var(--color-primary); }
+.hero--legal .section-subtitle { color: var(--color-primary); }
+.hero--legal .hero__phone { opacity: 0.8; }
+
+.legal-prose {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-xl);
+}
+.legal-prose h2 {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-sm);
+  font-size: 1.5rem;
+  scroll-margin-top: calc(var(--nav-height) + 20px);
+}
+.legal-prose h3 {
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-xs);
+  font-size: 1.15rem;
+}
+.legal-prose p {
+  margin-bottom: var(--space-sm);
+  line-height: 1.7;
+}
+.legal-prose ul,
+.legal-prose ol {
+  margin-left: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+.legal-prose li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+.legal-prose a {
+  color: var(--color-primary);
+  border-bottom: 1px solid rgba(28, 28, 34, 0.2);
+  transition: border-color var(--transition);
+}
+.legal-prose a:hover {
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+.legal-disclaimer {
+  background: rgba(176, 141, 87, 0.1);
+  border-left: 4px solid var(--color-primary);
+  padding: var(--space-md);
+  margin: var(--space-xl) 0;
+  font-size: 0.92rem;
+  font-style: italic;
+  border-radius: var(--radius);
+}
+
+/* Breadcrumb (used site-wide, defined here once) */
+.breadcrumb {
+  background: #fff;
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-sm) 0;
+  font-size: 0.88rem;
+}
+.breadcrumb .container { display: flex; }
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb li { display: flex; align-items: center; gap: 6px; }
+.breadcrumb a {
+  color: var(--color-text-light);
+  transition: color var(--transition);
+}
+.breadcrumb a:hover { color: var(--color-primary); }
+.breadcrumb li[aria-current="page"] {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+.breadcrumb .breadcrumb-sep {
+  color: rgba(0,0,0,0.25);
+  font-size: 1rem;
+}

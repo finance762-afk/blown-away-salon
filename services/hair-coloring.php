@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'services';
 
 $pageTitle       = 'Hair Coloring in Louisville, KY | ' . $siteName;
-$metaDescription = 'Custom hair coloring, root touch-ups, and color correction at Blown Away Salon in Louisville. From vibrant fashion color to natural-looking touch-ups. Call ' . $phone . ' today.';
+$pageDescription = 'Custom hair coloring, root touch-ups, and color correction at Blown Away Salon in Louisville. From vibrant fashion color to natural-looking touch-ups. Call ' . $phone . ' today.';
 $canonicalUrl    = $siteUrl . '/services/hair-coloring/';
 $ogImage         = $siteUrl . '/assets/images/bold-color-client.jpg';
 $heroPreloadImage = '/assets/images/bold-color-client.jpg';
@@ -28,7 +28,7 @@ $service = [
 $faqs = [
     [
         'q' => 'How much does hair coloring cost in Louisville?',
-        'a' => 'Single-process color at Blown Away Salon starts around $65–$90; double-process or fashion color runs $120–$200+ depending on your hair length, density, and the number of formulas required. We give you an exact price after your consultation.',
+        'a' => 'Single-process color at Blown Away Salon starts around $65-$90; double-process or fashion color runs $120-$200+ depending on your hair length, density, and the number of formulas required. We give you an exact price after your consultation.',
     ],
     [
         'q' => 'What is color correction, and do I need it?',
@@ -36,7 +36,7 @@ $faqs = [
     ],
     [
         'q' => 'How often should I schedule a root touch-up?',
-        'a' => 'Most clients with permanent color return every 4–6 weeks to cover gray or root regrowth. If you are growing out color or use a low-maintenance balayage, you can stretch that to 8–12 weeks.',
+        'a' => 'Most clients with permanent color return every 4-6 weeks to cover gray or root regrowth. If you are growing out color or use a low-maintenance balayage, you can stretch that to 8-12 weeks.',
     ],
     [
         'q' => 'Will hair color damage my hair?',
@@ -336,7 +336,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Hair Coloring in Louisville, KY</h1>
     <p class="hero-answer">
-      Blown Away Salon offers custom hair coloring for Louisville clients, from single-process all-over color and gray coverage to complex color correction and vibrant fashion shades. Every color service starts with a consultation so we can match your vision, work within your hair's condition, and give you results you can show off across the Highlands, Bon Air, and beyond.
+      Blown Away Salon offers custom hair coloring for Louisville clients, from single-process all-over color and gray coverage to complex color correction and vibrant fashion shades. Every color service starts with a consultation so we can match your vision, work within your hair\'s condition, and give you results you can show off across the Highlands, Bon Air, and beyond.
     </p>
   </div>
 </section>
@@ -351,10 +351,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           We handle single-process color (one formula applied root-to-tip), double-process (bleach + toner or two separate color steps), root touch-ups, gray blending, fashion color (vivid reds, blues, pastels), and full color correction when your current color needs fixing. Our Louisville colorists also do glossing treatments to refresh faded color or add shine between major color appointments.
         </p>
         <p>
-          Hair color is not one-size-fits-all. Virgin hair takes color differently than previously colored or bleached hair. Coarse gray hair needs a different developer strength and processing time than fine, non-resistant hair. That is why every color service at Blown Away Salon starts with a conversation at the chair — we look at your hair's current state, talk about where you want to go, and build a formula that gets you there without unnecessary damage.
+          Hair color is not one-size-fits-all. Virgin hair takes color differently than previously colored or bleached hair. Coarse gray hair needs a different developer strength and processing time than fine, non-resistant hair. That is why every color service at Blown Away Salon starts with a conversation at the chair — we look at your hair\'s current state, talk about where you want to go, and build a formula that gets you there without unnecessary damage.
         </p>
         <p>
-          If you are covering gray, we recommend permanent color with a root touch-up every 4–6 weeks. If you want vivid fashion color (purple, teal, rose gold), we usually pre-lighten the hair, then place the vivid tone on top. Vivid colors fade faster than natural shades, so plan for a gloss or refresh every 3–5 weeks to keep that intensity. Color correction — lifting out old box dye, removing brass, or evening out patchy tones — can take 2–3 hours and may require multiple sessions if your starting point is very dark or heavily damaged.
+          If you are covering gray, we recommend permanent color with a root touch-up every 4-6 weeks. If you want vivid fashion color (purple, teal, rose gold), we usually pre-lighten the hair, then place the vivid tone on top. Vivid colors fade faster than natural shades, so plan for a gloss or refresh every 3-5 weeks to keep that intensity. Color correction — lifting out old box dye, removing brass, or evening out patchy tones — can take 2-3 hours and may require multiple sessions if your starting point is very dark or heavily damaged.
         </p>
       </div>
       <div class="split-image">
@@ -394,7 +394,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="process-content">
           <h3>Application & Processing</h3>
           <p>
-            We section your hair and apply color where it is needed — roots only for a touch-up, or full-head for all-over coverage. Processing takes 20–45 minutes depending on the formula and your hair type.
+            We section your hair and apply color where it is needed — roots only for a touch-up, or full-head for all-over coverage. Processing takes 20-45 minutes depending on the formula and your hair type.
           </p>
         </div>
       </div>
@@ -403,7 +403,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="process-content">
           <h3>Rinse & Toner</h3>
           <p>
-            After processing, we rinse the color thoroughly and apply a toner if you need one — to neutralize brass, shift undertones, or add gloss. The toner processes 5–20 minutes.
+            After processing, we rinse the color thoroughly and apply a toner if you need one — to neutralize brass, shift undertones, or add gloss. The toner processes 5-20 minutes.
           </p>
         </div>
       </div>
@@ -442,7 +442,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="why-content">
           <h3>Custom Formulas</h3>
           <p>
-            No two clients get the same mix. We adjust developer strength, tone, and processing time to fit your hair's porosity, texture, and starting color.
+            No two clients get the same mix. We adjust developer strength, tone, and processing time to fit your hair\'s porosity, texture, and starting color.
           </p>
         </div>
       </div>
@@ -451,7 +451,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="why-content">
           <h3>Bond-Strengthening Treatments</h3>
           <p>
-            We add bond-repair products to high-lift color and bleach services to minimize breakage and keep your hair's integrity intact.
+            We add bond-repair products to high-lift color and bleach services to minimize breakage and keep your hair\'s integrity intact.
           </p>
         </div>
       </div>

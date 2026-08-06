@@ -10,7 +10,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 $currentPage = 'services';
 
 $pageTitle = 'Waxing Services in Louisville, KY | Brow & Facial Waxing | ' . $siteName;
-$metaDescription = 'Professional facial and brow waxing at Blown Away Salon in Louisville — clean, precise results for defined brows and smooth skin. Book at ' . $phone . '.';
+$pageDescription = 'Professional facial and brow waxing at Blown Away Salon in Louisville — clean, precise results for defined brows and smooth skin. Book at ' . $phone . '.';
 $canonicalUrl = $siteUrl . '/services/waxing/';
 $ogImage = $siteUrl . '/assets/images/service-waxing.jpg';
 $cssVersion = '2';
@@ -19,11 +19,11 @@ $cssVersion = '2';
 $faqs = [
     [
         'q' => 'How much does brow waxing cost in Louisville?',
-        'a' => 'Eyebrow waxing at Blown Away Salon is $12–$18. Lip waxing is $8–$12. Full-face waxing (brows, lip, chin, sideburns) runs $30–$45. We quote your exact price when you check in based on the areas you want waxed.',
+        'a' => 'Eyebrow waxing at Blown Away Salon is $12-$18. Lip waxing is $8-$12. Full-face waxing (brows, lip, chin, sideburns) runs $30-$45. We quote your exact price when you check in based on the areas you want waxed.',
     ],
     [
         'q' => 'How long does a waxing appointment take?',
-        'a' => 'Eyebrow waxing takes about 10–15 minutes. Lip or chin waxing is 5–10 minutes. Full-face waxing runs 20–30 minutes. If you're adding waxing to a haircut or color appointment, we can do it as a quick add-on at the end of your service.',
+        'a' => 'Eyebrow waxing takes about 10-15 minutes. Lip or chin waxing is 5-10 minutes. Full-face waxing runs 20-30 minutes. If you\'re adding waxing to a haircut or color appointment, we can do it as a quick add-on at the end of your service.',
     ],
     [
         'q' => 'Is waxing better than threading or tweezing for brows?',
@@ -31,7 +31,7 @@ $faqs = [
     ],
     [
         'q' => 'How often should I get my brows waxed?',
-        'a' => 'Most Louisville clients get brow waxing every 3–5 weeks to maintain their shape. If your brow hair grows fast or you want a very clean look, every 2–3 weeks works. If you tweeze at home between visits, you can stretch to 5–6 weeks. We recommend staying consistent with your schedule so your brows grow in evenly and maintain the same shape.',
+        'a' => 'Most Louisville clients get brow waxing every 3-5 weeks to maintain their shape. If your brow hair grows fast or you want a very clean look, every 2-3 weeks works. If you tweeze at home between visits, you can stretch to 5-6 weeks. We recommend staying consistent with your schedule so your brows grow in evenly and maintain the same shape.',
     ],
 ];
 
@@ -284,7 +284,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Waxing Services in Louisville, KY</h1>
     <p class="hero-answer">
-      Blown Away Salon delivers professional facial and brow waxing for Louisville clients — clean, defined brows, smooth upper lip and chin, and precision sideburn shaping using high-quality hard and soft waxes that minimize irritation. Whether you're maintaining your brow shape between appointments or trying waxing for the first time, our estheticians consult on shape, sensitivity, and aftercare to deliver results that last 3–5 weeks.
+      Blown Away Salon delivers professional facial and brow waxing for Louisville clients — clean, defined brows, smooth upper lip and chin, and precision sideburn shaping using high-quality hard and soft waxes that minimize irritation. Whether you\'re maintaining your brow shape between appointments or trying waxing for the first time, our estheticians consult on shape, sensitivity, and aftercare to deliver results that last 3-5 weeks.
     </p>
     <div class="hero-actions">
       <a href="/contact/" class="btn btn-accent btn-lg">Book Your Waxing Appointment</a>
@@ -304,21 +304,21 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="service-detail">
         <h2>What does <span class="text-accent">brow waxing</span> include at Blown Away Salon in Louisville?</h2>
         <p class="answer-block">
-          Brow waxing at Blown Away Salon includes a consultation to discuss your desired brow shape and thickness, cleansing the area to remove oils and makeup, applying warm wax to unwanted hair outside your desired brow line, quick removal in smooth strips, tweezing any stray hairs the wax missed, and applying a soothing gel to reduce redness. Most sessions take 10–15 minutes and deliver clean, defined brows that last 3–5 weeks.
+          Brow waxing at Blown Away Salon includes a consultation to discuss your desired brow shape and thickness, cleansing the area to remove oils and makeup, applying warm wax to unwanted hair outside your desired brow line, quick removal in smooth strips, tweezing any stray hairs the wax missed, and applying a soothing gel to reduce redness. Most sessions take 10-15 minutes and deliver clean, defined brows that last 3-5 weeks.
         </p>
         <p>
           Our Louisville estheticians use hard wax for sensitive areas (like the brow bone) and soft wax for larger areas. Hard wax adheres to the hair, not the skin, making removal less painful and reducing irritation. If you have very sensitive skin, low pain tolerance, or are using retinol or acne medication, let us know — we can adjust wax temperature and technique to minimize discomfort.
         </p>
         <p>
-          If you've never had your brows waxed, we start by mapping your natural brow shape and asking about your preferences. Over-waxed brows take weeks to grow back, so we err on the side of conservative and adjust from there. You can always remove more; you can't undo over-plucking.
+          If you've never had your brows waxed, we start by mapping your natural brow shape and asking about your preferences. Over-waxed brows take weeks to grow back, so we err on the side of conservative and adjust from there. You can always remove more; you can\'t undo over-plucking.
         </p>
 
         <h2>How long does <span class="text-accent">waxing</span> last before hair grows back?</h2>
         <p class="answer-block">
-          Waxing at Blown Away Salon lasts 3–5 weeks on average. Brow hair typically takes 3–4 weeks to regrow to visible length. Lip and chin hair can return in 2–3 weeks if your hair grows fast or is coarse. With consistent waxing every 3–4 weeks, regrowth becomes finer and sparser over time — regular clients at our Louisville salon often see less dense regrowth after 6–12 months of consistent appointments.
+          Waxing at Blown Away Salon lasts 3-5 weeks on average. Brow hair typically takes 3-4 weeks to regrow to visible length. Lip and chin hair can return in 2-3 weeks if your hair grows fast or is coarse. With consistent waxing every 3-4 weeks, regrowth becomes finer and sparser over time — regular clients at our Louisville salon often see less dense regrowth after 6-12 months of consistent appointments.
         </p>
         <p>
-          To extend the life of your wax, avoid tweezing between appointments — tweezing disrupts the growth cycle and causes uneven regrowth. Exfoliate the waxed area gently 2–3 times a week to prevent ingrown hairs. Moisturize daily to keep skin smooth and make the next wax less painful.
+          To extend the life of your wax, avoid tweezing between appointments — tweezing disrupts the growth cycle and causes uneven regrowth. Exfoliate the waxed area gently 2-3 times a week to prevent ingrown hairs. Moisturize daily to keep skin smooth and make the next wax less painful.
         </p>
 
         <h2>What is the difference between <span class="text-accent">hard wax and soft wax</span> for facial waxing?</h2>
@@ -364,7 +364,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <aside class="service-sidebar">
         <div class="sidebar-card">
-          <h3>What's Included</h3>
+          <h3>What\'s Included</h3>
           <ul>
             <li><?php echo icon('check-circle', 18); ?> <span>Personalized shape consultation</span></li>
             <li><?php echo icon('check-circle', 18); ?> <span>Skin cleansing & prep</span></li>
