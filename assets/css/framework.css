@@ -21,17 +21,18 @@
 
 /* === CSS Custom Properties === */
 :root {
-  /* Brand Colors */
-  --color-primary: #1a2b3c;
-  --color-primary-rgb: 26, 43, 60;
-  --color-secondary: #4d5e6f;
-  --color-secondary-rgb: 77, 94, 111;
-  --color-accent: #06b6d4;
+  /* Brand Colors — salon/barbershop sophistication (derived from config.php provisional palette) */
+  --color-primary: #1c1c22;              /* near-black — barbershop/salon sophistication */
+  --color-primary-rgb: 28, 28, 34;
+  --color-primary-dark: #0e0e12;
+  --color-secondary: #b08d57;            /* warm brushed gold */
+  --color-secondary-rgb: 176, 141, 87;
+  --color-accent: #c9a24b;               /* brighter gold for CTAs */
   --color-white: #ffffff;
   --color-black: #111111;
   --color-dark: #1a1a2e;
   --color-dark-alt: #16213e;
-  --color-light: #f8f9fa;
+  --color-light: #faf6ef;                /* warm off-white */
   --color-gray: #6b7280;
   --color-gray-light: #e5e7eb;
   --color-gray-dark: #374151;
@@ -43,6 +44,14 @@
   /* Typography — self-hosted pairing from build-plan design.fonts (v6.2) */
   --font-heading: 'Bricolage Grotesque', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   --font-body: 'Figtree', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+
+  /* Fluid typography (2026 standard — clamp() for responsive scaling) */
+  --fs-h1: clamp(2.5rem, 5vw, 6rem);       /* 40-96px */
+  --fs-h2: clamp(1.875rem, 3.5vw, 3.5rem); /* 30-56px */
+  --fs-h3: clamp(1.375rem, 2.5vw, 2rem);   /* 22-32px */
+  --fs-body: clamp(1rem, 1.1vw, 1.125rem); /* 16-18px */
+
+  /* Legacy font-size tokens (deprecated — use --fs-* above) */
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
   --font-size-base: 1rem;
@@ -112,6 +121,32 @@ h2 { font-size: var(--font-size-4xl); }
 h3 { font-size: var(--font-size-2xl); }
 h4 { font-size: var(--font-size-xl); }
 p { margin-bottom: var(--space-4); }
+
+/* === MANDATORY BASE RULES (v6.2 — prevents section collision & text overflow) === */
+section {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(4rem, 10vh, 8rem) 0; /* MANDATORY — prevents section collision */
+}
+
+section.hero {
+  padding: 0; /* hero overrides — full bleed */
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+p {
+  overflow-wrap: anywhere;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 4vw, 2rem);
+}
 
 /* === Skip Link Accessibility === */
 .skip-link {
