@@ -7,16 +7,16 @@
   },
   "site": "blown-away-salon",
   "expected_slug": "blown-away-salon",
-  "passed": false,
-  "grade": "F",
-  "score_pct": 75,
+  "passed": true,
+  "grade": "B",
+  "score_pct": 87,
   "summary": {
-    "total": 196,
-    "passed": 124,
-    "failed": 68,
-    "warn": 4,
-    "blockers_failed": 19,
-    "warnings_failed": 50
+    "total": 184,
+    "passed": 132,
+    "failed": 49,
+    "warn": 3,
+    "blockers_failed": 0,
+    "warnings_failed": 49
   },
   "techniques_detected": [
     {
@@ -119,20 +119,20 @@
       "section": "FILE STRUCTURE"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "Root file: thank-you.php",
-      "detail": "Missing required file",
+      "detail": "",
       "file": "",
       "severity": "blocker",
       "expected": null,
       "actual": null,
-      "fix_hint": "Create thank-you.php (or thank-you/index.php) in site",
+      "fix_hint": "",
       "section": "FILE STRUCTURE"
     },
     {
-      "status": "warn",
+      "status": "pass",
       "check": "Root file: sitemap-images.xml",
-      "detail": "Image sitemap not found (no sitemap-images.xml or dynamic sitemap.php)",
+      "detail": "",
       "file": "",
       "severity": "warning",
       "expected": null,
@@ -207,202 +207,15 @@
       "section": "FILE STRUCTURE"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "AEO file: llms-full.txt",
-      "detail": "Missing \u2014 required for AEO",
+      "detail": "",
       "file": "",
       "severity": "blocker",
       "expected": null,
       "actual": null,
-      "fix_hint": "Create llms-full.txt per references/seo-aeo-2026.md",
+      "fix_hint": "",
       "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "404.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "privacy-policy/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/mens-cuts-fades.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/hair-coloring.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/highlights-balayage.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/haircuts-styling.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/beard-trims.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/waxing.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "about/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/waxing/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/highlights-balayage/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/beard-trims/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/hair-coloring/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/haircuts-styling/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/mens-cuts-fades/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
@@ -428,12 +241,12 @@
     },
     {
       "status": "pass",
-      "check": "External stylesheet",
-      "detail": "Linked to 2 external CSS file(s), 1451 lines total",
+      "check": "Inline <style> block",
+      "detail": "121 CSS lines in 1 block(s)",
       "file": "privacy-policy/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "1451",
+      "actual": "121",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -522,6 +335,17 @@
       "severity": "blocker",
       "expected": null,
       "actual": "156",
+      "fix_hint": "",
+      "section": "PHP STANDARDS"
+    },
+    {
+      "status": "pass",
+      "check": "Inline <style> block",
+      "detail": "150 CSS lines in 1 block(s)",
+      "file": "thank-you/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": "150",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -991,6 +815,39 @@
       "status": "pass",
       "check": "Single H1",
       "detail": "",
+      "file": "thank-you/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "SEO COMPLIANCE"
+    },
+    {
+      "status": "pass",
+      "check": "JSON-LD schema",
+      "detail": "",
+      "file": "thank-you/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "SEO COMPLIANCE"
+    },
+    {
+      "status": "pass",
+      "check": "Canonical tag",
+      "detail": "",
+      "file": "thank-you/index.php",
+      "severity": "blocker",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "SEO COMPLIANCE"
+    },
+    {
+      "status": "pass",
+      "check": "Single H1",
+      "detail": "",
       "file": "contact/index.php",
       "severity": "blocker",
       "expected": null,
@@ -1242,6 +1099,17 @@
     },
     {
       "status": "pass",
+      "check": "llms-full.txt content",
+      "detail": "161 lines",
+      "file": "",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "AEO COMPLIANCE"
+    },
+    {
+      "status": "pass",
       "check": "Nav scroll transition",
       "detail": "",
       "file": "",
@@ -1287,7 +1155,7 @@
     {
       "status": "pass",
       "check": "SVG section dividers",
-      "detail": "Found ~8 SVG/divider elements",
+      "detail": "Found ~7 SVG/divider elements",
       "file": "",
       "severity": "warning",
       "expected": null,
@@ -1914,7 +1782,7 @@
     {
       "status": "pass",
       "check": "Content H2 question ratio",
-      "detail": "49/60 content H2s are questions (82%; 11 CTA/label H2s exempt)",
+      "detail": "51/63 content H2s are questions (81%; 11 CTA/label H2s exempt)",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -2199,215 +2067,6 @@
     }
   ],
   "failures": [
-    {
-      "status": "fail",
-      "check": "Root file: thank-you.php",
-      "detail": "Missing required file",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Create thank-you.php (or thank-you/index.php) in site",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "fail",
-      "check": "AEO file: llms-full.txt",
-      "detail": "Missing \u2014 required for AEO",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Create llms-full.txt per references/seo-aeo-2026.md",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "404.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "privacy-policy/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/mens-cuts-fades.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/hair-coloring.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/highlights-balayage.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/haircuts-styling.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/beard-trims.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/waxing.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "about/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/waxing/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/highlights-balayage/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/beard-trims/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/hair-coloring/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/haircuts-styling/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "fail",
-      "check": "SEO var $pageDescription before head.php",
-      "detail": "Not set before include",
-      "file": "services/mens-cuts-fades/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
     {
       "status": "fail",
       "check": "text-wrap: balance on headings",
@@ -2949,17 +2608,6 @@
     }
   ],
   "warnings": [
-    {
-      "status": "warn",
-      "check": "Root file: sitemap-images.xml",
-      "detail": "Image sitemap not found (no sitemap-images.xml or dynamic sitemap.php)",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
     {
       "status": "warn",
       "check": "Directory: assets/svg/",
