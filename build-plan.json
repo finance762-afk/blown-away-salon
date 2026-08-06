@@ -1,0 +1,868 @@
+{
+  "seo": {
+    "serp_context": null,
+    "target_radius": 25,
+    "primary_keyword": "Hair Coloring",
+    "secondary_keywords": [
+      "Highlights & Balayage",
+      "Beard Trims",
+      "Styling & Blowouts",
+      "waxing",
+      "Hair coloring Hair color specialist Balayage Ombre hair Highlights Lowlights Root touch-up Blonde specialist Color correction Fashion hair color",
+      "Women's haircut Men's haircut Kids' haircut Hair trim Layered haircut Pixie cut Bob haircut Curly haircuts Haircut and style",
+      "Men's haircut Fade haircut Skin fade Taper fade Buzz cut Crew cut Undercut Scissor cut Classic haircut Trendy men's haircut",
+      "Hair Salon/ Barber Shop"
+    ]
+  },
+  "tier": "basic",
+  "email": "tamaramorris2@gmail.com",
+  "pages": [],
+  "phone": "(502) 639-5524",
+  "assets": {
+    "logo": null,
+    "images": [
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054849956-ikxxvl-32349325_1692516110857313_2614418344798846976_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054849956-ikxxvl-32349325_1692516110857313_2614418344798846976_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054850297-upviq2-32418014_1692516174190640_6802110440215150592_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054850297-upviq2-32418014_1692516174190640_6802110440215150592_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054850569-5iwadj-32556097_1692516234190634_7243596257489321984_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054850569-5iwadj-32556097_1692516234190634_7243596257489321984_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054850840-dmaujx-34433451_1722719954503595_8201443345399021568_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054850840-dmaujx-34433451_1722719954503595_8201443345399021568_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054851095-04qqnx-34453393_1722719887836935_3305421536969621504_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054851095-04qqnx-34453393_1722719887836935_3305421536969621504_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054851372-ausiww-34480921_1722720044503586_8495541256762425344_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054851372-ausiww-34480921_1722720044503586_8495541256762425344_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054851677-n192nz-34536802_1722719807836943_2279785588657750016_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054851677-n192nz-34536802_1722719807836943_2279785588657750016_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054851921-qtddcm-34537174_1722720104503580_471808389463146496_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054851921-qtddcm-34537174_1722720104503580_471808389463146496_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054852157-hd2401-38455513_1838147092960880_7733177067004493824_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054852157-hd2401-38455513_1838147092960880_7733177067004493824_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054852386-ftk8b9-54462471_2206872076088378_5693923072990511104_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054852386-ftk8b9-54462471_2206872076088378_5693923072990511104_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054852615-5t9bf9-55441227_2206872129421706_8241784981072904192_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054852615-5t9bf9-55441227_2206872129421706_8241784981072904192_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054852839-c22il1-57187612_2250136958428556_3837694128133505024_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054852839-c22il1-57187612_2250136958428556_3837694128133505024_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054853101-bqf4pa-57321558_2250136935095225_5884694486507847680_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054853101-bqf4pa-57321558_2250136935095225_5884694486507847680_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054853352-ej4q0h-57343471_2250137005095218_8021603680211959808_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054853352-ej4q0h-57343471_2250137005095218_8021603680211959808_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054853570-tibx7j-66462752_2396016553840595_3007508470581690368_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054853570-tibx7j-66462752_2396016553840595_3007508470581690368_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054853842-3pr5y8-66736106_2396016613840589_4768338057126477824_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054853842-3pr5y8-66736106_2396016613840589_4768338057126477824_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054854109-mrwrnh-67104393_2425207284254855_6357342825545203712_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054854109-mrwrnh-67104393_2425207284254855_6357342825545203712_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054854345-l7yo0s-67197817_2425207130921537_1582660672225804288_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054854345-l7yo0s-67197817_2425207130921537_1582660672225804288_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054854614-4l0f8i-72118572_2584439958331586_6350042338919710720_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054854614-4l0f8i-72118572_2584439958331586_6350042338919710720_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054854883-48f4n3-72486218_2584439888331593_744606080536936448_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054854883-48f4n3-72486218_2584439888331593_744606080536936448_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054855120-2gut49-72582444_2584439784998270_6045350392504516608_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054855120-2gut49-72582444_2584439784998270_6045350392504516608_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054855392-lkhg8i-74315502_2584440008331581_1056117880967397376_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054855392-lkhg8i-74315502_2584440008331581_1056117880967397376_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054855622-d1pidn-75223640_2584440104998238_701661892250173440_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054855622-d1pidn-75223640_2584440104998238_701661892250173440_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054855935-1fy85p-75456946_2655316694577245_2348279686984892416_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054855935-1fy85p-75456946_2655316694577245_2348279686984892416_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054856178-ng5kz6-76751614_2655316517910596_2322763591222034432_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054856178-ng5kz6-76751614_2655316517910596_2322763591222034432_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054856431-q3ak3i-76989845_2655316584577256_7094210822418726912_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054856431-q3ak3i-76989845_2655316584577256_7094210822418726912_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054856679-aylv92-77423532_2695867333855514_8627936153397362688_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054856679-aylv92-77423532_2695867333855514_8627936153397362688_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054856896-1ujuco-78375053_2655316797910568_2084092082489655296_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054856896-1ujuco-78375053_2655316797910568_2084092082489655296_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054857150-ecu48w-79752514_2713006505474930_670113888582238208_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054857150-ecu48w-79752514_2713006505474930_670113888582238208_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054857524-x51zt8-82437600_2786972031411710_7436911618790785024_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054857524-x51zt8-82437600_2786972031411710_7436911618790785024_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054857794-kgeoj7-82516609_2786971951411718_489723904940572672_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054857794-kgeoj7-82516609_2786971951411718_489723904940572672_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054858031-27g7oa-82895314_2786972204745026_3419454426211942400_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054858031-27g7oa-82895314_2786972204745026_3419454426211942400_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054858309-3gf56v-83713491_2786972134745033_8485089634236235776_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054858309-3gf56v-83713491_2786972134745033_8485089634236235776_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054858577-9vk8f8-95548497_3000502300058681_254475107185983488_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054858577-9vk8f8-95548497_3000502300058681_254475107185983488_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054858851-1dtacl-301671962_473933318074678_2422424170231065996_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054858851-1dtacl-301671962_473933318074678_2422424170231065996_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054859069-7bo4s8-464005351_8544686618973527_1695971095992243402_n.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054859069-7bo4s8-464005351_8544686618973527_1695971095992243402_n.png",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054859336-zh5ux7-481021376_1162703305864339_7752788823062714329_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054859336-zh5ux7-481021376_1162703305864339_7752788823062714329_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054859556-wjssun-494967899_9756793417762835_4392980853847146121_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054859556-wjssun-494967899_9756793417762835_4392980853847146121_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054859777-2wgrne-495153023_9756793037762873_2912253018127702125_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054859777-2wgrne-495153023_9756793037762873_2912253018127702125_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054860041-6tofnv-495535745_9756791561096354_1767083136698360842_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054860041-6tofnv-495535745_9756791561096354_1767083136698360842_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054860296-v4maaf-495600951_9756793491096161_2608301310906340724_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054860296-v4maaf-495600951_9756793491096161_2608301310906340724_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054860518-wt2x31-495689013_9756793431096167_7103287370727103361_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054860518-wt2x31-495689013_9756793431096167_7103287370727103361_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054860825-t1jy1f-495713276_9756793044429539_7226331498434206801_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054860825-t1jy1f-495713276_9756793044429539_7226331498434206801_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054861068-85md6t-495720498_9756793081096202_7551243294957701970_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054861068-85md6t-495720498_9756793081096202_7551243294957701970_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054861370-jtduf6-495908436_9756793251096185_3546896155654289383_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054861370-jtduf6-495908436_9756793251096185_3546896155654289383_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054861598-b8fp63-496001211_9756793217762855_359950388352390662_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054861598-b8fp63-496001211_9756793217762855_359950388352390662_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054861948-iweo1x-496001615_9756793034429540_6678644636000957208_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054861948-iweo1x-496001615_9756793034429540_6678644636000957208_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054862271-6mfq4t-496002781_9756793054429538_379741405858882118_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054862271-6mfq4t-496002781_9756793054429538_379741405858882118_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054862626-qmameo-496052641_9756793141096196_8988419642292691197_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054862626-qmameo-496052641_9756793141096196_8988419642292691197_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054863043-kid4t6-496052733_9756793207762856_7818394575613472607_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054863043-kid4t6-496052733_9756793207762856_7818394575613472607_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054863324-i5d5t8-496074502_9756793131096197_7940993825677036210_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054863324-i5d5t8-496074502_9756793131096197_7940993825677036210_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054863572-boq9a3-496097780_9756793211096189_5915163822602174571_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054863572-boq9a3-496097780_9756793211096189_5915163822602174571_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054863843-ae3j4a-496115222_9756793181096192_2936257043250253291_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054863843-ae3j4a-496115222_9756793181096192_2936257043250253291_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054864094-cn2x1a-496161270_9756791547763022_3841211293376409758_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054864094-cn2x1a-496161270_9756791547763022_3841211293376409758_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054864349-kjyxmu-496191027_9756793371096173_3227104733589317550_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054864349-kjyxmu-496191027_9756793371096173_3227104733589317550_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054864585-d6hbzn-496327729_9756793067762870_5513041404667147479_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054864585-d6hbzn-496327729_9756793067762870_5513041404667147479_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054864841-sgtnx9-502560207_10061957350579772_5194433553087464745_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054864841-sgtnx9-502560207_10061957350579772_5194433553087464745_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054865064-oergcp-502573636_10055575904551250_8675021787778829600_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054865064-oergcp-502573636_10055575904551250_8675021787778829600_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054865328-guoi6v-507130223_10024255654349942_3500631220420940507_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054865328-guoi6v-507130223_10024255654349942_3500631220420940507_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054865612-newdaw-508269650_10026557314119776_6169764062335823883_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054865612-newdaw-508269650_10026557314119776_6169764062335823883_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054865908-8o77tk-508388315_10026557187453122_458009883114844577_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054865908-8o77tk-508388315_10026557187453122_458009883114844577_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054866173-now0sh-508613976_10037837452991762_8928122666135049659_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054866173-now0sh-508613976_10037837452991762_8928122666135049659_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054866429-dxl7yp-510477553_10070978339677673_6112739786254433182_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054866429-dxl7yp-510477553_10070978339677673_6112739786254433182_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054866664-cfl8tk-510621182_10079503128825194_950296703638272827_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054866664-cfl8tk-510621182_10079503128825194_950296703638272827_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054866901-2o2yl0-510704846_10079504538825053_3748593233932820498_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054866901-2o2yl0-510704846_10079504538825053_3748593233932820498_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054867125-v9fwlb-511585382_10079502888825218_8596955590629739880_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054867125-v9fwlb-511585382_10079502888825218_8596955590629739880_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054867349-lwpmgc-512002820_10079503238825183_5677191890570642314_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054867349-lwpmgc-512002820_10079503238825183_5677191890570642314_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054867593-86ql8c-512381200_10079502908825216_927310315996492171_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054867593-86ql8c-512381200_10079502908825216_927310315996492171_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054867816-q58j1m-512390856_10079502878825219_4838161629747868149_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054867816-q58j1m-512390856_10079502878825219_4838161629747868149_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054868043-gowa6g-Blown_Away_Logo_.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "blown-away-salon/photos/1786054868043-gowa6g-Blown_Away_Logo_.png",
+        "quality_score": null
+      }
+    ],
+    "page_allocations": null,
+    "recommended_hero_image": {
+      "alt": "",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/blown-away-salon/photos/1786054849956-ikxxvl-32349325_1692516110857313_2614418344798846976_n.jpg",
+      "context": "other",
+      "quality_score": null
+    }
+  },
+  "design": {
+    "fonts": {},
+    "notes": "",
+    "style": "modern",
+    "colors": {},
+    "logo_analysis": {}
+  },
+  "domain": "blown-away-salon",
+  "phases": [
+    {
+      "name": "scaffold",
+      "phase": 1,
+      "status": "pending"
+    },
+    {
+      "name": "nav_footer_head",
+      "phase": 2,
+      "status": "pending"
+    },
+    {
+      "name": "homepage",
+      "phase": 3,
+      "status": "pending"
+    },
+    {
+      "name": "inner_pages",
+      "phase": 4,
+      "status": "pending"
+    },
+    {
+      "name": "seo_aeo_deploy",
+      "phase": 5,
+      "status": "pending"
+    }
+  ],
+  "address": {
+    "zip": "40213",
+    "city": "Louisville",
+    "state": "KY",
+    "street": "4218 Poplar Level Rd"
+  },
+  "content": {
+    "usps": [],
+    "years": 5,
+    "insurance": "",
+    "description": "Blown Away Salon/Bon Air Barbershop is a hair salon serving Louisville, Kentucky and the surrounding area. Call (502) 639-5524 for more information.",
+    "certifications": []
+  },
+  "reviews": [],
+  "tagline": "",
+  "industry": "Hair Salon/ Barber Shop",
+  "services": [],
+  "owner_name": "Tamara Morris",
+  "client_slug": "blown-away-salon",
+  "form_action": "https://formsubmit.co/tamaramorris2@gmail.com",
+  "github_repo": "",
+  "web_sources": [
+    "https://maps.google.com/?cid=8279459367918226907"
+  ],
+  "company_name": "Blown Away Salon/Bon Air Barbershop",
+  "integrations": {
+    "geo": {
+      "lat": 38.198224700000004,
+      "lng": -85.7081789
+    },
+    "bbb_url": null,
+    "financing": null,
+    "accepts_sms": false,
+    "gbp_place_id": "ChIJ35j8pfUMaYgR280LvW2M5nI",
+    "gbp_map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.2313087751777!2d-85.7081789!3d38.198224700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690cf5a5fc98df%3A0x72e68c6dbd0bcddb!2sBlown%20Away%20Salon!5e1!3m2!1sen!2sus!4v1786055020438!5m2!1sen!2sus\" loading=\"lazy\" allowfullscreen referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+    "directions_url": "https://www.google.com/maps/dir/?api=1&destination=place_id:ChIJ35j8pfUMaYgR280LvW2M5nI",
+    "elfsight_embed": null,
+    "scheduling_url": null,
+    "review_request_url": "https://search.google.com/local/writereview?placeid=ChIJ35j8pfUMaYgR280LvW2M5nI",
+    "certification_links": []
+  },
+  "service_areas": [
+    "Louisville"
+  ],
+  "business_hours": "",
+  "image_curation": null,
+  "research_brief": {
+    "gbp": null,
+    "brief": {
+      "faqs": [
+        {
+          "a": "We welcome both appointments and walk-ins. However, we recommend booking ahead to ensure availability, especially during peak hours. You can schedule online or call us directly.",
+          "q": "Do I need an appointment or do you accept walk-ins?"
+        },
+        {
+          "a": "Our barbershop specializes in traditional and contemporary men's cuts, fades, and beard grooming. Our salon offers cuts, color, treatments, and styling for all hair types and genders. Many clients enjoy having one trusted team for their entire beauty needs.",
+          "q": "What's the difference between your barbershop and salon services?"
+        },
+        {
+          "a": "Haircuts typically take 30-45 minutes depending on complexity. Color services range from 1-3 hours based on your hair length and desired result. We'll provide a time estimate when you book.",
+          "q": "How long does a typical haircut or color service take?"
+        },
+        {
+          "a": "Your satisfaction is our priority. If you have concerns about your service, please let us know immediately. We're happy to make adjustments or corrections to ensure you leave feeling confident.",
+          "q": "What if I'm not happy with my cut or color?"
+        },
+        {
+          "a": "Yes, we specialize in bridal parties, event styling, and special occasion preparation. We recommend booking well in advance and scheduling a consultation to discuss your vision.",
+          "q": "Do you offer services for special occasions like weddings or events?"
+        }
+      ],
+      "about_angle": "Founded on the belief that great hair starts with expertise and attention to detail, Blown Away Salon and Bon Air Barbershop brings together master barbers and stylists who understand that every cut, color, and style tells your story. We combine traditional barbering craftsmanship with modern salon innovation to deliver results that turn heads.",
+      "hero_headline": "Where Precision Meets Style",
+      "differentiators": [
+        "Dual concept combining men's barbershop and women's salon services under one roof",
+        "Specialized expertise in both classic barbering and modern salon techniques",
+        "Personalized consultation approach with experienced stylists/barbers",
+        "Local Louisville presence with understanding of regional style preferences",
+        "Comprehensive service menu reducing the need for multiple beauty professionals",
+        "Professional atmosphere that welcomes both traditional and contemporary clientele"
+      ],
+      "hero_subheadline": "Premium barbering and salon services for Louisville's most discerning clients",
+      "tone_recommendation": "Professional yet approachable—confident in expertise without being pretentious. Balance expertise and craftsmanship language with warm, welcoming service messaging. Speak to both clients seeking classic barbering traditions and those exploring modern salon trends. Use 'we' language that emphasizes teamwork and personalized care."
+    },
+    "competitors": [],
+    "generated_at": "2026-08-06T22:25:32.039Z",
+    "existing_site": null
+  },
+  "competitor_urls": [],
+  "phone_secondary": "",
+  "service_grouping": {
+    "cap": 4,
+    "tier": "basic",
+    "groups": [],
+    "grouped_count": 0,
+    "original_count": 0
+  },
+  "lead_notification_email": "tamaramorris2@gmail.com",
+  "lead_notification_phone": "(502) 639-5524",
+  "google_business_profile_url": "https://maps.google.com/?cid=8279459367918226907"
+}
