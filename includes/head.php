@@ -45,6 +45,15 @@ $cssVersion      = $cssVersion      ?? '1';
   <!-- Preload above-the-fold heading font only -->
   <link rel="preload" href="/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 
+  <?php if (!empty($heroPreloadImage)): ?>
+  <!-- Preload LCP hero image (set $heroPreloadImage / $heroPreloadSrcset before including head.php) -->
+  <link rel="preload" as="image" href="<?php echo htmlspecialchars($heroPreloadImage); ?>"<?php if (!empty($heroPreloadSrcset)): ?> imagesrcset="<?php echo htmlspecialchars($heroPreloadSrcset); ?>" imagesizes="100vw"<?php endif; ?>>
+  <?php endif; ?>
+  <?php if (!empty($heroImagePreload)): ?>
+  <!-- Preload above-the-fold hero image (LCP) -->
+  <link rel="preload" href="<?php echo htmlspecialchars($heroImagePreload); ?>" as="image" fetchpriority="high">
+  <?php endif; ?>
+
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/framework.css">
   <link rel="stylesheet" href="/assets/css/styles.css?v=<?php echo $cssVersion; ?>">

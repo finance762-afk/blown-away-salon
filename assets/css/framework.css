@@ -29,6 +29,7 @@
   --color-secondary-rgb: 176, 141, 87;
   --color-accent: #c9a24b;               /* brighter gold for CTAs */
   --color-white: #ffffff;
+  --color-white-rgb: 255, 255, 255;
   --color-black: #111111;
   --color-dark: #1a1a2e;
   --color-dark-alt: #16213e;
@@ -75,6 +76,9 @@
   --space-12: 3rem;
   --space-16: 4rem;
 
+  /* Layout */
+  --nav-height: 88px;
+
   /* Breakpoints (reference) */
   --bp-mobile: 480px;
   --bp-tablet: 768px;
@@ -99,6 +103,22 @@
   --radius-lg: 12px;
   --radius-xl: 16px;
   --radius-full: 9999px;
+
+  /* Named spacing aliases (map to numeric scale — used by component library) */
+  --space-xs: var(--space-2);
+  --space-sm: var(--space-3);
+  --space-md: var(--space-6);
+  --space-lg: var(--space-8);
+
+  /* Tinted card backgrounds — brand colors at 6-9% alpha (required-components) */
+  --color-card-tint-1: rgba(var(--color-primary-rgb), 0.06);
+  --color-card-tint-2: rgba(var(--color-secondary-rgb), 0.09);
+  --color-card-tint-3: rgba(201, 162, 75, 0.11);
+  --color-card-tint-neutral: rgba(250, 246, 239, 1);
+
+  /* Text token aliases (component library expects --color-text) */
+  --color-text: #2a2a30;
+  --color-text-light: var(--color-gray);
 }
 
 /* === Reset & Base === */
