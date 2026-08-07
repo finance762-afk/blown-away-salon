@@ -12,7 +12,7 @@ $currentPage = 'services';
 $pageTitle = "Men's Cuts & Fades in Louisville, KY | Bon Air Barbershop | " . $siteName;
 $pageDescription = "Expert men's haircuts, fades, tapers, and classic cuts at Bon Air Barbershop in Louisville — precision barbering from experienced barbers. Book your cut at " . $phone . ".";
 $canonicalUrl = $siteUrl . '/services/mens-cuts-fades/';
-$ogImage = $siteUrl . '/assets/images/service-mens-cut.jpg';
+$ogImage = $siteUrl . '/assets/images/service-mens-fade.jpg';
 $cssVersion = '2';
 
 /* Service FAQs (AEO — FAQPage schema is AI comprehension aid; never describe as rich-result feature) */
@@ -88,7 +88,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     text-align: left;
     background:
       linear-gradient(115deg, rgba(var(--color-primary-rgb), 0.92) 0%, rgba(var(--color-primary-rgb), 0.75) 100%),
-      url('/assets/images/service-mens-cut.jpg');
+      url('/assets/images/service-mens-fade.jpg');
     background-size: cover;
     background-position: center;
     position: relative;

@@ -53,6 +53,32 @@
   transition: transform 0.3s ease;
 }
 
+/* Circular brand mark cropped from the client's logo art */
+.logo-img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(var(--color-secondary-rgb), 0.55);
+  flex-shrink: 0;
+}
+
+.navbar-logo .logo-mark {
+  white-space: nowrap;
+}
+
+.navbar-logo .logo-text__tagline,
+.navbar-logo .logo-text__primary,
+.navbar-cta .navbar-phone,
+.navbar-cta .btn-primary {
+  white-space: nowrap;
+}
+
+.footer-logo .logo-img {
+  width: 44px;
+  height: 44px;
+}
+
 .navbar-logo:hover {
   transform: scale(1.02);
 }

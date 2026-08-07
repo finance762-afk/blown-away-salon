@@ -15,6 +15,7 @@
 
       <!-- Logo -->
       <a href="/" class="navbar-logo" aria-label="<?php echo htmlspecialchars($siteName); ?> homepage">
+        <img src="/assets/images/logo-mark.jpg" alt="" class="logo-img" width="52" height="52">
         <span class="logo-mark">Blown Away</span>
         <span class="logo-text">
           <span class="logo-text__primary">Salon & Barbershop</span>
