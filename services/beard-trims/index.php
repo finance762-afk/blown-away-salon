@@ -284,7 +284,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Beard Trims & Grooming in Louisville, KY</h1>
     <p class="hero-answer">
-      Bon Air Barbershop delivers precision beard trimming and hot-towel grooming for Louisville clients — clean lines, even length, and conditioning treatments that keep your beard looking intentional, not scraggly. Our barbers assess your face shape, growth pattern, and desired style, then trim, shape, and line up your beard with clippers, scissors, and straight-edge work. Whether you\'re maintaining a corporate look or dialing in a full beard, we deliver results that last 2-4 weeks between visits.
+      Bon Air Barbershop delivers precision beard trimming and hot-towel grooming for Louisville clients — clean lines, even length, and conditioning treatments that keep your beard looking intentional, not scraggly. Our barbers assess your face shape, growth pattern, and desired style, then trim, shape, and line up your beard with clippers, scissors, and straight-edge work. Whether you're maintaining a corporate look or dialing in a full beard, we deliver results that last 2-4 weeks between visits.
     </p>
     <div class="hero-actions">
       <a href="/contact/" class="btn btn-accent btn-lg">Book Your Trim</a>
@@ -307,7 +307,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           A beard trim at Bon Air Barbershop includes a consultation on your desired length and shape, hot-towel prep to soften hair and open pores, trimmer and scissor work to even length and remove bulk, cheek and neck line detailing for clean edges, and finishing oil or balm to condition and style. We assess your beard's density, growth direction, and face shape to create a look that enhances your features instead of hiding them.
         </p>
         <p>
-          Our Louisville barbers use Andis trimmers with adjustable guards for precise length control, plus scissors for detail work on mustaches and sideburn transitions. A hot towel softens coarse beard hair, making trimming smoother and reducing irritation. If you\'re growing your beard or unsure about shape, we start conservative and adjust from there — it\'s easier to take more off than to grow it back.
+          Our Louisville barbers use Andis trimmers with adjustable guards for precise length control, plus scissors for detail work on mustaches and sideburn transitions. A hot towel softens coarse beard hair, making trimming smoother and reducing irritation. If you're growing your beard or unsure about shape, we start conservative and adjust from there — it's easier to take more off than to grow it back.
         </p>
         <p>
           Beard trims are standalone services or add-ons to a haircut. Most clients book a trim every 2-4 weeks to maintain clean lines. If your beard is patchy or uneven, we can help you grow it to full coverage before committing to a final shape.
@@ -315,7 +315,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <h2>How often should I get my <span class="text-accent">beard trimmed</span> to keep it looking sharp?</h2>
         <p class="answer-block">
-          Short, close-cropped beards need trimming every 1-2 weeks to stay sharp. Medium-length beards can go 2-3 weeks before looking shaggy. Long beards benefit from monthly trims to remove split ends and keep neck and cheek lines clean. Your beard's growth rate, coarseness, and the style you\'re maintaining determine your schedule. Most Louisville clients at Bon Air Barbershop come in every 2-3 weeks for a trim and line-up.
+          Short, close-cropped beards need trimming every 1-2 weeks to stay sharp. Medium-length beards can go 2-3 weeks before looking shaggy. Long beards benefit from monthly trims to remove split ends and keep neck and cheek lines clean. Your beard's growth rate, coarseness, and the style you're maintaining determine your schedule. Most Louisville clients at Bon Air Barbershop come in every 2-3 weeks for a trim and line-up.
         </p>
         <p>
           To extend the life of your trim between visits, wash your beard 2-3 times a week with a dedicated beard shampoo, condition daily, and apply beard oil or balm to soften coarse hair. Louisville's humidity can make beards frizz — a light oil keeps it smooth and shaped. Avoid over-trimming at home; cheek and neck lines are easy to mess up without a mirror and experience.
@@ -323,7 +323,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <h2>What is the difference between a <span class="text-accent">beard trim and a beard shaping</span>?</h2>
         <p class="answer-block">
-          A beard trim evens the length and cleans up edges — maintenance work to keep your existing style looking neat. A beard shaping is a more involved service that defines a new shape, adjusts cheek and neck lines, sculpts the jawline, and balances proportions to match your face. At Bon Air Barbershop, beard shaping takes 20-30 minutes and is recommended when you\'re changing your beard style or growing it out for the first time. Once shaped, you maintain it with regular trims every 2-4 weeks.
+          A beard trim evens the length and cleans up edges — maintenance work to keep your existing style looking neat. A beard shaping is a more involved service that defines a new shape, adjusts cheek and neck lines, sculpts the jawline, and balances proportions to match your face. At Bon Air Barbershop, beard shaping takes 20-30 minutes and is recommended when you're changing your beard style or growing it out for the first time. Once shaped, you maintain it with regular trims every 2-4 weeks.
         </p>
 
         <div class="process-steps">
@@ -364,7 +364,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <aside class="service-sidebar">
         <div class="sidebar-card">
-          <h3>What\'s Included</h3>
+          <h3>What's Included</h3>
           <ul>
             <li><?php echo icon('check-circle', 18); ?> <span>Beard shape consultation</span></li>
             <li><?php echo icon('check-circle', 18); ?> <span>Hot-towel softening treatment</span></li>

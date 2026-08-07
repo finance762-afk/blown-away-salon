@@ -52,7 +52,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     text-align: center;
     background:
       linear-gradient(135deg, rgba(var(--color-primary-rgb), 0.94) 0%, rgba(var(--color-primary-rgb), 0.86) 100%),
-      linear-gradient(to right, rgba(176,141,87,0.18) 0%, rgba(201,162,75,0.14) 100%);
+      linear-gradient(to right, rgba(var(--color-secondary-rgb), 0.18) 0%, rgba(var(--color-accent-rgb), 0.14) 100%);
     position: relative;
   }
   .about-hero::after {
@@ -229,10 +229,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           Blown Away Salon and Bon Air Barbershop stand out in Louisville by housing both a full-service salon and a precision barbershop in one location, employing stylists and barbers trained in the latest color techniques and classic cutting methods, and delivering personalized consultations before every service — so families can get expert cuts, color, fades, and grooming without driving across town.
         </p>
         <p>
-          Founded on the belief that great hair starts with expertise and attention to detail, we've built a Louisville team that treats every client\'s chair time like it matters. Our colorists train on the latest balayage, color correction, and toning techniques. Our barbers master skin fades, taper fades, scissor cuts, and hot-towel beard grooming. Our stylists cut for your hair texture, face shape, and styling routine — not a photo you found on Pinterest.
+          Founded on the belief that great hair starts with expertise and attention to detail, we've built a Louisville team that treats every client's chair time like it matters. Our colorists train on the latest balayage, color correction, and toning techniques. Our barbers master skin fades, taper fades, scissor cuts, and hot-towel beard grooming. Our stylists cut for your hair texture, face shape, and styling routine — not a photo you found on Pinterest.
         </p>
         <p>
-          From our Poplar Level Road studio in Louisville's Bon Air neighborhood, we serve clients from Buechel, the Highlands, Fern Creek, and beyond. Whether you\'re a regular who books the same fade every two weeks or a first-timer walking in for a consultation, you get the same level of care: a real conversation about what you want, an honest assessment of what's possible, and a plan to get you there.
+          From our Poplar Level Road studio in Louisville's Bon Air neighborhood, we serve clients from Buechel, the Highlands, Fern Creek, and beyond. Whether you're a regular who books the same fade every two weeks or a first-timer walking in for a consultation, you get the same level of care: a real conversation about what you want, an honest assessment of what's possible, and a plan to get you there.
         </p>
       </div>
       <div class="story-image">
@@ -259,7 +259,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="value-card">
         <div class="value-icon"><?php echo icon('award', 28); ?></div>
         <h3>Craft Over Speed</h3>
-        <p>We don\'t rush a cut to squeeze in another appointment. Every service gets the time it needs to be done right.</p>
+        <p>We don't rush a cut to squeeze in another appointment. Every service gets the time it needs to be done right.</p>
       </div>
       <div class="value-card">
         <div class="value-icon"><?php echo icon('users', 28); ?></div>
@@ -284,7 +284,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="value-card">
         <div class="value-icon"><?php echo icon('thumbs-up', 28); ?></div>
         <h3>Honest Pricing</h3>
-        <p>We quote pricing up front during consultation. No surprise add-ons when you\'re at the register.</p>
+        <p>We quote pricing up front during consultation. No surprise add-ons when you're at the register.</p>
       </div>
     </div>
   </div>
@@ -320,7 +320,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="timeline-year"><?php echo date('Y'); ?></div>
         <div class="timeline-content">
           <h3>Serving Louisville Today</h3>
-          <p>Over <?php echo $yearsInBusiness; ?> years later, we\'re still on Poplar Level Road — same commitment to craft, real consultations, and hair that looks like you spent the day in the chair, not five minutes at a chain salon.</p>
+          <p>Over <?php echo $yearsInBusiness; ?> years later, we're still on Poplar Level Road — same commitment to craft, real consultations, and hair that looks like you spent the day in the chair, not five minutes at a chain salon.</p>
         </div>
       </div>
     </div>

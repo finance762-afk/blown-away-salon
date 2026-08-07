@@ -21,19 +21,23 @@
 
 /* === CSS Custom Properties === */
 :root {
-  /* Brand Colors — salon/barbershop sophistication (derived from config.php provisional palette) */
-  --color-primary: #1c1c22;              /* near-black — barbershop/salon sophistication */
-  --color-primary-rgb: 28, 28, 34;
-  --color-primary-dark: #0e0e12;
-  --color-secondary: #b08d57;            /* warm brushed gold */
-  --color-secondary-rgb: 176, 141, 87;
-  --color-accent: #c9a24b;               /* brighter gold for CTAs */
+  /* Brand Colors — extracted from the client logo (green-black outline,
+     lime hair art, bold yellow wordmark) */
+  --color-primary: #1e241e;              /* deep green-black — logo outline color */
+  --color-primary-rgb: 30, 36, 30;
+  --color-primary-dark: #12170f;
+  --color-primary-light: #2c3626;        /* nav/menu gradient partner */
+  --color-primary-light-rgb: 44, 54, 38;
+  --color-secondary: #c2d637;            /* lime green — logo hair art */
+  --color-secondary-rgb: 194, 214, 55;
+  --color-accent: #f9ef25;               /* bold yellow — logo wordmark; pair with dark text */
+  --color-accent-rgb: 249, 239, 37;
   --color-white: #ffffff;
   --color-white-rgb: 255, 255, 255;
   --color-black: #111111;
-  --color-dark: #1a1a2e;
-  --color-dark-alt: #16213e;
-  --color-light: #faf6ef;                /* warm off-white */
+  --color-dark: #1c2418;
+  --color-dark-alt: #222e1b;
+  --color-light: #f7f9ec;                /* warm off-white with a green cast */
   --color-gray: #6b7280;
   --color-gray-light: #e5e7eb;
   --color-gray-dark: #374151;
@@ -113,8 +117,8 @@
   /* Tinted card backgrounds — brand colors at 6-9% alpha (required-components) */
   --color-card-tint-1: rgba(var(--color-primary-rgb), 0.06);
   --color-card-tint-2: rgba(var(--color-secondary-rgb), 0.09);
-  --color-card-tint-3: rgba(201, 162, 75, 0.11);
-  --color-card-tint-neutral: rgba(250, 246, 239, 1);
+  --color-card-tint-3: rgba(var(--color-accent-rgb), 0.11);
+  --color-card-tint-neutral: rgba(247, 249, 236, 1);
 
   /* Text token aliases (component library expects --color-text) */
   --color-text: #2a2a30;
@@ -149,9 +153,10 @@ section {
   padding: clamp(4rem, 10vh, 8rem) 0; /* MANDATORY — prevents section collision */
 }
 
-section.hero {
-  padding: 0; /* hero overrides — full bleed */
-}
+/* NOTE: do not add a `section.hero { padding: 0 }` reset here — its (0,1,1)
+   specificity silently beats every page's `.hero--X` nav-clearance padding
+   (calc(var(--nav-height) + ...)), pushing hero content behind the fixed
+   header. Full-bleed backgrounds already cover the padding box. */
 
 h1, h2, h3, h4 {
   text-wrap: balance;
@@ -191,7 +196,7 @@ p {
 .btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
 .btn-primary { background: var(--color-primary); color: var(--color-white); border-color: var(--color-primary); }
 .btn-primary:hover { background: var(--color-dark); border-color: var(--color-dark); color: var(--color-white); }
-.btn-accent { background: var(--color-accent); color: var(--color-white); border-color: var(--color-accent); }
+.btn-accent { background: var(--color-accent); color: var(--color-primary); border-color: var(--color-accent); } /* dark text — yellow bg */
 .btn-accent:hover { background: var(--color-primary); border-color: var(--color-primary); color: var(--color-white); }
 .btn-outline-white { background: transparent; color: var(--color-white); border-color: var(--color-white); }
 .btn-outline-white:hover { background: var(--color-white); color: var(--color-primary); }

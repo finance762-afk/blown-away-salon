@@ -19,11 +19,11 @@ $cssVersion = '2';
 $faqs = [
     [
         'q' => 'How much does a haircut cost in Louisville?',
-        'a' => "Women\'s haircuts at Blown Away Salon start around $35-$55, depending on length and complexity. Men's haircuts run $25-$40. Kids' cuts (12 and under) are $20-$30. Blowout and styling add $15-$30. We quote your exact price when you check in based on your hair and the service level.",
+        'a' => "Women's haircuts at Blown Away Salon start around $35-$55, depending on length and complexity. Men's haircuts run $25-$40. Kids' cuts (12 and under) are $20-$30. Blowout and styling add $15-$30. We quote your exact price when you check in based on your hair and the service level.",
     ],
     [
         'q' => 'How long does a haircut and styling appointment take?',
-        'a' => "A standard women\'s cut and style takes about 45-60 minutes. Men's cuts run 30-45 minutes. Blowouts alone are 30-40 minutes. If you\'re adding color or a treatment, plan for 1.5-3 hours total. We block enough time when you book so you\'re never rushed.",
+        'a' => "A standard women's cut and style takes about 45-60 minutes. Men's cuts run 30-45 minutes. Blowouts alone are 30-40 minutes. If you're adding color or a treatment, plan for 1.5-3 hours total. We block enough time when you book so you're never rushed.",
     ],
     [
         'q' => 'Do you specialize in curly hair or textured cuts?',
@@ -41,7 +41,7 @@ $faqSchema = generateFAQSchema($faqs);
 $serviceData = [
     'name' => 'Haircuts & Styling',
     'slug' => 'haircuts-styling',
-    'description' => "Women\'s, men\'s, and kids\' haircuts plus blowouts and event styling tailored to your hair and face at Blown Away Salon in Louisville, Kentucky.",
+    'description' => "Women's, men's, and kids' haircuts plus blowouts and event styling tailored to your hair and face at Blown Away Salon in Louisville, Kentucky.",
 ];
 $serviceSchema = generateServiceSchema($serviceData);
 
@@ -284,7 +284,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Haircuts & Styling in Louisville, KY</h1>
     <p class="hero-answer">
-      Blown Away Salon delivers precision haircuts and professional styling for Louisville clients — layered cuts, bobs, pixies, long trims, blowouts, and event styling tailored to your hair type, face shape, and lifestyle. Whether you\'re maintaining your signature look or trying something new, our stylists consult on texture, movement, and finishing techniques that work in Louisville's humidity and translate to your daily routine at home.
+      Blown Away Salon delivers precision haircuts and professional styling for Louisville clients — layered cuts, bobs, pixies, long trims, blowouts, and event styling tailored to your hair type, face shape, and lifestyle. Whether you're maintaining your signature look or trying something new, our stylists consult on texture, movement, and finishing techniques that work in Louisville's humidity and translate to your daily routine at home.
     </p>
     <div class="hero-actions">
       <a href="/contact/" class="btn btn-accent btn-lg">Book Your Haircut</a>
@@ -304,21 +304,21 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="service-detail">
         <h2>What does a <span class="text-accent">haircut</span> include at Blown Away Salon in Louisville?</h2>
         <p class="answer-block">
-          A haircut at Blown Away Salon includes a consultation to discuss your desired length, shape, and styling habits, a shampoo and conditioning treatment, precision cutting using shears and/or razor techniques tailored to your hair texture, a blow-dry or air-dry style, and finishing products with at-home styling tips. Women\'s, men\'s, and kids\' haircuts all follow this personalized approach. Curly and textured cuts are done dry for maximum shape control.
+          A haircut at Blown Away Salon includes a consultation to discuss your desired length, shape, and styling habits, a shampoo and conditioning treatment, precision cutting using shears and/or razor techniques tailored to your hair texture, a blow-dry or air-dry style, and finishing products with at-home styling tips. Women's, men's, and kids' haircuts all follow this personalized approach. Curly and textured cuts are done dry for maximum shape control.
         </p>
         <p>
           Our Louisville stylists cut wet for straight and wavy hair, dry for curly and coily textures, and use a combination of point-cutting, slide-cutting, and razor work to create movement and blend layers. We assess your natural fall, growth patterns, and how you style at home — a cut that looks great in the salon but impossible to replicate is a failed cut.
         </p>
         <p>
-          If you\'re unsure what you want, we bring reference photos and walk through face-framing options, layering, and maintenance requirements. A pixie cut needs a trim every 4-6 weeks. A long layered cut can stretch to 8-12 weeks. We build a schedule that fits your budget and upkeep tolerance.
+          If you're unsure what you want, we bring reference photos and walk through face-framing options, layering, and maintenance requirements. A pixie cut needs a trim every 4-6 weeks. A long layered cut can stretch to 8-12 weeks. We build a schedule that fits your budget and upkeep tolerance.
         </p>
 
         <h2>How often should I get a <span class="text-accent">haircut</span> to maintain my style?</h2>
         <p class="answer-block">
-          Short styles like pixies, bobs, and men\'s cuts need a trim every 4-6 weeks to hold their shape. Medium-length cuts with layers can go 6-8 weeks. Long hair with minimal layers or just ends trimmed stretches to 8-12 weeks. Curly hair often needs shaping every 8-10 weeks, while straight fine hair shows split ends faster and benefits from 6-week trims. Your stylist at Blown Away Salon will recommend a schedule based on your cut and growth rate.
+          Short styles like pixies, bobs, and men's cuts need a trim every 4-6 weeks to hold their shape. Medium-length cuts with layers can go 6-8 weeks. Long hair with minimal layers or just ends trimmed stretches to 8-12 weeks. Curly hair often needs shaping every 8-10 weeks, while straight fine hair shows split ends faster and benefits from 6-week trims. Your stylist at Blown Away Salon will recommend a schedule based on your cut and growth rate.
         </p>
         <p>
-          Louisville's humidity causes frizz and expands the cuticle, which accelerates split-end formation. Regular trims keep ends healthy and your style holding its shape. Skipping cuts doesn\'t save money — it costs more to correct heavy damage than to maintain with consistent trims.
+          Louisville's humidity causes frizz and expands the cuticle, which accelerates split-end formation. Regular trims keep ends healthy and your style holding its shape. Skipping cuts doesn't save money — it costs more to correct heavy damage than to maintain with consistent trims.
         </p>
 
         <h2>What is the difference between a <span class="text-accent">blowout and a haircut</span>?</h2>
@@ -364,7 +364,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <aside class="service-sidebar">
         <div class="sidebar-card">
-          <h3>What\'s Included</h3>
+          <h3>What's Included</h3>
           <ul>
             <li><?php echo icon('check-circle', 18); ?> <span>Personalized cut consultation</span></li>
             <li><?php echo icon('check-circle', 18); ?> <span>Shampoo & conditioning treatment</span></li>

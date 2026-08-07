@@ -284,7 +284,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Hair Coloring in Louisville, KY</h1>
     <p class="hero-answer">
-      Blown Away Salon delivers custom hair coloring for Louisville clients — all-over color, root touch-ups, blonde specialists, and full color correction from stylists trained to build vibrant, long-lasting results on every hair type. Whether you\'re lifting virgin hair or fixing a box-dye mishap, we consult, formulate, and execute a plan that protects your hair and hits your color goal.
+      Blown Away Salon delivers custom hair coloring for Louisville clients — all-over color, root touch-ups, blonde specialists, and full color correction from stylists trained to build vibrant, long-lasting results on every hair type. Whether you're lifting virgin hair or fixing a box-dye mishap, we consult, formulate, and execute a plan that protects your hair and hits your color goal.
     </p>
     <div class="hero-actions">
       <a href="/contact/" class="btn btn-accent btn-lg">Book a Free Consultation</a>
@@ -307,7 +307,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           Hair coloring at Blown Away Salon includes a consultation to assess your current color and desired result, a custom formula mixed to match your skin tone and hair health, application (all-over, roots only, or corrective), processing time, toning if needed, and a finishing style with product recommendations. Root touch-ups, gray coverage, fashion colors, and corrective services all follow the same personalized approach.
         </p>
         <p>
-          Our Louisville color specialists work with Redken, Wella, and Paul Mitchell formulas — professional lines that deliver vivid, even color with less damage than box dye. We adjust developer strength, processing time, and toner based on your hair\'s porosity, previous color history, and the shift you want to make.
+          Our Louisville color specialists work with Redken, Wella, and Paul Mitchell formulas — professional lines that deliver vivid, even color with less damage than box dye. We adjust developer strength, processing time, and toner based on your hair's porosity, previous color history, and the shift you want to make.
         </p>
         <p>
           If your hair is already colored, over-processed, or uneven, we start with a strand test and a realistic timeline. A single-process all-over color can be done in one visit. Corrective work — lifting out old dye, depositing new tone, or repairing banding — may take multiple sessions to protect your hair integrity.
@@ -315,10 +315,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
         <h2>How long does <span class="text-accent">hair color</span> last after a salon appointment?</h2>
         <p class="answer-block">
-          Professional hair color from Blown Away Salon typically lasts 4-8 weeks, depending on your color formula, hair porosity, and home care routine. Permanent color fades gradually but doesn\'t wash out; semi-permanent and demi-permanent colors fade faster, usually 3-6 weeks. Root regrowth becomes visible after 4-6 weeks on most clients, which is when we recommend scheduling your next touch-up.
+          Professional hair color from Blown Away Salon typically lasts 4-8 weeks, depending on your color formula, hair porosity, and home care routine. Permanent color fades gradually but doesn't wash out; semi-permanent and demi-permanent colors fade faster, usually 3-6 weeks. Root regrowth becomes visible after 4-6 weeks on most clients, which is when we recommend scheduling your next touch-up.
         </p>
         <p>
-          To extend your color life in Louisville's humidity and sun, we recommend sulfate-free shampoo, color-safe conditioner, and weekly deep conditioning. Washing less frequently (2-3 times per week max), using lukewarm water, and applying a heat protectant before blow-drying all help lock in tone. We send you home with a personalized product list so you\'re not guessing at the drugstore.
+          To extend your color life in Louisville's humidity and sun, we recommend sulfate-free shampoo, color-safe conditioner, and weekly deep conditioning. Washing less frequently (2-3 times per week max), using lukewarm water, and applying a heat protectant before blow-drying all help lock in tone. We send you home with a personalized product list so you're not guessing at the drugstore.
         </p>
 
         <h2>What is the process for <span class="text-accent">color correction</span> at Blown Away Salon?</h2>
@@ -364,7 +364,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <aside class="service-sidebar">
         <div class="sidebar-card">
-          <h3>What\'s Included</h3>
+          <h3>What's Included</h3>
           <ul>
             <li><?php echo icon('check-circle', 18); ?> <span>Free color consultation</span></li>
             <li><?php echo icon('check-circle', 18); ?> <span>Strand test for major changes</span></li>

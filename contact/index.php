@@ -267,7 +267,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <div class="container">
     <div class="cta-banner__content">
       <h2>Ready for Your Next <span class="text-accent">Look?</span></h2>
-      <p>Book your appointment or call us — we\'re here to make you look your best.</p>
+      <p>Book your appointment or call us — we're here to make you look your best.</p>
     </div>
     <div class="cta-banner__actions">
       <a href="tel:<?php echo $phoneRaw; ?>" class="btn-primary">

@@ -13,7 +13,7 @@ $metaDescription  = $pageDescription; // Backward compatibility
 $canonicalUrl     = $canonicalUrl     ?? $siteUrl . '/';
 $ogImage          = $ogImage          ?? $siteUrl . '/assets/images/logo.png';
 $noindex          = $noindex          ?? false;
-$cssVersion       = $cssVersion       ?? '1';
+$cssVersion       = $cssVersion       ?? '2'; // v2: logo-derived palette + hero nav-clearance fix (2026-08-07)
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -56,7 +56,7 @@ $cssVersion       = $cssVersion       ?? '1';
   <?php endif; ?>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/framework.css">
+  <link rel="stylesheet" href="/assets/css/framework.css?v=<?php echo $cssVersion; ?>">
   <link rel="stylesheet" href="/assets/css/styles.css?v=<?php echo $cssVersion; ?>">
 
   <!-- Phase 2 Header/Nav/Footer Styles -->
@@ -78,7 +78,7 @@ $cssVersion       = $cssVersion       ?? '1';
     .site-header.scrolled {
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
-      background: rgba(28, 28, 34, 0.92);
+      background: rgba(var(--color-primary-rgb), 0.92);
       box-shadow: 0 2px 20px rgba(0,0,0,0.15);
     }
 
@@ -308,7 +308,7 @@ $cssVersion       = $cssVersion       ?? '1';
     .mobile-menu {
       position: fixed;
       inset: 0;
-      background: rgba(28, 28, 34, 0.98);
+      background: rgba(var(--color-primary-rgb), 0.98);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       z-index: 999;
@@ -464,7 +464,7 @@ $cssVersion       = $cssVersion       ?? '1';
       font-size: 0.75rem;
       font-weight: 600;
       color: var(--color-accent);
-      background: rgba(201, 162, 75, 0.1);
+      background: rgba(var(--color-accent-rgb), 0.1);
       padding: 0.5rem 0.75rem;
       border-radius: 20px;
     }

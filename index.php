@@ -23,7 +23,7 @@ $faqs = [
         'a' => 'We welcome both appointments and walk-ins at our Poplar Level Road location. Booking ahead is the surest way to get your preferred stylist or barber and time, especially on evenings and Saturdays. Call ' . $phone . ' or stop in to check availability.',
     ],
     [
-        'q' => "What\'s the difference between the Bon Air Barbershop and the salon services?",
+        'q' => "What's the difference between the Bon Air Barbershop and the salon services?",
         'a' => 'The Bon Air Barbershop side specializes in traditional and contemporary men\'s cuts, fades, and beard grooming. The salon side offers cuts, color, treatments, and styling for all hair types and genders. Many Louisville families like having one trusted team for everyone under a single roof.',
     ],
     [
@@ -31,7 +31,7 @@ $faqs = [
         'a' => 'Haircuts generally take 30-45 minutes depending on the style. Color services run 1-3 hours based on your hair length and the result you want — a root touch-up is quick, while a full balayage or color correction takes longer. We give you a time estimate when you book.',
     ],
     [
-        'q' => "What if I\'m not happy with my cut or color?",
+        'q' => "What if I'm not happy with my cut or color?",
         'a' => 'Tell your stylist or barber right away — ideally before you leave the chair. We will gladly refine the shape, adjust the tone, or schedule a complimentary redo so you walk out of our Louisville studio looking and feeling like yourself.',
     ],
     [
@@ -54,7 +54,7 @@ $homeServices = $services;
 $serviceCards = [
     ['slug' => 'hair-coloring',      'icon' => 'paint-bucket', 'tint' => 1, 'photo' => 'service-hair-coloring', 'alt' => 'Fresh custom hair color applied at Blown Away Salon in Louisville', 'title' => 'Hair Coloring',          'desc' => 'Custom color, root touch-ups, and full color correction for every hair type.',          'bullets' => ['Custom all-over color', 'Gray & root touch-ups', 'Full color corrections']],
     ['slug' => 'highlights-balayage','icon' => 'pen-tool',     'tint' => 2, 'photo' => 'dimensional-color-bob',  'alt' => 'Hand-painted dimensional hair color on a sleek bob at Blown Away Salon in Louisville, KY', 'title' => 'Highlights & Balayage', 'desc' => 'Hand-painted balayage, ombré, highlights, and lowlights for natural dimension.',              'bullets' => ['Hand-painted balayage', 'Sun-kissed dimension', 'Blonde & ombré specialists']],
-    ['slug' => 'haircuts-styling',   'icon' => 'award',        'tint' => 3, 'photo' => 'formal-braid-updo',      'alt' => 'Formal fishtail braid updo styled for a special occasion at Blown Away Salon in Louisville', 'title' => 'Haircuts & Styling',    'desc' => "Women\'s, men\'s, and kids\' cuts plus blowouts and event styling.",                            'bullets' => ["Women\'s, men\'s & kids\' cuts", 'Blowouts & event styling', 'Cut to your face shape']],
+    ['slug' => 'haircuts-styling',   'icon' => 'award',        'tint' => 3, 'photo' => 'formal-braid-updo',      'alt' => 'Formal fishtail braid updo styled for a special occasion at Blown Away Salon in Louisville', 'title' => 'Haircuts & Styling',    'desc' => "Women's, men's, and kids' cuts plus blowouts and event styling.",                            'bullets' => ["Women's, men's & kids' cuts", 'Blowouts & event styling', 'Cut to your face shape']],
     ['slug' => 'mens-cuts-fades',    'icon' => 'users',        'tint' => 1, 'photo' => 'mens-cut-highlights',    'alt' => "Men's short cut with blonde highlights at Bon Air Barbershop in Louisville, KY", 'title' => "Men's Cuts & Fades",    'desc' => 'Bon Air Barbershop fades, tapers, scissor cuts, and classic styles.',                       'bullets' => ['Skin, taper & drop fades', 'Scissor & classic cuts', 'Sharp, consistent line-ups']],
     ['slug' => 'beard-trims',        'icon' => 'badge-check',  'tint' => 2, 'photo' => 'precision-haircut',      'alt' => 'Sharp, precision cut with a clean finish at Bon Air Barbershop in Louisville', 'title' => 'Beard Trims & Grooming','desc' => 'Precision beard shaping, line-ups, and hot-towel grooming.',                                'bullets' => ['Precision beard shaping', 'Clean line-ups', 'Hot-towel finish']],
     ['slug' => 'waxing',             'icon' => 'star',         'tint' => 3, 'photo' => 'bold-color-client',      'alt' => 'Salon client with a bold color result and clean, defined brows in Louisville', 'title' => 'Waxing',                'desc' => 'Facial and brow waxing for clean, defined finishing touches.',                             'bullets' => ['Brow shaping & waxing', 'Facial waxing', 'Clean, defined finish']],
@@ -73,7 +73,7 @@ $whyPoints = [
 /* Ticker proof items */
 $tickerItems = [
     'Hair Coloring', 'Balayage & Highlights', 'Precision Fades', 'Beard Grooming',
-    "Women\'s & Men's Cuts", "Kids' Cuts", 'Bridal & Event Styling', 'Waxing',
+    "Women's & Men's Cuts", "Kids' Cuts", 'Bridal & Event Styling', 'Waxing',
     'Walk-Ins Welcome', 'Serving Louisville Since ' . $yearEstablished,
 ];
 
@@ -413,7 +413,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
       <aside class="hero-form-card" id="estimate-form">
         <h2>Book a Free Consultation</h2>
-        <p class="hero-form-tagline">No obligation. We\'ll follow up the same day.</p>
+        <p class="hero-form-tagline">No obligation. We'll follow up the same day.</p>
         <form action="<?php echo htmlspecialchars($formAction); ?>" method="POST" class="hero-form">
           <input type="hidden" name="_next" value="<?php echo htmlspecialchars($siteUrl); ?>/thank-you">
           <input type="hidden" name="_captcha" value="false">
@@ -473,7 +473,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <div class="section-title" data-animate>
       <span class="eyebrow-label">What We Do</span>
       <h2>Which <span class="text-accent">salon &amp; barbershop services</span> does Blown Away offer in Louisville?</h2>
-      <p class="hero-answer">Blown Away Salon and Bon Air Barbershop offer hair coloring, balayage and highlights, women\'s, men\'s, and kids\' cuts, precision fades, beard grooming, and waxing from one Poplar Level Road location in Louisville. Whether you want a bold color change or a sharp weekly fade, one trusted team handles it all.</p>
+      <p class="hero-answer">Blown Away Salon and Bon Air Barbershop offer hair coloring, balayage and highlights, women's, men's, and kids' cuts, precision fades, beard grooming, and waxing from one Poplar Level Road location in Louisville. Whether you want a bold color change or a sharp weekly fade, one trusted team handles it all.</p>
       <span class="section-subtitle">One roof, every look</span>
       <p class="prose">From color correction to classic barbering, our stylists and barbers tailor every service to your hair, your face shape, and your routine.</p>
     </div>
@@ -551,7 +551,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <span class="eyebrow-label">Our Story</span>
         <h2>A Louisville salon and barbershop built on craft</h2>
         <p>Founded on the belief that great hair starts with expertise and attention to detail, Blown Away Salon and Bon Air Barbershop bring together master barbers and stylists who understand that every cut, color, and style tells your story.</p>
-        <p>From our studio on Poplar Level Road in Louisville's Bon Air neighborhood, we pair traditional barbering craftsmanship with modern salon technique &mdash; so a family can get a skin fade, a full balayage, and a kids\' cut without ever leaving the building.</p>
+        <p>From our studio on Poplar Level Road in Louisville's Bon Air neighborhood, we pair traditional barbering craftsmanship with modern salon technique &mdash; so a family can get a skin fade, a full balayage, and a kids' cut without ever leaving the building.</p>
 
         <p class="process-name">The Blown Away Chair-Side Process</p>
         <div class="process-steps">
@@ -559,7 +559,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
             <span class="process-step__num">1</span>
             <div class="process-step__body">
               <h4>Consult</h4>
-              <p>We talk through your hair, lifestyle, and the exact look you\'re after.</p>
+              <p>We talk through your hair, lifestyle, and the exact look you're after.</p>
             </div>
           </div>
           <div class="process-step">

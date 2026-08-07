@@ -284,7 +284,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Waxing Services in Louisville, KY</h1>
     <p class="hero-answer">
-      Blown Away Salon delivers professional facial and brow waxing for Louisville clients — clean, defined brows, smooth upper lip and chin, and precision sideburn shaping using high-quality hard and soft waxes that minimize irritation. Whether you\'re maintaining your brow shape between appointments or trying waxing for the first time, our estheticians consult on shape, sensitivity, and aftercare to deliver results that last 3-5 weeks.
+      Blown Away Salon delivers professional facial and brow waxing for Louisville clients — clean, defined brows, smooth upper lip and chin, and precision sideburn shaping using high-quality hard and soft waxes that minimize irritation. Whether you're maintaining your brow shape between appointments or trying waxing for the first time, our estheticians consult on shape, sensitivity, and aftercare to deliver results that last 3-5 weeks.
     </p>
     <div class="hero-actions">
       <a href="/contact/" class="btn btn-accent btn-lg">Book Your Waxing Appointment</a>
@@ -310,7 +310,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           Our Louisville estheticians use hard wax for sensitive areas (like the brow bone) and soft wax for larger areas. Hard wax adheres to the hair, not the skin, making removal less painful and reducing irritation. If you have very sensitive skin, low pain tolerance, or are using retinol or acne medication, let us know — we can adjust wax temperature and technique to minimize discomfort.
         </p>
         <p>
-          If you've never had your brows waxed, we start by mapping your natural brow shape and asking about your preferences. Over-waxed brows take weeks to grow back, so we err on the side of conservative and adjust from there. You can always remove more; you can\'t undo over-plucking.
+          If you've never had your brows waxed, we start by mapping your natural brow shape and asking about your preferences. Over-waxed brows take weeks to grow back, so we err on the side of conservative and adjust from there. You can always remove more; you can't undo over-plucking.
         </p>
 
         <h2>How long does <span class="text-accent">waxing</span> last before hair grows back?</h2>
@@ -364,7 +364,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <aside class="service-sidebar">
         <div class="sidebar-card">
-          <h3>What\'s Included</h3>
+          <h3>What's Included</h3>
           <ul>
             <li><?php echo icon('check-circle', 18); ?> <span>Personalized shape consultation</span></li>
             <li><?php echo icon('check-circle', 18); ?> <span>Skin cleansing & prep</span></li>

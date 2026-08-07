@@ -18,7 +18,7 @@ http_response_code(404);
 
 // Page variables for head.php
 $pageTitle       = 'Page Not Found | ' . $siteName;
-$pageDescription = "The page you\'re looking for doesn\'t exist. Browse our Louisville salon and barbershop services or contact us for help.";
+$pageDescription = "The page you're looking for doesn't exist. Browse our Louisville salon and barbershop services or contact us for help.";
 $noindex         = true;
 // NO $canonicalUrl for 404 pages
 
@@ -45,8 +45,8 @@ http_response_code(404);
           <h1>This Page Doesn't Exist</h1>
 
           <p class="error-message">
-            The page you\'re looking for may have been moved, deleted, or never existed.
-            But don\'t worry—we can help you find what you need.
+            The page you're looking for may have been moved, deleted, or never existed.
+            But don't worry—we can help you find what you need.
           </p>
 
           <div class="helpful-links">

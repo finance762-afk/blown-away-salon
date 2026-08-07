@@ -336,7 +336,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Hair Coloring in Louisville, KY</h1>
     <p class="hero-answer">
-      Blown Away Salon offers custom hair coloring for Louisville clients, from single-process all-over color and gray coverage to complex color correction and vibrant fashion shades. Every color service starts with a consultation so we can match your vision, work within your hair\'s condition, and give you results you can show off across the Highlands, Bon Air, and beyond.
+      Blown Away Salon offers custom hair coloring for Louisville clients, from single-process all-over color and gray coverage to complex color correction and vibrant fashion shades. Every color service starts with a consultation so we can match your vision, work within your hair's condition, and give you results you can show off across the Highlands, Bon Air, and beyond.
     </p>
   </div>
 </section>
@@ -351,7 +351,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           We handle single-process color (one formula applied root-to-tip), double-process (bleach + toner or two separate color steps), root touch-ups, gray blending, fashion color (vivid reds, blues, pastels), and full color correction when your current color needs fixing. Our Louisville colorists also do glossing treatments to refresh faded color or add shine between major color appointments.
         </p>
         <p>
-          Hair color is not one-size-fits-all. Virgin hair takes color differently than previously colored or bleached hair. Coarse gray hair needs a different developer strength and processing time than fine, non-resistant hair. That is why every color service at Blown Away Salon starts with a conversation at the chair — we look at your hair\'s current state, talk about where you want to go, and build a formula that gets you there without unnecessary damage.
+          Hair color is not one-size-fits-all. Virgin hair takes color differently than previously colored or bleached hair. Coarse gray hair needs a different developer strength and processing time than fine, non-resistant hair. That is why every color service at Blown Away Salon starts with a conversation at the chair — we look at your hair's current state, talk about where you want to go, and build a formula that gets you there without unnecessary damage.
         </p>
         <p>
           If you are covering gray, we recommend permanent color with a root touch-up every 4-6 weeks. If you want vivid fashion color (purple, teal, rose gold), we usually pre-lighten the hair, then place the vivid tone on top. Vivid colors fade faster than natural shades, so plan for a gloss or refresh every 3-5 weeks to keep that intensity. Color correction — lifting out old box dye, removing brass, or evening out patchy tones — can take 2-3 hours and may require multiple sessions if your starting point is very dark or heavily damaged.
@@ -442,7 +442,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="why-content">
           <h3>Custom Formulas</h3>
           <p>
-            No two clients get the same mix. We adjust developer strength, tone, and processing time to fit your hair\'s porosity, texture, and starting color.
+            No two clients get the same mix. We adjust developer strength, tone, and processing time to fit your hair's porosity, texture, and starting color.
           </p>
         </div>
       </div>
@@ -451,7 +451,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
         <div class="why-content">
           <h3>Bond-Strengthening Treatments</h3>
           <p>
-            We add bond-repair products to high-lift color and bleach services to minimize breakage and keep your hair\'s integrity intact.
+            We add bond-repair products to high-lift color and bleach services to minimize breakage and keep your hair's integrity intact.
           </p>
         </div>
       </div>

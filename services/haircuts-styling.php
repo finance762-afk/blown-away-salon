@@ -5,7 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 $currentPage = 'services';
 $pageTitle       = "Haircuts & Styling in Louisville, KY | " . $siteName;
-$pageDescription = "Women\'s, men\'s, and kids\' haircuts plus blowouts and event styling at Blown Away Salon in Louisville. Expert cuts tailored to your hair and face. Call " . $phone . ".";
+$pageDescription = "Women's, men's, and kids' haircuts plus blowouts and event styling at Blown Away Salon in Louisville. Expert cuts tailored to your hair and face. Call " . $phone . ".";
 $canonicalUrl    = $siteUrl . '/services/haircuts-styling/';
 $ogImage         = $siteUrl . '/assets/images/formal-braid-updo.jpg';
 $heroPreloadImage = '/assets/images/formal-braid-updo.jpg';
@@ -14,12 +14,12 @@ $cssVersion      = '2';
 $service = [
     'name'        => 'Haircuts & Styling',
     'slug'        => 'haircuts-styling',
-    'description' => "Women\'s, men\'s, and kids\' cuts plus blowouts and event styling tailored to your hair and face.",
+    'description' => "Women's, men's, and kids' cuts plus blowouts and event styling tailored to your hair and face.",
     'keywords'    => ['layered haircut', 'bob haircut', 'pixie cut', 'blowout', 'styling'],
 ];
 
 $faqs = [
-    ['q' => 'How much does a haircut cost at Blown Away Salon?', 'a' => "Women\'s cuts start around $45-$70 depending on length and complexity. Men's cuts run $30-$45. Kids' cuts (12 and under) are $25-$35. Add a blowout or styling for an additional $25-$45."],
+    ['q' => 'How much does a haircut cost at Blown Away Salon?', 'a' => "Women's cuts start around $45-$70 depending on length and complexity. Men's cuts run $30-$45. Kids' cuts (12 and under) are $25-$35. Add a blowout or styling for an additional $25-$45."],
     ['q' => 'Do you cut all hair types and textures?', 'a' => 'Yes. Our Louisville stylists cut straight, wavy, curly, and coily hair every day. Curly and textured hair requires different sectioning and angle work than straight hair, and we train on those techniques so the cut works with your natural pattern.'],
     ['q' => 'How often should I get a haircut?', 'a' => 'Most clients return every 6-8 weeks to maintain shape and remove split ends. If you are growing your hair out, you can stretch that to 10-12 weeks and just trim the ends. Short styles like pixies or fades need a trim every 4-6 weeks to stay sharp.'],
     ['q' => 'Do you offer styling for weddings and special events?', 'a' => 'Yes. We do bridal updos, formal braids, blowouts, and special-occasion styling for clients across Louisville. Book a trial run 4-6 weeks before your event so we can plan the look and adjust timing.'],
@@ -80,7 +80,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     </nav>
     <h1>Haircuts & Styling in Louisville, KY</h1>
     <p class="hero-answer">
-      Blown Away Salon delivers precision haircuts and polished styling for women, men, and kids across Louisville. From classic bobs and layered cuts to textured pixies and blowout styling, every cut is shaped to work with your hair\'s natural texture, your face, and the way you style it at home.
+      Blown Away Salon delivers precision haircuts and polished styling for women, men, and kids across Louisville. From classic bobs and layered cuts to textured pixies and blowout styling, every cut is shaped to work with your hair's natural texture, your face, and the way you style it at home.
     </p>
   </div>
 </section>
@@ -90,7 +90,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <div class="prose-service">
       <h2>What haircut services do you offer in Louisville?</h2>
       <p class="answer-block">
-        We cut all lengths and styles — women\'s layered cuts, bobs, pixies, and long trims; men\'s scissor cuts and textured crops; kids\' first cuts and maintenance trims. Every haircut includes a consultation, shampoo, precision cutting, and a finish style so you see the full shape before you leave the chair.
+        We cut all lengths and styles — women's layered cuts, bobs, pixies, and long trims; men's scissor cuts and textured crops; kids' first cuts and maintenance trims. Every haircut includes a consultation, shampoo, precision cutting, and a finish style so you see the full shape before you leave the chair.
       </p>
       <p>
         A good haircut is not just about the shape — it is about how that shape works with your hair type, your daily routine, and your face. Fine hair needs layers placed differently than thick hair. Curly hair should be cut dry so the stylist can see the natural curl pattern and remove bulk in the right spots. We ask about how you style your hair at home, whether you blow-dry or air-dry, and what products you use, then we cut accordingly.
@@ -101,7 +101,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
       <h2>How do you decide the right haircut for me?</h2>
       <p class="answer-block">
-        We start with a consultation where we look at your current haircut, discuss what you like and dislike, examine your hair\'s texture and density, and talk about your styling routine. Then we recommend a cut that fits your hair, your face shape, and the amount of time you want to spend styling it each day.
+        We start with a consultation where we look at your current haircut, discuss what you like and dislike, examine your hair's texture and density, and talk about your styling routine. Then we recommend a cut that fits your hair, your face shape, and the amount of time you want to spend styling it each day.
       </p>
       <p>
         Face shape matters. An oval face can wear almost any cut. A round face benefits from longer layers and side-swept bangs that add length. A square jawline looks softer with textured, choppy layers. A long face needs width at the sides — a blunt bob or shoulder-length cut with layers around the cheekbones. We factor that in, but we also listen to what you actually want and adjust from there.

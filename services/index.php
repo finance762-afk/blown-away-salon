@@ -52,7 +52,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     text-align: center;
     background:
       linear-gradient(135deg, rgba(var(--color-primary-rgb), 0.96) 0%, rgba(var(--color-primary-rgb), 0.88) 100%),
-      linear-gradient(to right, rgba(176,141,87,0.15) 0%, rgba(201,162,75,0.12) 100%);
+      linear-gradient(to right, rgba(var(--color-secondary-rgb), 0.15) 0%, rgba(var(--color-accent-rgb), 0.12) 100%);
     position: relative;
   }
   .hero--services::after {
