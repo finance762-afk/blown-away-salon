@@ -53,13 +53,13 @@
   transition: transform 0.3s ease;
 }
 
-/* Circular brand mark cropped from the client's logo art */
+/* Brand mark cropped from the client's logo art — flattened on the nav's
+   own dark green so it floats on the bar with no visible disc edge */
 .logo-img {
   width: 52px;
   height: 52px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid rgba(var(--color-secondary-rgb), 0.55);
   flex-shrink: 0;
 }
 
