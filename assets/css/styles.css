@@ -53,16 +53,6 @@
   transition: transform 0.3s ease;
 }
 
-/* Brand mark cropped from the client's logo art — flattened on the nav's
-   own dark green so it floats on the bar with no visible disc edge */
-.logo-img {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
 .navbar-logo .logo-mark {
   white-space: nowrap;
 }
@@ -72,11 +62,6 @@
 .navbar-cta .navbar-phone,
 .navbar-cta .btn-primary {
   white-space: nowrap;
-}
-
-.footer-logo .logo-img {
-  width: 44px;
-  height: 44px;
 }
 
 .navbar-logo:hover {

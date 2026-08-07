@@ -16,7 +16,6 @@
         <!-- Column 1: Brand & Description -->
         <div class="footer-col footer-brand">
           <div class="footer-logo">
-            <img src="/assets/images/logo-mark.jpg" alt="" class="logo-img" width="44" height="44" loading="lazy">
             <span class="logo-mark">Blown Away</span>
             <span class="logo-text">Salon & Barbershop</span>
           </div>

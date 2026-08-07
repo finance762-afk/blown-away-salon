@@ -13,7 +13,7 @@ $metaDescription  = $pageDescription; // Backward compatibility
 $canonicalUrl     = $canonicalUrl     ?? $siteUrl . '/';
 $ogImage          = $ogImage          ?? $siteUrl . '/assets/images/logo.png';
 $noindex          = $noindex          ?? false;
-$cssVersion       = $cssVersion       ?? '4'; // v4: dark-flattened logo mark (2026-08-07)
+$cssVersion       = $cssVersion       ?? '5'; // v5: text-only nav lockup (2026-08-07)
 ?>
 <!DOCTYPE html>
 <html lang="en">
