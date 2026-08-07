@@ -8,6 +8,9 @@ Allow: /
 Disallow: /includes/
 Disallow: /assets/js/
 
+# Block thank-you page (no SEO value, prevent indexing)
+Disallow: /thank-you/
+
 # Sitemaps
 Sitemap: https://blown-away-salon.pageone.cloud/sitemap.xml
 

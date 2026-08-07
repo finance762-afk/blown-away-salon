@@ -8,6 +8,10 @@
  * Phase 4 — v6.2
  */
 
+// For direct execution via php sitemap.php, set DOCUMENT_ROOT
+if (!isset($_SERVER['DOCUMENT_ROOT']) || empty($_SERVER['DOCUMENT_ROOT'])) {
+    $_SERVER['DOCUMENT_ROOT'] = __DIR__;
+}
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/config.php';
 
 // Set XML content type header
@@ -23,6 +27,9 @@ $pages = [
     ['loc' => '/about/', 'priority' => '0.7', 'changefreq' => 'monthly', 'lastmod' => $lastmod],
     ['loc' => '/contact/', 'priority' => '0.8', 'changefreq' => 'monthly', 'lastmod' => $lastmod],
     ['loc' => '/privacy-policy/', 'priority' => '0.3', 'changefreq' => 'yearly', 'lastmod' => $lastmod],
+    ['loc' => '/terms/', 'priority' => '0.3', 'changefreq' => 'yearly', 'lastmod' => $lastmod],
+    ['loc' => '/cookie-policy/', 'priority' => '0.3', 'changefreq' => 'yearly', 'lastmod' => $lastmod],
+    ['loc' => '/accessibility/', 'priority' => '0.3', 'changefreq' => 'yearly', 'lastmod' => $lastmod],
 ];
 
 // Add all service pages dynamically
