@@ -13,7 +13,6 @@ $pageTitle = 'About Us | Louisville Hair Salon & Barbershop | ' . $siteName;
 $pageDescription = 'Meet the stylists and barbers behind Blown Away Salon and Bon Air Barbershop in Louisville, KY. Over ' . $yearsInBusiness . ' years of expert cuts, color, and grooming on Poplar Level Road.';
 $canonicalUrl = $siteUrl . '/about/';
 $ogImage = $siteUrl . '/assets/images/salon-interior.jpg';
-$cssVersion = '2';
 
 /* BreadcrumbList schema */
 $breadcrumbSchema = [

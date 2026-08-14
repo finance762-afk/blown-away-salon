@@ -13,7 +13,6 @@ $pageTitle = 'Balayage & Highlights in Louisville, KY | Hand-Painted Color | ' .
 $pageDescription = 'Expert balayage, ombré, highlights, and lowlights at Blown Away Salon in Louisville — hand-painted dimension for natural, sun-kissed color. Book your free consultation at ' . $phone . '.';
 $canonicalUrl = $siteUrl . '/services/highlights-balayage/';
 $ogImage = $siteUrl . '/assets/images/service-balayage.jpg';
-$cssVersion = '2';
 
 /* Service FAQs (AEO — FAQPage schema is AI comprehension aid; never describe as rich-result feature) */
 $faqs = [

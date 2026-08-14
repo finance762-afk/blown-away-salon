@@ -17,7 +17,6 @@ $pageDescription = 'Privacy Policy for ' . $siteName . ' — how we collect, use
 $canonicalUrl = $siteUrl . '/privacy-policy/';
 $ogImage = $siteUrl . '/assets/images/logo.png';
 $noindex = false;  // Legal pages MUST be indexable
-$cssVersion = '2';
 
 // Schema: WebPage + BreadcrumbList (NO FAQPage, NO Service)
 $schema = [

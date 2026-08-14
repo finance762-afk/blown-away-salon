@@ -13,7 +13,6 @@ $pageTitle = 'Waxing Services in Louisville, KY | Brow & Facial Waxing | ' . $si
 $pageDescription = 'Professional facial and brow waxing at Blown Away Salon in Louisville — clean, precise results for defined brows and smooth skin. Book at ' . $phone . '.';
 $canonicalUrl = $siteUrl . '/services/waxing/';
 $ogImage = $siteUrl . '/assets/images/service-waxing.jpg';
-$cssVersion = '2';
 
 /* Service FAQs (AEO — FAQPage schema is AI comprehension aid; never describe as rich-result feature) */
 $faqs = [

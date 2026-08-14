@@ -15,7 +15,6 @@ $pageDescription = 'Accessibility Statement for ' . $siteName . ' — our commit
 $canonicalUrl = $siteUrl . '/accessibility/';
 $ogImage = $siteUrl . '/assets/images/logo.png';
 $noindex = false;  // Legal pages MUST be indexable
-$cssVersion = '2';
 
 // Schema: WebPage + BreadcrumbList
 $schema = [

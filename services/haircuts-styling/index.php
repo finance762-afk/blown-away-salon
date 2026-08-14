@@ -13,7 +13,6 @@ $pageTitle = 'Haircuts & Styling in Louisville, KY | Women, Men & Kids | ' . $si
 $pageDescription = 'Expert haircuts, blowouts, and event styling at Blown Away Salon in Louisville — layered cuts, bobs, pixies, and styling for all hair types. Book your appointment at ' . $phone . '.';
 $canonicalUrl = $siteUrl . '/services/haircuts-styling/';
 $ogImage = $siteUrl . '/assets/images/service-haircut.jpg';
-$cssVersion = '2';
 
 /* Service FAQs (AEO — FAQPage schema is AI comprehension aid; never describe as rich-result feature) */
 $faqs = [

@@ -18,6 +18,13 @@
   font-display: swap;
   src: url('/assets/fonts/figtree.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/assets/fonts/caveat.woff2') format('woff2');
+}
 
 /* === CSS Custom Properties === */
 :root {
@@ -49,6 +56,7 @@
   /* Typography — self-hosted pairing from build-plan design.fonts (v6.2) */
   --font-heading: 'Bricolage Grotesque', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   --font-body: 'Figtree', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --font-accent: 'Caveat', 'Segoe Script', cursive;
 
   /* Fluid typography (2026 standard — clamp() for responsive scaling) */
   --fs-h1: clamp(2.5rem, 5vw, 6rem);       /* 40-96px */
@@ -240,7 +248,7 @@ p {
 
 /* === Hero Section === */
 .hero {
-  position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  position: relative; min-height: 100vh; min-height: 100svh; display: flex; align-items: center; justify-content: center;
   background-size: cover; background-position: center; background-repeat: no-repeat;
   overflow: hidden; padding-top: 80px;
 }
@@ -272,6 +280,12 @@ section { padding: var(--space-16) 0; }
 }
 .section-header h2 { margin-bottom: var(--space-4); }
 .section-header p { color: var(--color-gray); max-width: 600px; margin: 0 auto; }
+/* Accent script for emphasis words inside headings (3-font system).
+   Pages may override the color; the face comes from here. */
+.text-accent {
+  font-family: var(--font-accent); font-size: 1.16em; font-weight: 600;
+  line-height: 1; text-transform: none; letter-spacing: 0;
+}
 
 /* === Service Cards === */
 .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-6); }

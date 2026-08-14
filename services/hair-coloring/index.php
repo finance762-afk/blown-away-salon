@@ -13,7 +13,6 @@ $pageTitle = 'Hair Coloring in Louisville, KY | Custom Color & Correction | ' . 
 $pageDescription = 'Expert hair coloring at Blown Away Salon in Louisville — custom all-over color, root touch-ups, blonde specialists, and full color corrections. Book your free consultation at ' . $phone . '.';
 $canonicalUrl = $siteUrl . '/services/hair-coloring/';
 $ogImage = $siteUrl . '/assets/images/service-hair-coloring.jpg';
-$cssVersion = '2';
 
 /* Service FAQs (AEO — FAQPage schema is AI comprehension aid; never describe as rich-result feature) */
 $faqs = [

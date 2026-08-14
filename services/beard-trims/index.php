@@ -13,7 +13,6 @@ $pageTitle = 'Beard Trims & Grooming in Louisville, KY | Hot Towel Service | ' .
 $pageDescription = 'Expert beard trimming, shaping, and hot-towel grooming at Bon Air Barbershop in Louisville — precision line-ups and beard maintenance. Book at ' . $phone . '.';
 $canonicalUrl = $siteUrl . '/services/beard-trims/';
 $ogImage = $siteUrl . '/assets/images/service-beard.jpg';
-$cssVersion = '2';
 
 /* Service FAQs (AEO — FAQPage schema is AI comprehension aid; never describe as rich-result feature) */
 $faqs = [

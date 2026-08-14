@@ -948,10 +948,10 @@ a:focus-visible {
 .card-tint-3 { background: var(--color-card-tint-3); box-shadow: none; }
 .card-tint-neutral { background: var(--color-card-tint-neutral); box-shadow: none; }
 
-/* Services grid layout */
+/* Services grid layout — 6 cards balance as 3+3, never a lopsided 4+2 */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--space-md);
 }
 @media (max-width: 1199px) {
@@ -983,6 +983,9 @@ a:focus-visible {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* Portrait client photos in a 5:3 slot: bias the crop toward the upper
+     third so heads and hair stay in frame instead of a scalp-only crop. */
+  object-position: 50% 22%;
   display: block;
   transition: transform var(--transition-slow);
 }

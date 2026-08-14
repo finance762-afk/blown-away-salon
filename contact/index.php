@@ -10,7 +10,6 @@ $currentPage    = 'contact';
 $pageTitle      = 'Contact ' . $siteName . ' — Book an Appointment in Louisville, KY';
 $pageDescription = 'Book your salon or barbershop appointment at Blown Away Salon/Bon Air Barbershop in Louisville, KY. Call (502) 639-5524 or submit a request online.';
 $canonicalUrl   = $siteUrl . '/contact/';
-$cssVersion     = '5';
 $heroImagePreload = '/assets/images/hero-salon-interior.jpg';
 
 // Breadcrumb schema

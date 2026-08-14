@@ -14,7 +14,6 @@ $pageDescription = 'Blown Away Salon & Bon Air Barbershop on Poplar Level Rd in 
 $canonicalUrl    = $siteUrl . '/';
 $ogImage         = $siteUrl . '/assets/images/hero-home.jpg';
 $heroPreloadImage = '/assets/images/hero-home.jpg';
-$cssVersion      = '2';
 
 /* Homepage FAQs — sourced from research brief, banned phrases removed, one local FAQ added */
 $faqs = [
@@ -52,9 +51,9 @@ $homeServices = $services;
 
 /* Icon + tint + photo mapping for the service grid (adjacent icons/tints differ) */
 $serviceCards = [
-    ['slug' => 'hair-coloring',      'icon' => 'paint-bucket', 'tint' => 1, 'photo' => 'service-hair-coloring', 'alt' => 'Fresh custom hair color applied at Blown Away Salon in Louisville', 'title' => 'Hair Coloring',          'desc' => 'Custom color, root touch-ups, and full color correction for every hair type.',          'bullets' => ['Custom all-over color', 'Gray & root touch-ups', 'Full color corrections']],
+    ['slug' => 'hair-coloring',      'icon' => 'paint-bucket', 'tint' => 1, 'photo' => 'vivid-red-hair-color', 'alt' => 'Vivid red all-over hair color freshly finished at Blown Away Salon in Louisville', 'title' => 'Hair Coloring',          'desc' => 'Custom color, root touch-ups, and full color correction for every hair type.',          'bullets' => ['Custom all-over color', 'Gray & root touch-ups', 'Full color corrections']],
     ['slug' => 'highlights-balayage','icon' => 'pen-tool',     'tint' => 2, 'photo' => 'dimensional-color-bob',  'alt' => 'Hand-painted dimensional hair color on a sleek bob at Blown Away Salon in Louisville, KY', 'title' => 'Highlights & Balayage', 'desc' => 'Hand-painted balayage, ombré, highlights, and lowlights for natural dimension.',              'bullets' => ['Hand-painted balayage', 'Sun-kissed dimension', 'Blonde & ombré specialists']],
-    ['slug' => 'haircuts-styling',   'icon' => 'award',        'tint' => 3, 'photo' => 'formal-braid-updo',      'alt' => 'Formal fishtail braid updo styled for a special occasion at Blown Away Salon in Louisville', 'title' => 'Haircuts & Styling',    'desc' => "Women's, men's, and kids' cuts plus blowouts and event styling.",                            'bullets' => ["Women's, men's & kids' cuts", 'Blowouts & event styling', 'Cut to your face shape']],
+    ['slug' => 'haircuts-styling',   'icon' => 'award',        'tint' => 3, 'photo' => 'salon-blowout-styling',  'alt' => 'Long layered hair styled in the chair at Blown Away Salon in Louisville', 'title' => 'Haircuts & Styling',    'desc' => "Women's, men's, and kids' cuts plus blowouts and event styling.",                            'bullets' => ["Women's, men's & kids' cuts", 'Blowouts & event styling', 'Cut to your face shape']],
     ['slug' => 'mens-cuts-fades',    'icon' => 'users',        'tint' => 1, 'photo' => 'mens-cut-highlights',    'alt' => "Men's short cut with blonde highlights at Bon Air Barbershop in Louisville, KY", 'title' => "Men's Cuts & Fades",    'desc' => 'Bon Air Barbershop fades, tapers, scissor cuts, and classic styles.',                       'bullets' => ['Skin, taper & drop fades', 'Scissor & classic cuts', 'Sharp, consistent line-ups']],
     ['slug' => 'beard-trims',        'icon' => 'badge-check',  'tint' => 2, 'photo' => 'service-beard',          'alt' => 'Sharp, clean-cut grooming result at Bon Air Barbershop in Louisville', 'title' => 'Beard Trims & Grooming','desc' => 'Precision beard shaping, line-ups, and hot-towel grooming.',                                'bullets' => ['Precision beard shaping', 'Clean line-ups', 'Hot-towel finish']],
     ['slug' => 'waxing',             'icon' => 'star',         'tint' => 3, 'photo' => 'bold-color-client',      'alt' => 'Salon client with a bold color result and clean, defined brows in Louisville', 'title' => 'Waxing',                'desc' => 'Facial and brow waxing for clean, defined finishing touches.',                             'bullets' => ['Brow shaping & waxing', 'Facial waxing', 'Clean, defined finish']],
@@ -90,6 +89,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   .hero--home {
     display: block;
     min-height: 100vh;
+    min-height: 100svh;
     padding: calc(var(--nav-height) + var(--space-16)) 0 var(--space-16);
     text-align: left;
     background:

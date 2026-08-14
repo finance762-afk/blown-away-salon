@@ -2,7 +2,7 @@
 # llms.txt — Answer Engine Optimization
 # Last Updated: August 2026
 
-## Business Identity
+## Business Information
 
 Name: Blown Away Salon/Bon Air Barbershop
 Type: Hair Salon & Barbershop (Dual Concept)
@@ -68,6 +68,19 @@ Sunday: Closed
 - Personalized consultation approach
 - Understanding of Louisville regional style preferences
 - Comprehensive service menu for entire families
+
+## Pages
+
+- Home: https://blown-away-salon.pageone.cloud/
+- Services overview: https://blown-away-salon.pageone.cloud/services/
+- Hair Coloring: https://blown-away-salon.pageone.cloud/services/hair-coloring/
+- Highlights & Balayage: https://blown-away-salon.pageone.cloud/services/highlights-balayage/
+- Haircuts & Styling: https://blown-away-salon.pageone.cloud/services/haircuts-styling/
+- Men's Cuts & Fades: https://blown-away-salon.pageone.cloud/services/mens-cuts-fades/
+- Beard Trims & Grooming: https://blown-away-salon.pageone.cloud/services/beard-trims/
+- Waxing: https://blown-away-salon.pageone.cloud/services/waxing/
+- About: https://blown-away-salon.pageone.cloud/about/
+- Contact: https://blown-away-salon.pageone.cloud/contact/
 
 ## Legal
 
