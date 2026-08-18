@@ -1,3 +1,5 @@
+
+img { display: block; max-width: 100%; height: auto; }
 /* ============================================
    Blown Away Salon / Bon Air Barbershop
    Component Styles — Phase 2
@@ -829,8 +831,7 @@
 /* Adjust body padding to prevent content hidden behind sticky bar */
 @media (max-width: 768px) {
   body {
-    padding-bottom: 70px;
-  }
+    padding-bottom: 70px; overflow-x: hidden; }
 }
 
 /* ==========================================
