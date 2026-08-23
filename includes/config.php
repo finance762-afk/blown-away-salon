@@ -155,8 +155,9 @@ $gbpProfileUrl    = 'https://maps.google.com/?cid=8279459367918226907';
 /* Forms & Analytics                                                   */
 /* ------------------------------------------------------------------ */
 
-$formAction   = 'https://formsubmit.co/tamaramorris2@gmail.com';
+$formAction   = 'https://db.pageone.cloud/functions/v1/leads/blown-away-salon';
 $leadCcEmail  = 'CustomerService@pageoneinsights.com';
 $acceptsSms   = false;                         // no SMS "Text Us" button on sticky bar
 
 $googleAnalyticsId = 'G-XXXXXXXXXX';           // placeholder — replace post-launch
+$leadsFormSecret = 'bac7714a8f41505ab12d75311ccbb11a6374e38b1a010d69111c84a652cfa0f3'; // spam-shield HMAC (matches leads fn LEADS_FORM_SECRET)
