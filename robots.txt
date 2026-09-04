@@ -12,7 +12,7 @@ Disallow: /assets/js/
 Disallow: /thank-you/
 
 # Sitemaps
-Sitemap: https://blown-away-salon.pageone.cloud/sitemap.xml
+Sitemap: https://blownawaysalonky.com/sitemap.xml
 
 # AI Crawlers (explicitly allowed)
 User-agent: GPTBot
