@@ -17,6 +17,7 @@ $slug   = 'blown-away-salon';                 // MUST match build directory name
 $domain = 'blown-away-salon.pageone.cloud';   // no production_domain in build-plan → preview domain
 $siteUrl = 'https://' . $domain;              // always a valid absolute URL
 
+$cssVersion = '7';                             // bump on every css change
 $siteName = 'Blown Away Salon/Bon Air Barbershop';
 $tagline  = 'Where Precision Meets Style';
 $industry = 'Hair Salon/ Barber Shop';
@@ -48,15 +49,15 @@ $geo = [
 ];
 
 /* ------------------------------------------------------------------ */
-/* Brand Colors — PROVISIONAL (Phase 0 logo analysis not yet run;      */
-/* build-plan design.colors was empty). Refine in Phase 2 from logo.   */
+/* Brand Colors — extracted from the client logo (2026-08-07):         */
+/* green-black outline, lime hair art, bold yellow wordmark.           */
 /* ------------------------------------------------------------------ */
 
 $colors = [
-    'primary'        => '#1c1c22',   // near-black — barbershop/salon sophistication
-    'primary_dark'   => '#0e0e12',
-    'secondary'      => '#b08d57',   // warm brushed gold
-    'accent'         => '#c9a24b',
+    'primary'        => '#1e241e',   // deep green-black — logo outline color
+    'primary_dark'   => '#12170f',
+    'secondary'      => '#c2d637',   // lime green — logo hair art
+    'accent'         => '#f9ef25',   // bold yellow — logo wordmark (dark text on it)
 ];
 
 /* ------------------------------------------------------------------ */
@@ -154,8 +155,9 @@ $gbpProfileUrl    = 'https://maps.google.com/?cid=8279459367918226907';
 /* Forms & Analytics                                                   */
 /* ------------------------------------------------------------------ */
 
-$formAction   = 'https://formsubmit.co/tamaramorris2@gmail.com';
+$formAction   = 'https://db.pageone.cloud/functions/v1/leads/blown-away-salon';
 $leadCcEmail  = 'CustomerService@pageoneinsights.com';
 $acceptsSms   = false;                         // no SMS "Text Us" button on sticky bar
 
 $googleAnalyticsId = 'G-XXXXXXXXXX';           // placeholder — replace post-launch
+$leadsFormSecret = 'bac7714a8f41505ab12d75311ccbb11a6374e38b1a010d69111c84a652cfa0f3'; // spam-shield HMAC (matches leads fn LEADS_FORM_SECRET)

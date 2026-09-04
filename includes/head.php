@@ -7,12 +7,13 @@
  */
 
 // Default meta values (override via page-specific variables before including head.php)
-$pageTitle       = $pageTitle       ?? $siteName . ' | ' . $primaryKeyword . ' in ' . $address['city'] . ', ' . $address['state'];
-$metaDescription = $metaDescription ?? 'Expert hair coloring, balayage, men\'s cuts, and styling at Blown Away Salon and Bon Air Barbershop in Louisville, KY. Book your appointment today at ' . $phone . '.';
-$canonicalUrl    = $canonicalUrl    ?? $siteUrl . '/';
-$ogImage         = $ogImage         ?? $siteUrl . '/assets/images/logo.png';
-$noindex         = $noindex         ?? false;
-$cssVersion      = $cssVersion      ?? '1';
+$pageTitle        = $pageTitle        ?? $siteName . ' | ' . $primaryKeyword . ' in ' . $address['city'] . ', ' . $address['state'];
+$pageDescription  = $pageDescription  ?? $metaDescription ?? 'Expert hair coloring, balayage, men\'s cuts, and styling at Blown Away Salon and Bon Air Barbershop in Louisville, KY. Book your appointment today at ' . $phone . '.';
+$metaDescription  = $pageDescription; // Backward compatibility
+$canonicalUrl     = $canonicalUrl     ?? $siteUrl . '/';
+$ogImage          = $ogImage          ?? $siteUrl . '/assets/images/logo.png';
+$noindex          = $noindex          ?? false;
+$cssVersion       = $cssVersion       ?? '6'; // v5: text-only nav lockup (2026-08-07)
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -45,8 +46,17 @@ $cssVersion      = $cssVersion      ?? '1';
   <!-- Preload above-the-fold heading font only -->
   <link rel="preload" href="/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 
+  <?php if (!empty($heroPreloadImage)): ?>
+  <!-- Preload LCP hero image (set $heroPreloadImage / $heroPreloadSrcset before including head.php) -->
+  <link rel="preload" as="image" href="<?php echo htmlspecialchars($heroPreloadImage); ?>"<?php if (!empty($heroPreloadSrcset)): ?> imagesrcset="<?php echo htmlspecialchars($heroPreloadSrcset); ?>" imagesizes="100vw"<?php endif; ?>>
+  <?php endif; ?>
+  <?php if (!empty($heroImagePreload)): ?>
+  <!-- Preload above-the-fold hero image (LCP) -->
+  <link rel="preload" href="<?php echo htmlspecialchars($heroImagePreload); ?>" as="image" fetchpriority="high">
+  <?php endif; ?>
+
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/framework.css">
+  <link rel="stylesheet" href="/assets/css/framework.css?v=<?php echo $cssVersion; ?>">
   <link rel="stylesheet" href="/assets/css/styles.css?v=<?php echo $cssVersion; ?>">
 
   <!-- Phase 2 Header/Nav/Footer Styles -->
@@ -68,7 +78,7 @@ $cssVersion      = $cssVersion      ?? '1';
     .site-header.scrolled {
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
-      background: rgba(28, 28, 34, 0.92);
+      background: rgba(var(--color-primary-rgb), 0.92);
       box-shadow: 0 2px 20px rgba(0,0,0,0.15);
     }
 
@@ -298,7 +308,7 @@ $cssVersion      = $cssVersion      ?? '1';
     .mobile-menu {
       position: fixed;
       inset: 0;
-      background: rgba(28, 28, 34, 0.98);
+      background: rgba(var(--color-primary-rgb), 0.98);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       z-index: 999;
@@ -454,7 +464,7 @@ $cssVersion      = $cssVersion      ?? '1';
       font-size: 0.75rem;
       font-weight: 600;
       color: var(--color-accent);
-      background: rgba(201, 162, 75, 0.1);
+      background: rgba(var(--color-accent-rgb), 0.1);
       padding: 0.5rem 0.75rem;
       border-radius: 20px;
     }

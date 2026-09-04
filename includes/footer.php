@@ -115,9 +115,15 @@
   <div class="footer-bottom">
     <div class="container">
 
-      <!-- Legal Utility Row (BASIC tier per CLAUDE.md) -->
+      <!-- Legal Utility Row (All tiers require all 4 compliance pages per CLAUDE.md v6.1) -->
       <nav class="footer-legal-links" aria-label="Legal">
         <a href="/privacy-policy/">Privacy Policy</a>
+        <span class="footer-legal-divider">|</span>
+        <a href="/terms/">Terms of Service</a>
+        <span class="footer-legal-divider">|</span>
+        <a href="/cookie-policy/">Cookie Policy</a>
+        <span class="footer-legal-divider">|</span>
+        <a href="/accessibility/">Accessibility</a>
         <span class="footer-legal-divider">|</span>
         <a href="/sitemap.xml">Sitemap</a>
       </nav>
