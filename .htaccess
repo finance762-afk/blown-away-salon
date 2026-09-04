@@ -45,6 +45,13 @@ DirectoryIndex index.php index.html
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
+    # Canonical host: force HTTPS + strip www (www serving 200 splits GSC
+    # impressions across two hosts — fleet standard, added at launch 2026-09-04)
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
     # Dynamic sitemap — /sitemap.xml is served by sitemap.php
     RewriteRule ^sitemap\.xml$ /sitemap.php [L]
 
