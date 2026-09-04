@@ -131,7 +131,7 @@ $schemaMarkup = [
           <div class="review-request">
             <h2>Love Our Work?</h2>
             <p>If you've visited us before, we'd appreciate your feedback:</p>
-            <a href="<?php echo $reviewRequestUrl; ?>" class="btn-secondary" target="_blank" rel="noopener noreferrer">
+            <a href="<?php echo $reviewRequestUrl; ?>" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
               <svg aria-hidden="true" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
               </svg>
@@ -141,7 +141,7 @@ $schemaMarkup = [
 
           <!-- Back to Homepage -->
           <div class="return-cta">
-            <a href="/" class="btn-primary">Back to Homepage</a>
+            <a href="/" class="btn btn-primary">Back to Homepage</a>
           </div>
         </div>
       </div>

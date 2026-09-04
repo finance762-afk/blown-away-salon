@@ -46,7 +46,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
   .about-hero {
     display: block;
-    min-height: 50vh;
+    /* sized to content (v6.3) */
     padding: calc(var(--nav-height) + var(--space-12)) 0 var(--space-16);
     text-align: center;
     background:

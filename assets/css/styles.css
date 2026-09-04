@@ -1180,3 +1180,7 @@ a:focus-visible {
   color: rgba(0,0,0,0.25);
   font-size: 1rem;
 }
+
+/* v6.3 typography: balanced headings, pretty paragraphs */
+h1, h2, h3, h4 { text-wrap: balance; }
+p, li { text-wrap: pretty; }

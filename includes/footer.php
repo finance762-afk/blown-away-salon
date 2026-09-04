@@ -93,7 +93,7 @@
               </div>
             </li>
           </ul>
-          <a href="/contact/" class="btn-primary footer-cta">Book Your Appointment</a>
+          <a href="/contact/" class="btn btn-primary footer-cta">Book Your Appointment</a>
         </div>
 
       </div><!-- .footer-grid -->

@@ -88,106 +88,112 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   /* ---- Layered hero: 60/40 split + gradient overlay + texture ---- */
   .hero--home {
     display: block;
-    min-height: 100vh;
-    min-height: 100svh;
-    padding: calc(var(--nav-height) + var(--space-16)) 0 var(--space-16);
+    position: relative;
+    overflow: hidden;
     text-align: left;
+    padding: calc(var(--nav-height) + var(--space-12)) 0 var(--space-12);
     background:
-      linear-gradient(115deg, rgba(var(--color-primary-rgb), 0.94) 0%, rgba(var(--color-primary-rgb), 0.72) 48%, rgba(var(--color-primary-rgb), 0.45) 100%),
-      url('/assets/images/hero-home.jpg');
-    background-size: cover;
-    background-position: center;
+      radial-gradient(55% 70% at 88% 18%, rgba(var(--color-secondary-rgb), 0.26), transparent 62%),
+      linear-gradient(180deg, var(--color-white) 0%, var(--color-light) 100%);
   }
-  .hero--home::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
-    pointer-events: none;
+  .hero-ornament {
+    right: -4%;
+    top: 4%;
+    width: min(58vw, 860px);
+    opacity: 0.55;
+    filter: saturate(0.92);
   }
+  .hero-ring { left: -140px; bottom: -160px; }
   .hero__inner {
     position: relative;
     z-index: 2;
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1.15fr 0.85fr;
     gap: var(--space-12);
     align-items: center;
   }
-  .hero-text { max-width: 40rem; }
+  .hero-text { max-width: 36rem; }
   .hero-eyebrow {
     display: inline-flex;
     align-items: center;
     gap: var(--space-2);
-    font-family: var(--font-heading);
-    font-size: var(--font-size-sm);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--color-accent);
+    color: var(--color-primary-light);
+    background: rgba(var(--color-white-rgb), 0.7);
     padding: var(--space-2) var(--space-4);
-    border: 1px solid rgba(var(--color-secondary-rgb), 0.5);
+    border: 1px solid rgba(var(--color-primary-rgb), 0.16);
     border-radius: var(--radius-full);
     margin-bottom: var(--space-5);
   }
-  .hero-eyebrow svg { width: 18px; height: 18px; }
   .hero--home .hero-title {
-    color: var(--color-white);
+    color: var(--color-primary);
     font-size: var(--fs-h1);
-    line-height: 1.05;
-    margin-bottom: var(--space-5);
+    line-height: 1.06;
+    margin-bottom: var(--space-4);
   }
-  .hero--home .hero-title .text-accent { color: var(--color-accent); }
+  .hero--home .hero-title .text-accent {
+    color: var(--color-primary);
+    background: linear-gradient(transparent 64%, var(--color-accent) 64%, var(--color-accent) 92%, transparent 92%);
+    padding: 0 .12em;
+  }
   .hero--home .hero-subtitle {
-    color: rgba(var(--color-white-rgb), 0.88);
-    font-size: var(--font-size-lg);
-    line-height: 1.7;
-    max-width: none;
-    margin: 0 0 var(--space-8);
+    color: var(--color-gray-dark);
+    font-size: var(--fs-lead);
+    line-height: 1.55;
+    max-width: 30rem;
+    margin: 0 0 var(--space-6);
   }
   .hero-actions {
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-4);
-    margin-bottom: var(--space-8);
+    margin-bottom: var(--space-6);
   }
   .hero--home .hero-trust {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: var(--space-4) var(--space-6);
+    gap: var(--space-2) var(--space-3);
   }
   .hero-trust-item {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: var(--space-2);
-    color: rgba(var(--color-white-rgb),0.85);
+    color: var(--color-gray-dark);
+    background: var(--color-white);
+    border: 1px solid var(--color-gray-light);
+    border-radius: var(--radius-full);
+    padding: .4rem .85rem;
     font-size: var(--font-size-sm);
     font-weight: 600;
   }
-  .hero-trust-item svg { width: 18px; height: 18px; color: var(--color-accent); flex-shrink: 0; }
+  .hero-trust-item svg { width: 16px; height: 16px; color: var(--color-primary-light); flex-shrink: 0; }
 
   /* ---- Hero lead-capture form (glassmorphism card) ---- */
   .hero-form-card {
     position: relative;
     z-index: 2;
-    background: rgba(var(--color-white-rgb),0.97);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(var(--color-secondary-rgb), 0.4);
+    background: linear-gradient(160deg, var(--color-primary-light) 0%, var(--color-primary) 60%, var(--color-primary-dark) 100%);
+    color: var(--color-white);
+    border: 1px solid rgba(var(--color-secondary-rgb), 0.35);
+    border-top: 4px solid var(--color-accent);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-xl);
     padding: var(--space-8);
   }
   .hero-form-card h2 {
-    font-size: var(--font-size-2xl);
-    color: var(--color-primary);
+    font-size: var(--fs-h3);
+    color: var(--color-white);
     margin-bottom: var(--space-1);
   }
   .hero-form-tagline {
-    color: var(--color-gray);
+    color: rgba(var(--color-white-rgb), 0.72);
     font-size: var(--font-size-sm);
     margin-bottom: var(--space-5);
   }
+  .hero-form-card label { color: rgba(var(--color-white-rgb), 0.86); }
+  .hero-form-card a { color: var(--color-accent); }
+  .hero-form-card .btn-primary { background: var(--color-accent); border-color: var(--color-accent); color: var(--color-primary); }
+  .hero-form-card .btn-primary:hover { background: var(--color-secondary); border-color: var(--color-secondary); color: var(--color-primary); }
   .sr-only {
     position: absolute;
     width: 1px; height: 1px;
@@ -219,25 +225,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   .btn-block { width: 100%; margin-top: var(--space-2); }
   .form-footnote {
     font-size: var(--font-size-xs);
-    color: var(--color-gray);
+    color: rgba(var(--color-white-rgb), 0.62);
     text-align: center;
     margin: var(--space-3) 0 0;
     line-height: 1.5;
   }
-  .form-footnote a { color: var(--color-secondary); text-decoration: underline; }
+  .form-footnote a { color: var(--color-accent); text-decoration: underline; }
 
   /* ---- Section title / answer-block shared bits ---- */
   .section-title { text-align: center; max-width: 52rem; margin: 0 auto var(--space-12); }
-  .eyebrow-label {
-    display: inline-block;
-    font-family: var(--font-heading);
-    font-size: var(--font-size-xs);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--color-secondary);
-    margin-bottom: var(--space-3);
-  }
+  .eyebrow-label { display: inline-block; margin-bottom: var(--space-3); }
   .section-title h2 { font-size: var(--fs-h2); margin-bottom: var(--space-4); }
   .text-accent { color: var(--color-secondary); }
   .section-subtitle {
@@ -256,22 +253,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   }
   .section-title .prose { color: var(--color-gray); max-width: 42rem; margin: 0 auto; }
 
-  /* ---- Numbered section watermark (decorative technique) ---- */
-  .numbered-section { position: relative; }
-  .numbered-section::before {
-    content: attr(data-num);
-    position: absolute;
-    top: var(--space-4);
-    right: 5%;
-    font-family: var(--font-heading);
-    font-weight: 800;
-    font-size: clamp(6rem, 16vw, 16rem);
-    line-height: 1;
-    color: rgba(var(--color-secondary-rgb), 0.07);
-    pointer-events: none;
-    z-index: 0;
-  }
-  .numbered-section > .container { position: relative; z-index: 1; }
+  /* ---- Ticker: dark strip, lime condensed labels ---- */
+  .ticker-strip { background: var(--color-primary); border-top: 1px solid rgba(var(--color-secondary-rgb), .35); }
+  .ticker-track span { color: var(--color-secondary); font-size: .85rem; }
+  .ticker-track svg { color: var(--color-accent); }
+
+  /* ---- Mid CTA: bright brand band, dark type ---- */
+  .cta-bright { background: linear-gradient(120deg, var(--color-secondary) 0%, var(--color-accent) 100%); }
+  .cta-bright h2 { font-size: var(--fs-h2); }
 
   /* ---- Diagonal section divider (technique) ---- */
   .section-divider { background: var(--color-light); }
@@ -319,7 +308,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   .about-stat-card .lbl { font-size: var(--font-size-xs); text-transform: uppercase; letter-spacing: 1px; font-weight: 700; }
 
   /* ---- Why-choose (dark) ---- */
-  .why-section { background: var(--color-primary); }
+  .why-section { padding-bottom: var(--space-16); }
+  .why-ring { right: -120px; top: 12%; }
   .why-section .section-title h2 { color: var(--color-white); }
   .why-section .eyebrow-label { color: var(--color-accent); }
   .why-section .section-title .prose { color: rgba(var(--color-white-rgb),0.75); }
@@ -358,15 +348,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   .faq-answer { color: var(--color-gray); font-size: var(--font-size-sm); line-height: 1.7; margin: var(--space-3) 0 0; }
 
   /* ---- Closing CTA ---- */
-  .closing-cta { text-align: center; }
+  .closing-cta { text-align: center; overflow: hidden; }
+  .closing-cta::before { display: none; }
   .closing-cta h2 { color: var(--color-white); font-size: var(--fs-h2); margin-bottom: var(--space-4); }
-  .closing-cta p { color: rgba(var(--color-white-rgb),0.9); max-width: 40rem; margin: 0 auto var(--space-8); font-size: var(--font-size-lg); }
-  .closing-cta .hero-actions { justify-content: center; }
+  .closing-cta p { color: rgba(var(--color-white-rgb),0.85); max-width: 40rem; margin: 0 auto var(--space-8); font-size: var(--fs-lead); }
+  .closing-cta .hero-actions { justify-content: center; margin: 0; }
+  .closing-cta .btn-outline-white { color: var(--color-white); border-color: rgba(var(--color-white-rgb), .7); }
+  .closing-cta .btn-outline-white:hover { background: var(--color-white); color: var(--color-primary); }
+  .closing-ornament { left: -8%; bottom: -12%; width: min(48vw, 640px); opacity: .09; filter: grayscale(1) brightness(3); }
+  .gallery-section { background: var(--color-white); }
 
   /* ---- Reveal fallback-safe: driven by [data-animate] in main.js ---- */
 
   /* ---- Responsive ---- */
   @media (max-width: 900px) {
+    .hero--home { padding-top: calc(var(--nav-height) + var(--space-8)); }
+    .hero-ornament { width: 120vw; right: -46vw; top: -2%; opacity: .22; }
     .hero__inner { grid-template-columns: 1fr; gap: var(--space-8); }
     .about-split { grid-template-columns: 1fr; gap: var(--space-16); }
     .about-stat-card { left: var(--space-4); }
@@ -380,34 +377,45 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
+<?php
+/* Recent-work gallery (v6.3): real client photos on disk, one colour grade. */
+$recentWork = [
+  ['file' => 'vivid-red-hair-color',   'w' => 720, 'h' => 960, 'caption' => 'Vivid red all-over color',        'alt' => 'Vivid red all-over hair color finished at Blown Away Salon in Louisville, KY'],
+  ['file' => 'braided-updo-hero',      'w' => 960, 'h' => 720, 'caption' => 'Braided updo',                    'alt' => 'Braided updo styled for an event at Blown Away Salon, Louisville'],
+  ['file' => 'mens-cut-highlights',    'w' => 629, 'h' => 960, 'caption' => "Men's cut with highlights",       'alt' => "Men's haircut with blonde highlights at Bon Air Barbershop in Louisville"],
+  ['file' => 'dimensional-color-bob',  'w' => 960, 'h' => 540, 'caption' => 'Dimensional color bob',           'alt' => 'Dimensional color on a bob haircut at Blown Away Salon, Louisville KY'],
+  ['file' => 'precision-haircut',      'w' => 720, 'h' => 960, 'caption' => 'Precision haircut',               'alt' => 'Precision haircut in the chair at Blown Away Salon on Poplar Level Road'],
+  ['file' => 'formal-braid-updo',      'w' => 720, 'h' => 960, 'caption' => 'Formal braid updo',               'alt' => 'Formal braided updo for a special occasion, Blown Away Salon Louisville'],
+  ['file' => 'bold-color-client',      'w' => 720, 'h' => 960, 'caption' => 'Bold fashion color',              'alt' => 'Bold fashion hair color client at Blown Away Salon in Louisville, KY'],
+  ['file' => 'salon-blowout-styling',  'w' => 720, 'h' => 960, 'caption' => 'Blowout & styling',               'alt' => 'Long wavy blowout styled at Blown Away Salon in Louisville'],
+];
+?>
 <!-- ============================ HERO ============================ -->
 <section class="hero hero--home" aria-label="Louisville hair salon and barbershop">
+  <span class="brand-ornament hero-ornament" aria-hidden="true"></span>
+  <span class="floating-ring hero-ring" aria-hidden="true"></span>
   <div class="container">
     <div class="hero__inner">
 
       <div class="hero-text">
-        <span class="hero-eyebrow">
-          <?php echo icon('shield-check', 18); ?>
-          Serving Louisville Since <?php echo $yearEstablished; ?>
-        </span>
+        <span class="hero-eyebrow">Bon Air &middot; Louisville &middot; Est. <?php echo $yearEstablished; ?></span>
         <h1 class="hero-title">
           Louisville's Salon &amp; Barbershop for <span class="text-accent">Color, Cuts &amp; Fades</span>
         </h1>
         <p class="hero-subtitle">
-          Blown Away Salon and Bon Air Barbershop bring master stylists and barbers together under one roof on Poplar Level Road. Expert hair coloring and balayage, sharp fades and beard work, and styling built around you &mdash; without booking two salons across town.
+          Master stylists and Bon Air barbers under one roof at 4218 Poplar Level Rd &mdash; book ahead or walk in.
         </p>
         <div class="hero-actions">
-          <a href="#estimate-form" class="btn btn-accent btn-lg">Book a Free Consultation</a>
-          <a href="tel:<?php echo $phoneRaw; ?>" class="btn btn-outline-white btn-lg">
+          <a href="#estimate-form" class="btn btn-dark btn-lg">Book a Free Consultation</a>
+          <a href="tel:<?php echo $phoneRaw; ?>" class="btn btn-outline-dark btn-lg">
             <?php echo icon('phone', 18); ?>
             Call <?php echo htmlspecialchars($phone); ?>
           </a>
         </div>
         <div class="hero-trust">
-          <span class="hero-trust-item"><?php echo icon('shield-check', 18); ?> Licensed &amp; Insured</span>
-          <span class="hero-trust-item"><?php echo icon('award', 18); ?> <?php echo $yearsInBusiness; ?>+ Years in Louisville</span>
-          <span class="hero-trust-item"><?php echo icon('users', 18); ?> Salon + Barbershop</span>
-          <span class="hero-trust-item"><?php echo icon('check-circle', 18); ?> Walk-Ins Welcome</span>
+          <span class="hero-trust-item"><?php echo icon('users', 16); ?> Salon + barbershop, one address</span>
+          <span class="hero-trust-item"><?php echo icon('check-circle', 16); ?> Walk-ins welcome</span>
+          <span class="hero-trust-item"><?php echo icon('map-pin', 16); ?> Free on-site parking</span>
         </div>
       </div>
 
@@ -496,7 +504,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </div>
 
 <!-- ============================ SERVICES (01) ============================ -->
-<section class="section numbered-section" data-num="01" aria-label="Hair salon and barbershop services">
+<section class="section services-section" aria-label="Hair salon and barbershop services">
   <div class="container">
     <div class="section-title" data-animate>
       <span class="eyebrow-label">What We Do</span>
@@ -538,41 +546,27 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </div>
 </section>
 
-<!-- ============================ STATS ============================ -->
-<section class="stats-section" aria-label="Blown Away Salon at a glance">
+<!-- ============================ PROOF STRIP (v6.3: verifiable facts, no counters) ============================ -->
+<section class="proof-strip" aria-label="Blown Away Salon at a glance">
   <div class="container">
-    <div class="stats-grid">
-      <div class="stat-item" data-animate>
-        <div class="stat-number"><span data-counter="<?php echo $yearsInBusiness; ?>" data-suffix="+">0</span></div>
-        <div class="stat-label">Years in Louisville</div>
-      </div>
-      <div class="stat-item" data-animate>
-        <div class="stat-number"><span data-counter="2">0</span></div>
-        <div class="stat-label">Salon &amp; Barbershop</div>
-      </div>
-      <div class="stat-item" data-animate>
-        <div class="stat-number"><span data-counter="6">0</span></div>
-        <div class="stat-label">Signature Services</div>
-      </div>
-      <div class="stat-item" data-animate>
-        <div class="stat-number"><span data-counter="<?php echo (int)($seo_radius ?? 25); ?>" data-suffix=" mi">0</span></div>
-        <div class="stat-label">Service Radius</div>
-      </div>
-    </div>
+    <div class="proof-item"><b>Est. <?php echo $yearEstablished; ?></b><span>Serving Louisville from Poplar Level Road since <?php echo $yearEstablished; ?></span></div>
+    <div class="proof-item"><b>One address</b><span>Full salon and Bon Air Barbershop under the same roof</span></div>
+    <div class="proof-item"><b>Walk-ins welcome</b><span>Book ahead for evenings and Saturdays</span></div>
+    <div class="proof-item"><b>Free parking</b><span>On-site at <?php echo htmlspecialchars($address['street']); ?>, just off I-264</span></div>
   </div>
 </section>
 
 <!-- ============================ MID CTA BANNER ============================ -->
-<section class="cta-banner" aria-label="Book your appointment">
+<section class="cta-banner cta-bright" aria-label="Book your appointment">
   <div class="container">
     <h2>Ready for a fresh look on Poplar Level Road?</h2>
-    <p>New color for the weekend, a standing fade, or a full restyle before an event — get on the books with a Louisville team that treats your chair time like it matters.</p>
-    <a href="/contact/" class="btn btn-primary btn-lg">Book Your Appointment</a>
+    <p>New color for the weekend, a standing fade, or a full restyle before an event &mdash; get on the books with a Louisville team that treats your chair time like it matters.</p>
+    <a href="/contact/" class="btn btn-dark btn-lg">Book Your Appointment</a>
   </div>
 </section>
 
 <!-- ============================ ABOUT / PROCESS (02) ============================ -->
-<section class="section section-divider numbered-section" data-num="02" aria-label="About Blown Away Salon and Bon Air Barbershop">
+<section class="section section-divider about-section" aria-label="About Blown Away Salon and Bon Air Barbershop">
   <div class="container">
     <div class="about-split">
       <div class="about-content" data-animate>
@@ -631,7 +625,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </section>
 
 <!-- ============================ WHY CHOOSE (03) ============================ -->
-<section class="section why-section numbered-section" data-num="03" aria-label="Why choose Blown Away Salon">
+<section class="section why-section texture-grain slant-top" aria-label="Why choose Blown Away Salon">
+  <span class="grain-layer" aria-hidden="true"></span>
+  <span class="floating-ring why-ring" aria-hidden="true"></span>
   <div class="container">
     <div class="section-title" data-animate>
       <span class="eyebrow-label">Why Blown Away</span>
@@ -657,8 +653,32 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
   </div>
 </section>
 
-<!-- ============================ FAQ (04) ============================ -->
-<section class="section faq-section numbered-section" data-num="04" aria-label="Frequently asked questions">
+<!-- ============================ RECENT WORK (v6.3 gallery) ============================ -->
+<section class="section gallery-section" aria-label="Recent work at Blown Away Salon">
+  <div class="container">
+    <div class="gallery-head">
+      <div class="section-title" data-animate>
+        <span class="eyebrow-label">Recent Work</span>
+        <h2>Fresh out of the chair on Poplar Level Road</h2>
+      </div>
+      <a href="/contact/" class="btn btn-dark">Book your look</a>
+    </div>
+    <div class="gallery-track" data-p1-dynamic>
+      <?php foreach ($recentWork as $w): $wide = $w['w'] > $w['h']; ?>
+      <figure class="gallery-item<?php echo $wide ? ' gallery-item--wide' : ''; ?>">
+        <img src="/assets/images/<?php echo $w['file']; ?>.jpg"
+             srcset="/assets/images/<?php echo $w['file']; ?>-480.webp 480w, /assets/images/<?php echo $w['file']; ?>-960.webp 960w"
+             sizes="(max-width: 700px) 70vw, <?php echo $wide ? '440px' : '300px'; ?>"
+             alt="<?php echo htmlspecialchars($w['alt']); ?>" width="<?php echo $w['w']; ?>" height="<?php echo $w['h']; ?>" loading="lazy" decoding="async">
+        <figcaption><?php echo htmlspecialchars($w['caption']); ?></figcaption>
+      </figure>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FAQ ============================ -->
+<section class="section faq-section" aria-label="Frequently asked questions">
   <div class="container">
     <div class="section-title" data-animate>
       <span class="eyebrow-label">Good to Know</span>
@@ -681,12 +701,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 </section>
 
 <!-- ============================ CLOSING CTA ============================ -->
-<section class="cta-banner closing-cta" aria-label="Schedule your visit">
+<section class="cta-banner closing-cta texture-grain slant-top" aria-label="Schedule your visit">
+  <span class="grain-layer" aria-hidden="true"></span>
+  <span class="brand-ornament closing-ornament" aria-hidden="true"></span>
   <div class="container">
     <h2>Your best hair is one appointment away</h2>
     <p>Book a consultation with Blown Away Salon and Bon Air Barbershop, or call and we'll find a chair for you in Louisville.</p>
     <div class="hero-actions">
-      <a href="/contact/" class="btn btn-primary btn-lg">Book Your Appointment</a>
+      <a href="/contact/" class="btn btn-accent btn-lg">Book Your Appointment</a>
       <a href="tel:<?php echo $phoneRaw; ?>" class="btn btn-outline-white btn-lg">
         <?php echo icon('phone', 18); ?>
         Call <?php echo htmlspecialchars($phone); ?>
