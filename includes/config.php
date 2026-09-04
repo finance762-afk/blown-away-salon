@@ -17,7 +17,7 @@ $slug   = 'blown-away-salon';                 // MUST match build directory name
 $domain = 'blownawaysalonky.com';   // no production_domain in build-plan → preview domain
 $siteUrl = 'https://' . $domain;              // always a valid absolute URL
 
-$cssVersion = '7';                             // bump on every css change
+$cssVersion = '10';                             // bump on every css change
 $siteName = 'Blown Away Salon/Bon Air Barbershop';
 $tagline  = 'Where Precision Meets Style';
 $industry = 'Hair Salon/ Barber Shop';

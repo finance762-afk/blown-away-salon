@@ -173,7 +173,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <?php if (empty($GLOBALS['__js_shield'])) { $GLOBALS['__js_shield'] = 1; ?>
           <script>(function(){var d=document,f=function(){var i,e=d.querySelectorAll('.js-shield-field');for(i=0;i<e.length;i++)e[i].value='1';d.removeEventListener('pointerdown',f);d.removeEventListener('keydown',f);};d.addEventListener('pointerdown',f);d.addEventListener('keydown',f);})();</script>
           <?php } ?>
-          <button type="submit" class="btn-primary btn-submit">
+          <button type="submit" class="btn btn-primary btn-submit">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
             Send Request
           </button>
@@ -225,7 +225,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
           <?php endif; ?>
 
-          <a href="tel:<?php echo $phoneRaw; ?>" class="btn-primary btn-full">
+          <a href="tel:<?php echo $phoneRaw; ?>" class="btn btn-primary btn-full">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             Call Now
           </a>
@@ -257,7 +257,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     </div>
 
     <div class="map-cta">
-      <a href="<?php echo $directionsUrl; ?>" target="_blank" rel="noopener" class="btn-secondary">
+      <a href="<?php echo $directionsUrl; ?>" target="_blank" rel="noopener" class="btn btn-secondary">
         <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z"/></svg>
         Get Directions
       </a>
@@ -276,7 +276,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <p>Book your appointment or call us — we're here to make you look your best.</p>
     </div>
     <div class="cta-banner__actions">
-      <a href="tel:<?php echo $phoneRaw; ?>" class="btn-primary">
+      <a href="tel:<?php echo $phoneRaw; ?>" class="btn btn-primary">
         <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         Call <?php echo $phone; ?>
       </a>
@@ -295,7 +295,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 .hero--contact {
   position: relative;
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
-  padding: calc(var(--nav-height) + var(--space-4xl)) var(--space-lg) var(--space-4xl);
+  padding: calc(var(--nav-height) + var(--space-2xl)) var(--space-lg) var(--space-2xl);
   overflow: hidden;
 }
 
@@ -332,7 +332,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 }
 
 .hero--contact h1 {
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: var(--fs-h1);
   color: #fff;
   margin-bottom: var(--space-lg);
   text-wrap: balance;
@@ -451,7 +451,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 .form-field select:not([value=""]) + label {
   top: -0.6rem;
   left: 0.75rem;
-  font-size: 0.875rem;
+  font-size: var(--font-size-sm);
   color: var(--color-secondary);
 }
 
@@ -459,7 +459,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 .form-field select + label {
   top: -0.6rem;
   left: 0.75rem;
-  font-size: 0.875rem;
+  font-size: var(--font-size-sm);
   color: var(--color-secondary);
 }
 
@@ -562,7 +562,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
 .contact-info-block strong {
   display: block;
-  font-size: 0.875rem;
+  font-size: var(--font-size-sm);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--color-accent);
